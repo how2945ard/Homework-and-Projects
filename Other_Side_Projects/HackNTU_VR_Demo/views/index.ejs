@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Cardboard Example</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <style>
+      body {
+        margin: 0px;
+        overflow: hidden;
+      }
+      #example {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="example"></div>
+
+  <script src="/javascripts/three.js"></script>
+  <script src="/javascripts/StereoEffect.js"></script>
+  <script src="/javascripts/DeviceOrientationControls.js"></script>
+  <script src="/javascripts/OrbitControls.js"></script>
+  <script src="/javascripts/CSS3DRenderer.js"></script>
+  <script src='/javascripts/threex.videotexture.js'></script>
+
+  <script src="https://cdn.socket.io/socket.io-1.3.5.js"></script>
+  <script>
+    THREE.Utils = {
+        cameraLookDir: function(camera) {
+            var vector = new THREE.Vector3(0, 0, -1);
+            vector.applyEuler(camera.rotation, camera.rotation.order);
+            return vector;
+        }
+    };
+    var socket = io.connect(location.origin);
+
+    socket.on('clickEvent', function (data) {
+      console.log('clickEvent');
+      console.log('call some functions')
+    });
+    socket.on('move', function (data) {
+      changeCameraPositionDelta();
+    });
+
+    var camera, scene, renderer;
+    var effect, controls;
+    var element, container;
+    var newsBoxes = [];
+    var videoBoxes = [];
+    var toggle = false;
+    var ignoreCamera = false;
+    var fakeDataIndex = 0;
+
+    var fakeData = [
+        ['./images/ntu2015.jpg', './images/vrwood.png', './images/stock.jpg', './images/news.png','./images/random.jpg', './images/intel.png'],
+        ['./images/ntu2015.jpg', './videos/news.mp4','./videos/game.mp4', './images/stock.jpg','./videos/tennis.mp4', './videos/movie.mp4'],
+        [ ,'./videos/news.mp4', ,'./images/ntu2015.jpg', , './videos/movie.mp4']
+    ];
+
+    var clock = new THREE.Clock();
+
+    init(fakeData[fakeDataIndex]);
+    animate(videoBoxes);
+
+    function changeCameraPositionDelta(){ 
+      // var AMOUNT = -1;
+      // console.log(';;;;;')
+      // console.log(camera.position.z)
+      // console.log(AMOUNT)
+      // if(camera.position.z + AMOUNT > 0){
+      //   console.log('------')
+      //   camera.translateZ(AMOUNT);
+      // }
+      cancelAnimationFrame(this.id);// Stop the animation
+      renderer.domElement.addEventListener('dblclick', null, false); //remove listener to render
+      scene = null;
+      element = null;
+      effect = null;
+      camera = null;
+      controls = null;
+      empty(container);
+      function empty(elem) {
+          while (elem.lastChild) elem.removeChild(elem.lastChild);
+      }
+      fakeDataIndex >= fakeData.length - 1 ? fakeDataIndex = 0 : fakeDataIndex++;
+
+      init(fakeData[fakeDataIndex]);
+    }
+    function init(dataSource) {
+      renderer = new THREE.WebGLRenderer();
+      renderer.setClearColor(0x7ec0ee, 1);
+      element = renderer.domElement;
+      container = document.getElementById('example');
+      container.appendChild(element);
+
+      effect = new THREE.StereoEffect(renderer);
+
+      scene = new THREE.Scene();
+      cssScene = new THREE.Scene();
+
+      camera = new THREE.PerspectiveCamera(90, 1, 0.001, 700);
+      camera.position.set(0, 10, 50);
+      scene.add(camera);
+
+      controls = new THREE.OrbitControls(camera, element);
+      controls.target.set(
+        camera.position.x + 0.1,
+        camera.position.y,
+        camera.position.z
+      );
+      controls.movementSpeed = 10;
+      controls.lookVertical = false;
+      controls.noZoom = true;
+      controls.noPan = true;
+
+      function setOrientationControls(e) {
+        if (!e.alpha) {
+          return;
+        }
+
+        controls = new THREE.DeviceOrientationControls(camera, true);
+        controls.connect();
+        controls.update();
+
+        element.addEventListener('click', fullscreen, false);
+
+        window.removeEventListener('deviceorientation', setOrientationControls, true);
+      }
+      window.addEventListener('deviceorientation', setOrientationControls, true);
+
+
+      var light = new THREE.HemisphereLight(0x777777, 0x000000, 0.6);
+      scene.add(light);
+
+      var texture = THREE.ImageUtils.loadTexture(
+        '/images/checker.png'
+      );
+      texture.wrapS = THREE.RepeatWrapping;
+      texture.wrapT = THREE.RepeatWrapping;
+      texture.repeat = new THREE.Vector2(50, 50);
+      texture.anisotropy = renderer.getMaxAnisotropy();
+
+      var material = new THREE.MeshPhongMaterial({
+        color: 0xffffff,
+        specular: 0xffffff,
+        shininess: 20,
+        shading: THREE.FlatShading,
+        map: texture
+      });
+
+      var geometry = new THREE.PlaneGeometry(1000, 1000);
+
+      var mesh = new THREE.Mesh(geometry, material);
+      mesh.rotation.x = -Math.PI / 2;
+      scene.add(mesh);
+
+      /*html*/
+
+
+      /* Newsbox */
+
+
+      dataSource.forEach(function(data, index) {
+        var sinAngle, cosAngle;
+        var video      = document.createElement('video');
+        newsBoxes[index] = {};
+        if (/\.(png|jpg|jpeg|gif)$/.test(data)) {
+          newsBoxes[index].texture = new THREE.ImageUtils.loadTexture(data);
+        } else {
+          video.width    = 320;
+          video.height   = 240;
+          video.autoplay = false;
+          video.src = data;
+          newsBoxes[index].texture = new THREE.Texture( video );
+        }
+        newsBoxes[index].sphereGeometry = new THREE.BoxGeometry(0, 15, 22);
+        newsBoxes[index].sphereMaterial = new THREE.MeshBasicMaterial({
+          color: 0xffffff,
+          transparent: true,
+          opacity: 1,
+          map: newsBoxes[index].texture
+        });
+        newsBoxes[index].sphere = new THREE.Mesh(newsBoxes[index].sphereGeometry, newsBoxes[index].sphereMaterial);
+        var radius = 20;
+        var a = radius / 2;
+        var b = (radius / 2) * Math.pow(3, 1 / 2);
+        var xOffset, yOffset, rotateAngle;
+        switch (index) {
+          case 0:
+            xOffset = radius;
+            yOffset = 0;
+            rotateAngle = 0;
+            sinAngle = 86;
+            cosAngle = 91;
+          break;
+          case 1:
+            xOffset = a;
+            yOffset = b;
+            rotateAngle = Math.PI / 1.5;
+            sinAngle = 32;
+            cosAngle = 32;
+          break;
+          case 2:
+            xOffset = -a;
+            yOffset = b;
+            rotateAngle = Math.PI / 3;
+            sinAngle = -35;
+            cosAngle = 36;
+          break;
+          case 3:
+            xOffset = -radius;
+            yOffset = 0;
+            rotateAngle = 0;
+            sinAngle = -87;
+            cosAngle = 88;
+          break;
+          case 4:
+            xOffset = -a;
+            yOffset = -b;
+            rotateAngle = Math.PI / 1.5;
+            sinAngle = -32;
+            cosAngle = 147;
+          break;
+          case 5:
+            xOffset = a;
+            yOffset = -b;
+            rotateAngle = Math.PI / 3;
+            sinAngle = 35;
+            cosAngle = 144;
+          break;
+        }
+
+        videoBoxes.push({
+          texture: newsBoxes[index].texture,
+          video: video,
+          sinAngle: sinAngle,
+          cosAngle: cosAngle
+        });
+        newsBoxes[index].sphere.position.set(xOffset, 12, 50 + yOffset);
+        newsBoxes[index].sphere.rotation.set(0, rotateAngle, 0);
+        scene.add(newsBoxes[index].sphere);
+      });
+
+      window.addEventListener('resize', resize, false);
+      window.addEventListener('click', function(e) {
+        window.removeEventListener('click', arguments.callee);
+        videoBoxes.forEach(function(data, index) {
+          data.video.play();
+        });
+      }, false);
+      setTimeout(resize, 1);
+    }
+
+    function resize() {
+      var width = container.offsetWidth;
+      var height = container.offsetHeight;
+
+      camera.aspect = width / height;
+      camera.updateProjectionMatrix();
+
+      renderer.setSize(width, height);
+      effect.setSize(width, height);
+    }
+
+    function update(dt) {
+      resize();
+
+      camera.updateProjectionMatrix();
+
+      controls.update(dt);
+    }
+
+    function render(dt) {
+      videoBoxes.forEach(function(data, index) {
+        if (data.video.readyState === data.video.HAVE_ENOUGH_DATA ){
+          data.texture.needsUpdate = true;
+          if (ignoreCamera || isCameraLookingAtObject(data.sinAngle, data.cosAngle, index)) {
+            data.video.play();
+          } else {
+            data.video.pause();
+          }
+        }
+      });
+
+      effect.render(scene, camera);
+    }
+
+    function animate(t) {
+      requestAnimationFrame(animate);
+      update(clock.getDelta());
+      render(clock.getDelta());
+    }
+
+
+
+    function isCameraLookingAtObject(objectSinAngle, objectCosAngle, index) {
+      var x = THREE.Utils.cameraLookDir(camera).x;
+      var y = THREE.Utils.cameraLookDir(camera).y;
+      var z = THREE.Utils.cameraLookDir(camera).z;
+      var cameraSinAngle = Math.asin(x) * 180 / Math.PI;
+      var cameraCosAngle = Math.acos(z) * 180 / Math.PI;
+      var offset = 20;
+      if (y < -0.4 || y > 0.5) {
+        return false;
+      }
+      if (cameraCosAngle < objectCosAngle + offset && cameraCosAngle > objectCosAngle - offset && cameraSinAngle < objectSinAngle + offset && cameraSinAngle > objectSinAngle - offset) {
+        return true;
+      }
+      return false;
+    }
+
+    function fullscreen() {
+      if (container.requestFullscreen) {
+        container.requestFullscreen();
+      } else if (container.msRequestFullscreen) {
+        container.msRequestFullscreen();
+      } else if (container.mozRequestFullScreen) {
+        container.mozRequestFullScreen();
+      } else if (container.webkitRequestFullscreen) {
+        container.webkitRequestFullscreen();
+      }
+    }
+  </script>
+  </body>
+</html>
+
+

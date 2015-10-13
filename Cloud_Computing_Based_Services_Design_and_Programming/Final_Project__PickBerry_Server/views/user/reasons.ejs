@@ -1,0 +1,9 @@
+<div ng-app="fucknews" class="container" ng-controller="userReasons">
+  	<p><%= name %></p>
+	<div ng-repeat="reason in reasons">
+		<div>{{ reason.content }}</div>
+		<div><a href="/news/show/{{reason.parent_news}}">{{ reason.parent_news }}</a></div>
+		<!-- <div>{{ reason.owner }}</div> -->
+	</div>
+
+</div>

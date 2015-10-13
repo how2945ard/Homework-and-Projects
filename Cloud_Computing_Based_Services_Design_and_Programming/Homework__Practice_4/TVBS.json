@@ -1,0 +1,984 @@
+[
+    {
+        "date": 20140527,
+        "totalNum": 85,
+        "result": [
+            {
+                "category": "社會",
+                "number": 25
+            },
+            {
+                "category": "生活",
+                "number": 30
+            },
+            {
+                "category": "世界",
+                "number": 17
+            },
+            {
+                "category": "娛樂",
+                "number": 11
+            },
+            {
+                "category": "兩岸",
+                "number": 1
+            },
+            {
+                "category": "財經",
+                "number": 1
+            }
+        ]
+    },
+    {
+        "date": 20140526,
+        "totalNum": 117,
+        "result": [
+            {
+                "category": "社會",
+                "number": 25
+            },
+            {
+                "category": "生活",
+                "number": 33
+            },
+            {
+                "category": "世界",
+                "number": 23
+            },
+            {
+                "category": "娛樂",
+                "number": 12
+            },
+            {
+                "category": "兩岸",
+                "number": 12
+            },
+            {
+                "category": "財經",
+                "number": 6
+            },
+            {
+                "category": "體壇",
+                "number": 1
+            },
+            {
+                "category": "政治",
+                "number": 5
+            }
+        ]
+    },
+    {
+        "date": 20140525,
+        "totalNum": 101,
+        "result": [
+            {
+                "category": "社會",
+                "number": 19
+            },
+            {
+                "category": "生活",
+                "number": 44
+            },
+            {
+                "category": "世界",
+                "number": 9
+            },
+            {
+                "category": "娛樂",
+                "number": 11
+            },
+            {
+                "category": "兩岸",
+                "number": 11
+            },
+            {
+                "category": "體壇",
+                "number": 1
+            },
+            {
+                "category": "政治",
+                "number": 6
+            }
+        ]
+    },
+    {
+        "date": 20140524,
+        "totalNum": 93,
+        "result": [
+            {
+                "category": "社會",
+                "number": 25
+            },
+            {
+                "category": "生活",
+                "number": 36
+            },
+            {
+                "category": "世界",
+                "number": 11
+            },
+            {
+                "category": "娛樂",
+                "number": 8
+            },
+            {
+                "category": "兩岸",
+                "number": 10
+            },
+            {
+                "category": "體壇",
+                "number": 1
+            },
+            {
+                "category": "政治",
+                "number": 2
+            }
+        ]
+    },
+    {
+        "date": 20140523,
+        "totalNum": 112,
+        "result": [
+            {
+                "category": "社會",
+                "number": 34
+            },
+            {
+                "category": "生活",
+                "number": 30
+            },
+            {
+                "category": "世界",
+                "number": 21
+            },
+            {
+                "category": "娛樂",
+                "number": 9
+            },
+            {
+                "category": "兩岸",
+                "number": 9
+            },
+            {
+                "category": "財經",
+                "number": 3
+            },
+            {
+                "category": "體壇",
+                "number": 1
+            },
+            {
+                "category": "政治",
+                "number": 5
+            }
+        ]
+    },
+    {
+        "date": 20140522,
+        "totalNum": 116,
+        "result": [
+            {
+                "category": "社會",
+                "number": 56
+            },
+            {
+                "category": "生活",
+                "number": 23
+            },
+            {
+                "category": "世界",
+                "number": 23
+            },
+            {
+                "category": "娛樂",
+                "number": 2
+            },
+            {
+                "category": "兩岸",
+                "number": 8
+            },
+            {
+                "category": "財經",
+                "number": 2
+            },
+            {
+                "category": "政治",
+                "number": 2
+            }
+        ]
+    },
+    {
+        "date": 20140521,
+        "totalNum": 127,
+        "result": [
+            {
+                "category": "社會",
+                "number": 33
+            },
+            {
+                "category": "生活",
+                "number": 45
+            },
+            {
+                "category": "世界",
+                "number": 27
+            },
+            {
+                "category": "娛樂",
+                "number": 10
+            },
+            {
+                "category": "兩岸",
+                "number": 5
+            },
+            {
+                "category": "財經",
+                "number": 3
+            },
+            {
+                "category": "體壇",
+                "number": 3
+            },
+            {
+                "category": "政治",
+                "number": 1
+            }
+        ]
+    },
+    {
+        "date": 20140520,
+        "totalNum": 135,
+        "result": [
+            {
+                "category": "社會",
+                "number": 23
+            },
+            {
+                "category": "生活",
+                "number": 50
+            },
+            {
+                "category": "世界",
+                "number": 26
+            },
+            {
+                "category": "娛樂",
+                "number": 17
+            },
+            {
+                "category": "兩岸",
+                "number": 8
+            },
+            {
+                "category": "財經",
+                "number": 3
+            },
+            {
+                "category": "體壇",
+                "number": 1
+            },
+            {
+                "category": "政治",
+                "number": 7
+            }
+        ]
+    },
+    {
+        "date": 20140519,
+        "totalNum": 117,
+        "result": [
+            {
+                "category": "社會",
+                "number": 28
+            },
+            {
+                "category": "生活",
+                "number": 36
+            },
+            {
+                "category": "世界",
+                "number": 27
+            },
+            {
+                "category": "娛樂",
+                "number": 11
+            },
+            {
+                "category": "兩岸",
+                "number": 7
+            },
+            {
+                "category": "財經",
+                "number": 3
+            },
+            {
+                "category": "體壇",
+                "number": 3
+            },
+            {
+                "category": "政治",
+                "number": 2
+            }
+        ]
+    },
+    {
+        "date": 20140518,
+        "totalNum": 105,
+        "result": [
+            {
+                "category": "社會",
+                "number": 18
+            },
+            {
+                "category": "生活",
+                "number": 49
+            },
+            {
+                "category": "世界",
+                "number": 16
+            },
+            {
+                "category": "娛樂",
+                "number": 9
+            },
+            {
+                "category": "兩岸",
+                "number": 8
+            },
+            {
+                "category": "政治",
+                "number": 5
+            }
+        ]
+    },
+    {
+        "date": 20140517,
+        "totalNum": 87,
+        "result": [
+            {
+                "category": "社會",
+                "number": 14
+            },
+            {
+                "category": "生活",
+                "number": 38
+            },
+            {
+                "category": "世界",
+                "number": 10
+            },
+            {
+                "category": "娛樂",
+                "number": 16
+            },
+            {
+                "category": "兩岸",
+                "number": 2
+            },
+            {
+                "category": "財經",
+                "number": 2
+            },
+            {
+                "category": "政治",
+                "number": 5
+            }
+        ]
+    },
+    {
+        "date": 20140516,
+        "totalNum": 125,
+        "result": [
+            {
+                "category": "社會",
+                "number": 21
+            },
+            {
+                "category": "生活",
+                "number": 45
+            },
+            {
+                "category": "世界",
+                "number": 35
+            },
+            {
+                "category": "娛樂",
+                "number": 8
+            },
+            {
+                "category": "兩岸",
+                "number": 5
+            },
+            {
+                "category": "體壇",
+                "number": 1
+            },
+            {
+                "category": "政治",
+                "number": 10
+            }
+        ]
+    },
+    {
+        "date": 20140515,
+        "totalNum": 133,
+        "result": [
+            {
+                "category": "社會",
+                "number": 15
+            },
+            {
+                "category": "生活",
+                "number": 38
+            },
+            {
+                "category": "世界",
+                "number": 45
+            },
+            {
+                "category": "娛樂",
+                "number": 12
+            },
+            {
+                "category": "兩岸",
+                "number": 7
+            },
+            {
+                "category": "財經",
+                "number": 4
+            },
+            {
+                "category": "體壇",
+                "number": 2
+            },
+            {
+                "category": "政治",
+                "number": 10
+            }
+        ]
+    },
+    {
+        "date": 20140514,
+        "totalNum": 120,
+        "result": [
+            {
+                "category": "社會",
+                "number": 17
+            },
+            {
+                "category": "生活",
+                "number": 47
+            },
+            {
+                "category": "世界",
+                "number": 30
+            },
+            {
+                "category": "娛樂",
+                "number": 7
+            },
+            {
+                "category": "兩岸",
+                "number": 5
+            },
+            {
+                "category": "財經",
+                "number": 5
+            },
+            {
+                "category": "體壇",
+                "number": 3
+            },
+            {
+                "category": "政治",
+                "number": 6
+            }
+        ]
+    },
+    {
+        "date": 20140513,
+        "totalNum": 125,
+        "result": [
+            {
+                "category": "社會",
+                "number": 20
+            },
+            {
+                "category": "生活",
+                "number": 38
+            },
+            {
+                "category": "世界",
+                "number": 26
+            },
+            {
+                "category": "娛樂",
+                "number": 14
+            },
+            {
+                "category": "兩岸",
+                "number": 6
+            },
+            {
+                "category": "財經",
+                "number": 8
+            },
+            {
+                "category": "體壇",
+                "number": 2
+            },
+            {
+                "category": "政治",
+                "number": 11
+            }
+        ]
+    },
+    {
+        "date": 20140512,
+        "totalNum": 103,
+        "result": [
+            {
+                "category": "社會",
+                "number": 17
+            },
+            {
+                "category": "生活",
+                "number": 36
+            },
+            {
+                "category": "世界",
+                "number": 20
+            },
+            {
+                "category": "娛樂",
+                "number": 12
+            },
+            {
+                "category": "兩岸",
+                "number": 10
+            },
+            {
+                "category": "財經",
+                "number": 2
+            },
+            {
+                "category": "體壇",
+                "number": 1
+            },
+            {
+                "category": "政治",
+                "number": 5
+            }
+        ]
+    },
+    {
+        "date": 20140511,
+        "totalNum": 102,
+        "result": [
+            {
+                "category": "社會",
+                "number": 15
+            },
+            {
+                "category": "生活",
+                "number": 49
+            },
+            {
+                "category": "世界",
+                "number": 10
+            },
+            {
+                "category": "娛樂",
+                "number": 11
+            },
+            {
+                "category": "兩岸",
+                "number": 10
+            },
+            {
+                "category": "財經",
+                "number": 1
+            },
+            {
+                "category": "體壇",
+                "number": 2
+            },
+            {
+                "category": "政治",
+                "number": 4
+            }
+        ]
+    },
+    {
+        "date": 20140510,
+        "totalNum": 95,
+        "result": [
+            {
+                "category": "社會",
+                "number": 15
+            },
+            {
+                "category": "生活",
+                "number": 43
+            },
+            {
+                "category": "世界",
+                "number": 5
+            },
+            {
+                "category": "娛樂",
+                "number": 14
+            },
+            {
+                "category": "兩岸",
+                "number": 3
+            },
+            {
+                "category": "財經",
+                "number": 2
+            },
+            {
+                "category": "體壇",
+                "number": 4
+            },
+            {
+                "category": "政治",
+                "number": 9
+            }
+        ]
+    },
+    {
+        "date": 20140509,
+        "totalNum": 113,
+        "result": [
+            {
+                "category": "社會",
+                "number": 19
+            },
+            {
+                "category": "生活",
+                "number": 34
+            },
+            {
+                "category": "世界",
+                "number": 21
+            },
+            {
+                "category": "娛樂",
+                "number": 14
+            },
+            {
+                "category": "兩岸",
+                "number": 8
+            },
+            {
+                "category": "財經",
+                "number": 7
+            },
+            {
+                "category": "體壇",
+                "number": 3
+            },
+            {
+                "category": "政治",
+                "number": 7
+            }
+        ]
+    },
+    {
+        "date": 20140508,
+        "totalNum": 118,
+        "result": [
+            {
+                "category": "社會",
+                "number": 20
+            },
+            {
+                "category": "生活",
+                "number": 38
+            },
+            {
+                "category": "世界",
+                "number": 23
+            },
+            {
+                "category": "娛樂",
+                "number": 16
+            },
+            {
+                "category": "兩岸",
+                "number": 5
+            },
+            {
+                "category": "財經",
+                "number": 6
+            },
+            {
+                "category": "體壇",
+                "number": 4
+            },
+            {
+                "category": "政治",
+                "number": 6
+            }
+        ]
+    },
+    {
+        "date": 20140507,
+        "totalNum": 113,
+        "result": [
+            {
+                "category": "社會",
+                "number": 20
+            },
+            {
+                "category": "生活",
+                "number": 38
+            },
+            {
+                "category": "世界",
+                "number": 25
+            },
+            {
+                "category": "娛樂",
+                "number": 10
+            },
+            {
+                "category": "兩岸",
+                "number": 5
+            },
+            {
+                "category": "財經",
+                "number": 5
+            },
+            {
+                "category": "體壇",
+                "number": 2
+            },
+            {
+                "category": "政治",
+                "number": 8
+            }
+        ]
+    },
+    {
+        "date": 20140506,
+        "totalNum": 113,
+        "result": [
+            {
+                "category": "社會",
+                "number": 21
+            },
+            {
+                "category": "生活",
+                "number": 37
+            },
+            {
+                "category": "世界",
+                "number": 23
+            },
+            {
+                "category": "娛樂",
+                "number": 11
+            },
+            {
+                "category": "兩岸",
+                "number": 7
+            },
+            {
+                "category": "財經",
+                "number": 3
+            },
+            {
+                "category": "體壇",
+                "number": 4
+            },
+            {
+                "category": "政治",
+                "number": 7
+            }
+        ]
+    },
+    {
+        "date": 20140505,
+        "totalNum": 109,
+        "result": [
+            {
+                "category": "社會",
+                "number": 20
+            },
+            {
+                "category": "生活",
+                "number": 40
+            },
+            {
+                "category": "世界",
+                "number": 22
+            },
+            {
+                "category": "娛樂",
+                "number": 11
+            },
+            {
+                "category": "兩岸",
+                "number": 5
+            },
+            {
+                "category": "財經",
+                "number": 3
+            },
+            {
+                "category": "體壇",
+                "number": 1
+            },
+            {
+                "category": "政治",
+                "number": 7
+            }
+        ]
+    },
+    {
+        "date": 20140504,
+        "totalNum": 90,
+        "result": [
+            {
+                "category": "社會",
+                "number": 18
+            },
+            {
+                "category": "生活",
+                "number": 41
+            },
+            {
+                "category": "世界",
+                "number": 9
+            },
+            {
+                "category": "娛樂",
+                "number": 8
+            },
+            {
+                "category": "兩岸",
+                "number": 4
+            },
+            {
+                "category": "體壇",
+                "number": 2
+            },
+            {
+                "category": "政治",
+                "number": 8
+            }
+        ]
+    },
+    {
+        "date": 20140503,
+        "totalNum": 79,
+        "result": [
+            {
+                "category": "社會",
+                "number": 22
+            },
+            {
+                "category": "生活",
+                "number": 26
+            },
+            {
+                "category": "世界",
+                "number": 10
+            },
+            {
+                "category": "娛樂",
+                "number": 5
+            },
+            {
+                "category": "兩岸",
+                "number": 9
+            },
+            {
+                "category": "體壇",
+                "number": 1
+            },
+            {
+                "category": "政治",
+                "number": 6
+            }
+        ]
+    },
+    {
+        "date": 20140502,
+        "totalNum": 113,
+        "result": [
+            {
+                "category": "社會",
+                "number": 18
+            },
+            {
+                "category": "生活",
+                "number": 43
+            },
+            {
+                "category": "世界",
+                "number": 24
+            },
+            {
+                "category": "娛樂",
+                "number": 9
+            },
+            {
+                "category": "兩岸",
+                "number": 7
+            },
+            {
+                "category": "財經",
+                "number": 6
+            },
+            {
+                "category": "體壇",
+                "number": 1
+            },
+            {
+                "category": "政治",
+                "number": 5
+            }
+        ]
+    },
+    {
+        "date": 20140501,
+        "totalNum": 109,
+        "result": [
+            {
+                "category": "社會",
+                "number": 28
+            },
+            {
+                "category": "生活",
+                "number": 38
+            },
+            {
+                "category": "世界",
+                "number": 19
+            },
+            {
+                "category": "娛樂",
+                "number": 6
+            },
+            {
+                "category": "兩岸",
+                "number": 7
+            },
+            {
+                "category": "財經",
+                "number": 1
+            },
+            {
+                "category": "體壇",
+                "number": 1
+            },
+            {
+                "category": "政治",
+                "number": 9
+            }
+        ]
+    }
+]

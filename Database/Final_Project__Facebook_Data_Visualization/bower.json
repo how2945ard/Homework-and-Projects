@@ -1,0 +1,24 @@
+{
+  "name": "DB",
+  "version": "0.0.0",
+  "homepage": "https://github.com/how2945ard/DB_project",
+  "authors": [
+    "Howard <how2945ard@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "public/components/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-bootstrap": "~0.12.0",
+    "ui-select": "*",
+    "angular-ui-map": "~0.5.0",
+    "angular": "~1.3.6",
+    "bootstrap": "~3.3.1",
+    "sweetalert": "~0.3.2",
+    "angular-ui-utils": "~0.1.1"
+  }
+}

@@ -1,0 +1,222 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>fucknews index</title>
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/pad.css">
+    <link rel="stylesheet" type="text/css" href="/css/link.css">
+
+    <link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css">
+
+    <style type="text/css">
+      body .frame{
+        min-height:360px;
+      }
+      .abso{
+        position: absolute;
+        width:100%;
+
+      }
+      .newstitle{
+        height:75px;
+        text-align: center;
+        font-size: 20px;
+        line-height: 20px;
+        top:0px;
+        padding-left:20px; 
+        padding-right:20px;
+        padding-top: 15px;
+        background: rgba(120,120,120,0.2);
+
+
+      }
+      .newsstatus{
+        height:45px;
+        text-align: center;
+        
+        
+        font-size: 16px;
+        line-height: 45px;
+        vertical-align: 30px;
+        top:75px;
+        background: rgba(200,200,200,0.2);
+      }
+      .load{
+        z-index: 0;
+        opacity: 0;
+        width:100%;
+        height: 450;
+        line-height: 450;
+        text-align: center;
+        vertical-align: middle;
+        position: absolute;
+      }
+      .load.load-active{
+        opacity: 1;
+      }
+
+      .boo{
+        float:left;
+      }
+
+      .boo.boo-icon{
+        width: 80px;
+        background: rgba(5,5,5,0.2);
+      }
+
+      .boo-icon i{
+        font-size:20px;
+      }
+
+      .boo-icon i:hover{
+        
+        font-size: 27px;
+      }
+      .boo.boo-number{
+        width: 270px;
+      }
+      .boo strong{
+        font-size: 20px;
+      }
+      .reasons{
+        height:240px;
+        top:120px;
+        background: rgba(200,200,200,0.2);
+      }
+      .reasons .reason-stat{
+        height:50px;
+        text-align: center;
+        font-size:20px;
+        line-height: 50px;
+        vertical-align: middle;
+      }
+      .reasons .reason-list{
+        height:350px;
+
+      }
+      .reasons .reason-obj{
+        height:25px;
+        width: 66%;
+        margin-left:12%;
+        font-size: 16px;
+        padding-left:5px; 
+        float:left;
+        line-height: 25px;
+        vertical-align: middle;
+
+        overflow:hidden;
+        text-overflow:ellipsis;
+      }
+
+      .reasons .reason-vote{
+        font-size: 10px;
+        float:left;
+        width:15%;
+      }
+
+      /*hr{
+        border: 0;
+        border-bottom: 1px dashed #ccc;
+        background: #999;
+        width:80%;
+      }*/
+     /* hr {
+        height: 12px;
+        border: 0;
+        box-shadow: inset 0 12px 12px -12px rgba(0,0,0,0.5);
+      }*/
+
+
+      hr {
+          width:90%;
+          border: 0;
+          height: 1px;
+          margin-top: 5px;
+          margin-bottom: 5px;
+          background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+          background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+          background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+          background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+      }
+
+      .frame .phone{
+        width:100%;
+        bottom: 50px;
+        height:60px;
+        position: absolute;
+        background: rgba(40,40,40,0.2);
+
+      }
+      
+      .phone .phone-list{
+        width:100%;
+        height:30px;
+        line-height: 30px;
+        vertical-align: middle;
+        padding-left: 10px;
+        padding-right:10px;
+      }
+
+
+    </style>
+
+  </head>
+  <body>
+    <div class="load load-active">loading...</div>
+    <div class="frame">
+
+      <div class="newstitle abso"></div>
+
+      <div class="newsstatus abso">
+        <div class="boo boo-number"></div>
+        <div class="boo boo-icon"></div>
+      </div>
+
+      <div class="submit abso"></div>
+      <div class="reasons abso">
+        <div class="reason-stat"></div>
+        <div class="reason-list"></div>
+      </div>
+
+      <div class="phone">
+        <div class="phone-list phone-ncc">
+          <span class="phone-media-name">NCC投訴專線</span>
+          <span class="phone-media-phone">0800-201-205</span>
+        </div>
+        <div class="phone-list phone-media">
+          <span class="phone-media-name phone-dyma-n"></span>
+          <span class="phone-media-phone phone-dyma-p"></span>
+        </div>
+      </div>
+
+    </div>
+    <div class="a">
+      
+    </div>
+
+
+    <div class="link-container">
+      <div class="link">
+        
+        <a class="mail-addr" href="http://localhost:1337/mailer/form" target="_blank"><span class="link-a glyphicon glyphicon-envelope col-xs-12"></span></a>
+      </div>
+
+      <div class="link" >
+        
+        <span class="link-a glyphicon glyphicon-phone col-xs-12"></span>
+      </div>
+
+      <div class="link" >
+        <span class="link-a glyphicon glyphicon-hand-up col-xs-12 active"></span>
+      </div>
+    </div>
+    <script src="/js/jquery.js"></script>
+    <script type="text/javascript" src="popup.js"></script>
+
+
+
+
+     </body>
+</html>
+

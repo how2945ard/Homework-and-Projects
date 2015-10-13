@@ -1,0 +1,9 @@
+<div ng-app="fucknews" class="container" ng-controller="userComments">
+  	<p><%= name %></p>
+	<div ng-repeat="comment in comments">
+		<div>{{ comment.content }}</div>
+		<div><a href="/news/show/{{comment.com_news}}">{{ comment.com_news }}</a></div>
+		<!-- <div>{{ comment.owner }}</div> -->
+	</div>
+
+</div>

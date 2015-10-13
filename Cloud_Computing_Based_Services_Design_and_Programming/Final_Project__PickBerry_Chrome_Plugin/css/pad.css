@@ -1,0 +1,8 @@
+body
+{
+    width: 350px;
+    min-height: 450px;
+    overflow-x: hidden;
+    background-image: url('/back.jpg')
+     
+}

@@ -1,0 +1,86 @@
+<head>
+	<script src="/Chart.js"></script>
+	<style>
+		body{
+			padding: 0;
+			margin: 0;
+		}
+		#canvas-holder{
+			width:30%;
+		}
+		#user-photo{
+			text-align: center;
+		}
+		#user-photo img{
+			border-radius: 200px;
+			border: 5px white solid;
+			padding: 3px;
+			margin-top: 30px;
+			width: 100px;
+		}
+		h1,h3{
+			text-align: center;
+		}
+		.back .button{
+			color: white;
+		}
+		.back{
+			position: relative;
+			margin: 20px;
+		}
+		#canvas-holder{
+			margin: 15px auto;
+		}
+		.likename{
+			/*border: 3px solid white;*/
+			border-radius: 10px;
+			padding: 8px 15px;
+			margin: 5px;
+			background-color: rgba(255, 255, 255, 0.6);
+		}
+		.loading{
+	    	text-align: center;
+	  	}
+	  	canvas{
+	  		cursor: pointer;
+	  	}
+	  	.portrait {
+	        float:left;
+	        width:20px;
+	        height:20px;
+	        overflow:hidden;
+	        padding: 0px;
+	       	margin-left: 5px;	
+	       	margin-right: 5px;	
+    	}
+	</style>
+</head>
+<body>
+	<div class="back"><a class="button" href="/"><i class="icon-chevron-left icon-white"></i>Back to home</a></div>
+	<div ng-if='!all' ng-cloak ng-hide='!done' class="back"><a class="button" href="/likes"><i class="icon-chevron-left icon-white"></i>所有人的粉絲專頁紀錄</a></div>
+	<div ng-if='all' ng-cloak ng-hide='!done' class="back"><a class="button" href="/like"><i class="icon-chevron-left icon-white"></i>所有人的粉絲專頁紀錄</a></div>
+	<% if current_user %>
+	  <div id="user-photo">
+	      <img src="<%= current_user.pic %>">
+	  </div>
+	<% end %>
+	<h1 ng-if='!all' ng-hide='!done' ng-cloak>我的粉絲專頁紀錄</h1>
+	<h1 ng-if='all' ng-hide='!done' ng-cloak>所有人的粉絲專頁紀錄</h1>
+	<h3 ng-hide='!done' ng-cloak>粉絲專頁數量：<span ng-bind='likes.length'></span></h3>
+	<div class="loading"><img src="/images/loading-bars.svg" width="80" height="80" ng-hide='done'/></div>
+	</br>
+		<div id="canvas-holder" du-smooth-scroll href="#anchor" >
+			<canvas id="chart-area" width="500" height="500"/>
+		</div>
+	</br></br></br>
+		<h1 ng-hide='!done' ng-cloak id='anchor'>備受喜愛的粉絲專頁總列表</h1>
+	</br>
+	<div ng-hide='!done' ng-cloak ng-repeat='like in likes | orderBy : "-liker.length"' style="display: inline-block; text-align: center; margin:0 auto;">
+		<div  class="likename" ng-mouseenter="like.show = true" ng-mouseleave="like.show = false">
+			<div class="portrait" ng-repeat='liker in like.liker' ng-if='like.show' >
+				<img width="20" ng-src="{{liker.user.pic}}">
+			</div>
+			<a href="http://www.facebook.com/{{like.data_id}}" ng-bind='like.name'></a>
+		</div>
+	</div>
+</body>

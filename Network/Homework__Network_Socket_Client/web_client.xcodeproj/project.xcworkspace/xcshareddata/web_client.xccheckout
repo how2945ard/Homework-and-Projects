@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B9AC669A-F696-4403-A6D6-3A39B8B1BAA8</string>
+	<key>IDESourceControlProjectName</key>
+	<string>web_client</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>1633122ACF860022181B4C5860A28D73853C7A76</key>
+		<string>github.com:how2945ard/web_socket.git</string>
+		<key>F7E6CC9E2F96FC62EB594B88E100489E16599D0B</key>
+		<string>github.com:how2945ard/web_socket.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>web_client.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>1633122ACF860022181B4C5860A28D73853C7A76</key>
+		<string>../../../web_socket</string>
+		<key>F7E6CC9E2F96FC62EB594B88E100489E16599D0B</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:how2945ard/web_socket.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F7E6CC9E2F96FC62EB594B88E100489E16599D0B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F7E6CC9E2F96FC62EB594B88E100489E16599D0B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>web_client</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>1633122ACF860022181B4C5860A28D73853C7A76</string>
+			<key>IDESourceControlWCCName</key>
+			<string>web_socket</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,2 @@
+# newsHelper
+### a Sails application

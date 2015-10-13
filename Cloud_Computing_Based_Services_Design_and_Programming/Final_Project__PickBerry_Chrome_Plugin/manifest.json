@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+
+  "name": "PickBerry",
+  "description": "PickBerry",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon_off.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+      "tabs",
+      "http://*/",
+      "background"
+  ],
+  "background": {
+    "scripts": ["background.js","js/jquery.js"]
+  }
+}

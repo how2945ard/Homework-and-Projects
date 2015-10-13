@@ -1,0 +1,35 @@
+<style type="text/css">
+	.user-info{
+		position:absolute;
+		width:40%;
+		height:40%;
+		top:20%;
+		left:30%;
+		background: rgba(122,100,100,0.4);
+		padding:30px;
+	}
+</style>
+
+<link rel="stylesheet" type="text/css" href="/styles/nav.css">
+<div class="navbar-a">
+      <div class="navli logo">
+          <a href="http://localhost:1337/">檢爛梅</a>
+      </div>
+       <div class=" navli logout">
+        <form id="logout" method="post" action="/logout">
+          <div class="logout-sub">Logout</div>
+        </form>
+      </div>
+
+       <div class="navli all"> 
+        <a href="/news/showAll">全部爛梅</a>
+      </div>
+    
+
+  </div>
+<div ng-app="fucknews" class="user-info" ng-controller="user">
+  <h2>Name: <%=  name %></h2>
+  <h3>Mail: <%=  email %></h3>
+  <h3>Sex: <%=  sex %></h3>
+  <a href="/reports/show/user/<%=id%>" >檢舉過的新聞列表</a>
+</div>

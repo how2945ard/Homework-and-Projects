@@ -1,0 +1,9 @@
+<div ng-app="fucknews" class="container" ng-controller="news-redirect">
+  <%= content %>
+  <ul>
+    <li ng-repeat="reason in news.reasons">
+      {{reason.content}}
+      <a href="/user/show/{{reason.owner}}">{{reason.owner.name}}</a>
+    </li>
+  </ul>
+</div>

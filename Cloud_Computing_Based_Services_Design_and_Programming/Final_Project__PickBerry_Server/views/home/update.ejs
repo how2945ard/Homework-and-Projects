@@ -1,0 +1,16 @@
+<div class="container">
+  <header>
+    <h1>Update News</h1>
+  </header>
+  <hr/>
+  <form action="/news/<%= news.id %>" method="POST">
+    <input type="hidden" name="_method" value="put" />
+    <div class="row">
+      <label for="title">Title<label>
+      <input id="title" type="text" name="title" value="<%= news.title %>" required>
+    </div>
+    <div class="row">
+      <input type="submit" name="submit-btn" value="Submit">
+    </div>
+  </form>
+</div>

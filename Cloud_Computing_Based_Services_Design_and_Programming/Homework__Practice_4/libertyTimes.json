@@ -1,0 +1,1298 @@
+[
+    {
+        "date": 20140526,
+        "totalNum": 232,
+        "result": [
+            {
+                "category": "politics",
+                "number": 6
+            },
+            {
+                "category": "society",
+                "number": 21
+            },
+            {
+                "category": "local",
+                "number": 62
+            },
+            {
+                "category": "life",
+                "number": 24
+            },
+            {
+                "category": "opinion",
+                "number": 15
+            },
+            {
+                "category": "world",
+                "number": 13
+            },
+            {
+                "category": "business",
+                "number": 26
+            },
+            {
+                "category": "sports",
+                "number": 18
+            },
+            {
+                "category": "entertainment",
+                "number": 19
+            },
+            {
+                "category": "consumer",
+                "number": 5
+            },
+            {
+                "category": "supplement",
+                "number": 23
+            }
+        ]
+    },
+    {
+        "date": 20140525,
+        "totalNum": 206,
+        "result": [
+            {
+                "category": "politics",
+                "number": 9
+            },
+            {
+                "category": "society",
+                "number": 28
+            },
+            {
+                "category": "local",
+                "number": 59
+            },
+            {
+                "category": "life",
+                "number": 16
+            },
+            {
+                "category": "opinion",
+                "number": 9
+            },
+            {
+                "category": "world",
+                "number": 12
+            },
+            {
+                "category": "business",
+                "number": 7
+            },
+            {
+                "category": "sports",
+                "number": 27
+            },
+            {
+                "category": "entertainment",
+                "number": 18
+            },
+            {
+                "category": "consumer",
+                "number": 1
+            },
+            {
+                "category": "supplement",
+                "number": 20
+            }
+        ]
+    },
+    {
+        "date": 20140524,
+        "totalNum": 217,
+        "result": [
+            {
+                "category": "politics",
+                "number": 10
+            },
+            {
+                "category": "society",
+                "number": 12
+            },
+            {
+                "category": "local",
+                "number": 89
+            },
+            {
+                "category": "life",
+                "number": 12
+            },
+            {
+                "category": "opinion",
+                "number": 13
+            },
+            {
+                "category": "world",
+                "number": 6
+            },
+            {
+                "category": "business",
+                "number": 8
+            },
+            {
+                "category": "sports",
+                "number": 27
+            },
+            {
+                "category": "entertainment",
+                "number": 20
+            },
+            {
+                "category": "consumer",
+                "number": 16
+            },
+            {
+                "category": "supplement",
+                "number": 4
+            }
+        ]
+    },
+    {
+        "date": 20140523,
+        "totalNum": 259,
+        "result": [
+            {
+                "category": "politics",
+                "number": 14
+            },
+            {
+                "category": "society",
+                "number": 3
+            },
+            {
+                "category": "local",
+                "number": 97
+            },
+            {
+                "category": "life",
+                "number": 16
+            },
+            {
+                "category": "opinion",
+                "number": 13
+            },
+            {
+                "category": "world",
+                "number": 8
+            },
+            {
+                "category": "business",
+                "number": 22
+            },
+            {
+                "category": "sports",
+                "number": 27
+            },
+            {
+                "category": "entertainment",
+                "number": 29
+            },
+            {
+                "category": "consumer",
+                "number": 23
+            },
+            {
+                "category": "supplement",
+                "number": 7
+            }
+        ]
+    },
+    {
+        "date": 20140522,
+        "totalNum": 169,
+        "result": [
+            {
+                "category": "politics",
+                "number": 12
+            },
+            {
+                "category": "society",
+                "number": 14
+            },
+            {
+                "category": "local",
+                "number": 11
+            },
+            {
+                "category": "life",
+                "number": 27
+            },
+            {
+                "category": "opinion",
+                "number": 11
+            },
+            {
+                "category": "world",
+                "number": 11
+            },
+            {
+                "category": "business",
+                "number": 19
+            },
+            {
+                "category": "sports",
+                "number": 30
+            },
+            {
+                "category": "entertainment",
+                "number": 21
+            },
+            {
+                "category": "consumer",
+                "number": 12
+            },
+            {
+                "category": "supplement",
+                "number": 1
+            }
+        ]
+    },
+    {
+        "date": 20140521,
+        "totalNum": 197,
+        "result": [
+            {
+                "category": "politics",
+                "number": 16
+            },
+            {
+                "category": "society",
+                "number": 21
+            },
+            {
+                "category": "local",
+                "number": 10
+            },
+            {
+                "category": "life",
+                "number": 23
+            },
+            {
+                "category": "opinion",
+                "number": 11
+            },
+            {
+                "category": "world",
+                "number": 11
+            },
+            {
+                "category": "business",
+                "number": 26
+            },
+            {
+                "category": "sports",
+                "number": 26
+            },
+            {
+                "category": "entertainment",
+                "number": 23
+            },
+            {
+                "category": "consumer",
+                "number": 5
+            },
+            {
+                "category": "supplement",
+                "number": 25
+            }
+        ]
+    },
+    {
+        "date": 20140520,
+        "totalNum": 193,
+        "result": [
+            {
+                "category": "politics",
+                "number": 14
+            },
+            {
+                "category": "society",
+                "number": 23
+            },
+            {
+                "category": "local",
+                "number": 11
+            },
+            {
+                "category": "life",
+                "number": 24
+            },
+            {
+                "category": "opinion",
+                "number": 13
+            },
+            {
+                "category": "world",
+                "number": 9
+            },
+            {
+                "category": "business",
+                "number": 18
+            },
+            {
+                "category": "sports",
+                "number": 26
+            },
+            {
+                "category": "entertainment",
+                "number": 27
+            },
+            {
+                "category": "consumer",
+                "number": 4
+            },
+            {
+                "category": "supplement",
+                "number": 24
+            }
+        ]
+    },
+    {
+        "date": 20140519,
+        "totalNum": 232,
+        "result": [
+            {
+                "category": "politics",
+                "number": 10
+            },
+            {
+                "category": "society",
+                "number": 26
+            },
+            {
+                "category": "local",
+                "number": 58
+            },
+            {
+                "category": "life",
+                "number": 18
+            },
+            {
+                "category": "opinion",
+                "number": 15
+            },
+            {
+                "category": "world",
+                "number": 10
+            },
+            {
+                "category": "business",
+                "number": 22
+            },
+            {
+                "category": "sports",
+                "number": 27
+            },
+            {
+                "category": "entertainment",
+                "number": 16
+            },
+            {
+                "category": "consumer",
+                "number": 4
+            },
+            {
+                "category": "supplement",
+                "number": 26
+            }
+        ]
+    },
+    {
+        "date": 20140518,
+        "totalNum": 217,
+        "result": [
+            {
+                "category": "politics",
+                "number": 13
+            },
+            {
+                "category": "society",
+                "number": 19
+            },
+            {
+                "category": "local",
+                "number": 56
+            },
+            {
+                "category": "life",
+                "number": 24
+            },
+            {
+                "category": "opinion",
+                "number": 10
+            },
+            {
+                "category": "world",
+                "number": 10
+            },
+            {
+                "category": "business",
+                "number": 7
+            },
+            {
+                "category": "sports",
+                "number": 27
+            },
+            {
+                "category": "entertainment",
+                "number": 23
+            },
+            {
+                "category": "consumer",
+                "number": 4
+            },
+            {
+                "category": "supplement",
+                "number": 24
+            }
+        ]
+    },
+    {
+        "date": 20140517,
+        "totalNum": 247,
+        "result": [
+            {
+                "category": "politics",
+                "number": 7
+            },
+            {
+                "category": "society",
+                "number": 17
+            },
+            {
+                "category": "local",
+                "number": 94
+            },
+            {
+                "category": "life",
+                "number": 25
+            },
+            {
+                "category": "opinion",
+                "number": 12
+            },
+            {
+                "category": "world",
+                "number": 6
+            },
+            {
+                "category": "business",
+                "number": 9
+            },
+            {
+                "category": "sports",
+                "number": 29
+            },
+            {
+                "category": "entertainment",
+                "number": 19
+            },
+            {
+                "category": "consumer",
+                "number": 20
+            },
+            {
+                "category": "supplement",
+                "number": 9
+            }
+        ]
+    },
+    {
+        "date": 20140516,
+        "totalNum": 258,
+        "result": [
+            {
+                "category": "politics",
+                "number": 10
+            },
+            {
+                "category": "society",
+                "number": 7
+            },
+            {
+                "category": "local",
+                "number": 96
+            },
+            {
+                "category": "life",
+                "number": 17
+            },
+            {
+                "category": "opinion",
+                "number": 14
+            },
+            {
+                "category": "world",
+                "number": 7
+            },
+            {
+                "category": "business",
+                "number": 18
+            },
+            {
+                "category": "sports",
+                "number": 26
+            },
+            {
+                "category": "entertainment",
+                "number": 26
+            },
+            {
+                "category": "consumer",
+                "number": 31
+            },
+            {
+                "category": "supplement",
+                "number": 6
+            }
+        ]
+    },
+    {
+        "date": 20140515,
+        "totalNum": 173,
+        "result": [
+            {
+                "category": "politics",
+                "number": 21
+            },
+            {
+                "category": "society",
+                "number": 21
+            },
+            {
+                "category": "local",
+                "number": 12
+            },
+            {
+                "category": "life",
+                "number": 22
+            },
+            {
+                "category": "opinion",
+                "number": 13
+            },
+            {
+                "category": "world",
+                "number": 6
+            },
+            {
+                "category": "business",
+                "number": 22
+            },
+            {
+                "category": "sports",
+                "number": 24
+            },
+            {
+                "category": "entertainment",
+                "number": 21
+            },
+            {
+                "category": "consumer",
+                "number": 10
+            },
+            {
+                "category": "supplement",
+                "number": 1
+            }
+        ]
+    },
+    {
+        "date": 20140514,
+        "totalNum": 203,
+        "result": [
+            {
+                "category": "politics",
+                "number": 11
+            },
+            {
+                "category": "society",
+                "number": 24
+            },
+            {
+                "category": "local",
+                "number": 11
+            },
+            {
+                "category": "life",
+                "number": 24
+            },
+            {
+                "category": "opinion",
+                "number": 13
+            },
+            {
+                "category": "world",
+                "number": 10
+            },
+            {
+                "category": "business",
+                "number": 25
+            },
+            {
+                "category": "sports",
+                "number": 25
+            },
+            {
+                "category": "entertainment",
+                "number": 23
+            },
+            {
+                "category": "consumer",
+                "number": 7
+            },
+            {
+                "category": "supplement",
+                "number": 30
+            }
+        ]
+    },
+    {
+        "date": 20140513,
+        "totalNum": 176,
+        "result": [
+            {
+                "category": "politics",
+                "number": 14
+            },
+            {
+                "category": "society",
+                "number": 24
+            },
+            {
+                "category": "local",
+                "number": 12
+            },
+            {
+                "category": "life",
+                "number": 24
+            },
+            {
+                "category": "opinion",
+                "number": 12
+            },
+            {
+                "category": "world",
+                "number": 12
+            },
+            {
+                "category": "business",
+                "number": 19
+            },
+            {
+                "category": "sports",
+                "number": 20
+            },
+            {
+                "category": "entertainment",
+                "number": 9
+            },
+            {
+                "category": "consumer",
+                "number": 4
+            },
+            {
+                "category": "supplement",
+                "number": 26
+            }
+        ]
+    },
+    {
+        "date": 20140512,
+        "totalNum": 232,
+        "result": [
+            {
+                "category": "politics",
+                "number": 13
+            },
+            {
+                "category": "society",
+                "number": 22
+            },
+            {
+                "category": "local",
+                "number": 61
+            },
+            {
+                "category": "life",
+                "number": 15
+            },
+            {
+                "category": "opinion",
+                "number": 15
+            },
+            {
+                "category": "world",
+                "number": 13
+            },
+            {
+                "category": "business",
+                "number": 24
+            },
+            {
+                "category": "sports",
+                "number": 25
+            },
+            {
+                "category": "entertainment",
+                "number": 15
+            },
+            {
+                "category": "consumer",
+                "number": 4
+            },
+            {
+                "category": "supplement",
+                "number": 25
+            }
+        ]
+    },
+    {
+        "date": 20140511,
+        "totalNum": 205,
+        "result": [
+            {
+                "category": "politics",
+                "number": 8
+            },
+            {
+                "category": "society",
+                "number": 19
+            },
+            {
+                "category": "local",
+                "number": 59
+            },
+            {
+                "category": "life",
+                "number": 18
+            },
+            {
+                "category": "opinion",
+                "number": 11
+            },
+            {
+                "category": "world",
+                "number": 11
+            },
+            {
+                "category": "business",
+                "number": 6
+            },
+            {
+                "category": "sports",
+                "number": 27
+            },
+            {
+                "category": "entertainment",
+                "number": 23
+            },
+            {
+                "category": "consumer",
+                "number": 5
+            },
+            {
+                "category": "supplement",
+                "number": 18
+            }
+        ]
+    },
+    {
+        "date": 20140510,
+        "totalNum": 180,
+        "result": [
+            {
+                "category": "politics",
+                "number": 11
+            },
+            {
+                "category": "society",
+                "number": 20
+            },
+            {
+                "category": "local",
+                "number": 10
+            },
+            {
+                "category": "life",
+                "number": 16
+            },
+            {
+                "category": "opinion",
+                "number": 13
+            },
+            {
+                "category": "world",
+                "number": 10
+            },
+            {
+                "category": "business",
+                "number": 8
+            },
+            {
+                "category": "sports",
+                "number": 27
+            },
+            {
+                "category": "entertainment",
+                "number": 31
+            },
+            {
+                "category": "consumer",
+                "number": 24
+            },
+            {
+                "category": "supplement",
+                "number": 10
+            }
+        ]
+    },
+    {
+        "date": 20140509,
+        "totalNum": 265,
+        "result": [
+            {
+                "category": "politics",
+                "number": 15
+            },
+            {
+                "category": "society",
+                "number": 15
+            },
+            {
+                "category": "local",
+                "number": 95
+            },
+            {
+                "category": "life",
+                "number": 22
+            },
+            {
+                "category": "opinion",
+                "number": 13
+            },
+            {
+                "category": "world",
+                "number": 11
+            },
+            {
+                "category": "business",
+                "number": 23
+            },
+            {
+                "category": "sports",
+                "number": 24
+            },
+            {
+                "category": "entertainment",
+                "number": 21
+            },
+            {
+                "category": "consumer",
+                "number": 20
+            },
+            {
+                "category": "supplement",
+                "number": 6
+            }
+        ]
+    },
+    {
+        "date": 20140508,
+        "totalNum": 199,
+        "result": [
+            {
+                "category": "politics",
+                "number": 21
+            },
+            {
+                "category": "society",
+                "number": 17
+            },
+            {
+                "category": "local",
+                "number": 11
+            },
+            {
+                "category": "life",
+                "number": 31
+            },
+            {
+                "category": "opinion",
+                "number": 11
+            },
+            {
+                "category": "world",
+                "number": 13
+            },
+            {
+                "category": "business",
+                "number": 36
+            },
+            {
+                "category": "sports",
+                "number": 29
+            },
+            {
+                "category": "entertainment",
+                "number": 21
+            },
+            {
+                "category": "consumer",
+                "number": 9
+            }
+        ]
+    },
+    {
+        "date": 20140507,
+        "totalNum": 217,
+        "result": [
+            {
+                "category": "politics",
+                "number": 25
+            },
+            {
+                "category": "society",
+                "number": 24
+            },
+            {
+                "category": "local",
+                "number": 11
+            },
+            {
+                "category": "life",
+                "number": 17
+            },
+            {
+                "category": "opinion",
+                "number": 10
+            },
+            {
+                "category": "world",
+                "number": 12
+            },
+            {
+                "category": "business",
+                "number": 27
+            },
+            {
+                "category": "sports",
+                "number": 23
+            },
+            {
+                "category": "entertainment",
+                "number": 28
+            },
+            {
+                "category": "consumer",
+                "number": 10
+            },
+            {
+                "category": "supplement",
+                "number": 30
+            }
+        ]
+    },
+    {
+        "date": 20140506,
+        "totalNum": 186,
+        "result": [
+            {
+                "category": "politics",
+                "number": 9
+            },
+            {
+                "category": "society",
+                "number": 23
+            },
+            {
+                "category": "local",
+                "number": 10
+            },
+            {
+                "category": "life",
+                "number": 23
+            },
+            {
+                "category": "opinion",
+                "number": 13
+            },
+            {
+                "category": "world",
+                "number": 11
+            },
+            {
+                "category": "business",
+                "number": 26
+            },
+            {
+                "category": "sports",
+                "number": 22
+            },
+            {
+                "category": "entertainment",
+                "number": 16
+            },
+            {
+                "category": "consumer",
+                "number": 4
+            },
+            {
+                "category": "supplement",
+                "number": 29
+            }
+        ]
+    },
+    {
+        "date": 20140505,
+        "totalNum": 228,
+        "result": [
+            {
+                "category": "politics",
+                "number": 10
+            },
+            {
+                "category": "society",
+                "number": 23
+            },
+            {
+                "category": "local",
+                "number": 58
+            },
+            {
+                "category": "life",
+                "number": 24
+            },
+            {
+                "category": "opinion",
+                "number": 18
+            },
+            {
+                "category": "world",
+                "number": 13
+            },
+            {
+                "category": "business",
+                "number": 18
+            },
+            {
+                "category": "sports",
+                "number": 22
+            },
+            {
+                "category": "entertainment",
+                "number": 16
+            },
+            {
+                "category": "consumer",
+                "number": 3
+            },
+            {
+                "category": "supplement",
+                "number": 23
+            }
+        ]
+    },
+    {
+        "date": 20140504,
+        "totalNum": 211,
+        "result": [
+            {
+                "category": "politics",
+                "number": 9
+            },
+            {
+                "category": "society",
+                "number": 18
+            },
+            {
+                "category": "local",
+                "number": 66
+            },
+            {
+                "category": "life",
+                "number": 20
+            },
+            {
+                "category": "opinion",
+                "number": 10
+            },
+            {
+                "category": "world",
+                "number": 8
+            },
+            {
+                "category": "business",
+                "number": 7
+            },
+            {
+                "category": "sports",
+                "number": 28
+            },
+            {
+                "category": "entertainment",
+                "number": 19
+            },
+            {
+                "category": "consumer",
+                "number": 3
+            },
+            {
+                "category": "supplement",
+                "number": 23
+            }
+        ]
+    },
+    {
+        "date": 20140503,
+        "totalNum": 252,
+        "result": [
+            {
+                "category": "politics",
+                "number": 14
+            },
+            {
+                "category": "society",
+                "number": 18
+            },
+            {
+                "category": "local",
+                "number": 88
+            },
+            {
+                "category": "life",
+                "number": 16
+            },
+            {
+                "category": "opinion",
+                "number": 12
+            },
+            {
+                "category": "world",
+                "number": 9
+            },
+            {
+                "category": "business",
+                "number": 11
+            },
+            {
+                "category": "sports",
+                "number": 27
+            },
+            {
+                "category": "entertainment",
+                "number": 26
+            },
+            {
+                "category": "consumer",
+                "number": 22
+            },
+            {
+                "category": "supplement",
+                "number": 9
+            }
+        ]
+    },
+    {
+        "date": 20140502,
+        "totalNum": 209,
+        "result": [
+            {
+                "category": "politics",
+                "number": 12
+            },
+            {
+                "category": "society",
+                "number": 6
+            },
+            {
+                "category": "local",
+                "number": 67
+            },
+            {
+                "category": "life",
+                "number": 24
+            },
+            {
+                "category": "opinion",
+                "number": 13
+            },
+            {
+                "category": "world",
+                "number": 9
+            },
+            {
+                "category": "business",
+                "number": 4
+            },
+            {
+                "category": "sports",
+                "number": 23
+            },
+            {
+                "category": "entertainment",
+                "number": 22
+            },
+            {
+                "category": "consumer",
+                "number": 23
+            },
+            {
+                "category": "supplement",
+                "number": 6
+            }
+        ]
+    },
+    {
+        "date": 20140501,
+        "totalNum": 182,
+        "result": [
+            {
+                "category": "politics",
+                "number": 14
+            },
+            {
+                "category": "society",
+                "number": 24
+            },
+            {
+                "category": "local",
+                "number": 10
+            },
+            {
+                "category": "life",
+                "number": 30
+            },
+            {
+                "category": "opinion",
+                "number": 13
+            },
+            {
+                "category": "world",
+                "number": 10
+            },
+            {
+                "category": "business",
+                "number": 27
+            },
+            {
+                "category": "sports",
+                "number": 21
+            },
+            {
+                "category": "entertainment",
+                "number": 22
+            },
+            {
+                "category": "consumer",
+                "number": 10
+            },
+            {
+                "category": "supplement",
+                "number": 1
+            }
+        ]
+    }
+]

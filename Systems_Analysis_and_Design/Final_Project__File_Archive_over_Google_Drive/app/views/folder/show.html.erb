@@ -1,0 +1,79 @@
+<div class="panel panel-default">
+  <% if @current_folder %>
+  <div class="panel-heading">
+    <%= @owner.name %> / <%= @current_folder.semester %> / <%= @current_folder.get_root.name %>
+  </div>
+  <% end %>
+  <!-- /.panel-heading -->
+  <div class="panel-body">
+    <% if @current_folder %>
+    <%= link_to '<i class="fa fa-angle-double-left"></i> Go back'.html_safe, @current_folder.parent_folder_uri_string , :class=>"btn btn-outline btn-primary", :style=>'margin:30px;' %>
+    <% end %>
+    <% if current_user  && @current_folder && @current_folder.user == current_user %>
+    <%= link_to "新增作業/Project", app_folder_new_path(@current_folder) , :class=>"btn btn-outline btn-primary", :style=>'margin:30px;'%>
+    <% end %>
+    <% if @current_folder && current_user && ( @current_folder.get_root.acl.include?(current_user.email) || @current_folder.user == current_user )  %>
+    <%= link_to '上傳檔案' , app_file_new_path(@current_folder), :class=>"btn btn-outline btn-primary", :style=>'margin:30px;' %>
+    <% end %>
+    <div class="dataTable_wrapper">
+      <table class="table table-striped table-bordered table-hover" id="dataTables-example">
+        <thead>
+          <tr>
+            <th>名稱</th>
+            <th>開課學期</th>
+            <th>建立時間</th>
+            <th>上傳者</th>
+            <th>大小</th>
+            <th>隱私</th>
+            <% if @current_folder && @current_folder.user == current_user %>
+            <th>動作</th>
+            <% end %>
+          </tr>
+        </thead>
+        <tbody>
+          <% @sub_folders.each do |folder|%>
+          <tr>
+            <td><i class="fa fa-folder"></i>  <%= link_to folder.name, folder.url_string %></td>
+            <td><%= folder.semester %></td>
+            <td><%= folder.created_at %></td>
+            <td><i class="fa fa-times"></i></td>
+            <td><i class="fa fa-times"></i></td>
+            <td><%= folder.status_text %></td>
+            <% if @current_folder && @current_folder.user == current_user %>
+            <td class="center">
+              <%= link_to '刪除', folder_destroy_path(folder.id), :class=>"btn btn-outline btn-danger", method: :delete %>
+              <%= link_to '編輯內容', folder_edit_path(folder.id), :class=>"btn btn-outline btn-primary"%>
+              <%= link_to '設為公開', folder.change_status_url('public'), method: :post ,:class=>"btn btn-outline btn-primary" if !folder.is_public %>
+              <%= link_to '設為僅由連結公開', folder.change_status_url('link_open'), method: :post,:class=>"btn btn-outline btn-primary"  if !folder.is_link_open %>
+              <%= link_to '設為不公開', folder.change_status_url('private'), method: :post ,:class=>"btn btn-outline btn-primary" if !folder.is_private %>
+            </td>
+            <% end %>
+          </tr>
+          <% end %>
+          <% @files.each do |file|%>
+          <tr>
+            <td><i class="fa fa-file"></i>  <%= link_to file.file_obj, file.download_url %></td>
+            <td><%= file.parent_folder.semester %></td>
+            <td><%= file.created_at %></td>
+            <td><%= file.uploader.name %></td>
+            <td><%= file.size %></td>
+            <td><%= file.status_text %></td>
+            <% if @current_folder && @current_folder.user == current_user %>
+            <td class="center">
+              <%= link_to '刪除', file.destroy_url, :class=>"btn btn-outline btn-danger", method: :delete %>
+              <%= link_to '設為公開', file.change_status_url('public'), method: :post ,:class=>"btn btn-outline btn-primary" if !file.is_public %>
+              <%= link_to '設為僅由連結公開', file.change_status_url('link_open'), method: :post,:class=>"btn btn-outline btn-primary"  if !file.is_link_open %>
+              <%= link_to '設為不公開', file.change_status_url('private'), method: :post ,:class=>"btn btn-outline btn-primary" if !file.is_private %>
+              <%= link_to '收藏' , file.archive_url, method: :post,:class=>"btn btn-success" if false %>
+            </td>
+            <% end %>
+          </tr>
+          <% end %>
+        </tbody>
+      </table>
+    </div>
+    <!-- /.table-responsive -->
+  </div>
+  <!-- /.panel-body -->
+</div>
+</ul>

@@ -1,0 +1,92 @@
+html{
+	height:100%;
+}
+body{
+	background: url("//www.designbolts.com/wp-content/uploads/2014/03/Light-Blue-blur-background1.jpg");
+	background-attachment:fixed;
+	background-size: cover;
+	height: 100%;
+	margin: 0;
+	width: 100%;
+}
+#logo{
+	position: fixed;
+	margin: 20px 30px;
+}
+#logo:hover{
+	cursor: pointer;
+}
+#logo img{
+	height: 70px;
+	width: 70px;
+}
+#logo p{
+	color: white;
+	margin-left: 5px;
+	font-style: bold;
+}
+.home{
+	width:100%;
+	height:100%;
+}
+.checkin{
+	width:100%;
+	height:100%;
+	text-align: center;
+	margin-top: 100px;
+	padding-top: 50px;
+
+}
+.event{
+	width:100%;
+	height:100%;
+	text-align: center;
+	padding-top: 50px;
+}
+.page{
+	width:100%;
+	height:100%;
+	text-align: center;
+	padding-top: 50px;
+}
+#user-photo{
+	text-align: center;
+}
+#user-photo img{
+	border-radius: 100%;
+	border: 7px white solid;
+	padding: 3px;
+	margin-top: 50px;
+}
+#user-name{
+	text-align: center;
+}
+#user-about{
+	margin: 50px auto 60px auto;
+	padding: 10px;
+	height: 170px;
+	width: 600px;
+	background-color: rgba(255, 255, 255, 0.5);
+	text-align: center;
+}
+.menu{
+	text-align: center;
+}
+.menu div{
+	border-radius: 200px;
+	width: 128px;
+	height: 128px;
+	background-color: rgba(255, 255, 255, 0.5);
+	display: inline-block;
+	margin:0 45px 0 45px;
+}
+.menu div img{
+	margin-top: 15px;
+}
+.menu div p{
+	margin-top: 5px;
+}
+.menu div:hover{
+	background-color: rgba(255, 255, 255, 0.8);
+	transition: all 0.4s;
+}

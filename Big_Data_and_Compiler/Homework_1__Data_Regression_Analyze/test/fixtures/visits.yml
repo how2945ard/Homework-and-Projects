@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  client: 1
+  area: 1
+  time: 2015-04-03
+  amount: 1
+  client_text: MyString
+  area_text: MyString
+  time_parsed: 1
+
+two:
+  client: 1
+  area: 1
+  time: 2015-04-03
+  amount: 1
+  client_text: MyString
+  area_text: MyString
+  time_parsed: 1

@@ -1,0 +1,93 @@
+<style>
+    body{
+        height: 100%;
+    }
+    .logo_else{
+        text-align: center;
+        padding-top: 20%;
+    }
+    .logo_else img{
+        width: 450px;
+    }
+    .login{
+        text-align: center;
+        margin-top: 16%;
+    }
+    .login img{
+        width: 250px;
+    }
+    .menu{
+        padding: 30px;
+    }
+    #logo{
+        position: fixed;
+        margin: 30px 30px;
+        left: 0;
+    }
+    #logo img{
+        height: 50px;
+        width: auto;
+    }
+    #logo:hover{
+        cursor: default;
+    }
+    .home{
+        height: 100%;
+    }
+    #user-photo{
+        margin-top: 2%;
+    }
+    #user-photo img{
+        width: 180px;
+        margin-top: 0;
+    }
+    .logout{
+        text-align: right;
+        padding: 30px 30px 0 0 ;
+    }
+    .logout a{
+        color: white;
+    }
+    #user-about {
+        margin: 5% auto;
+        height: 10%;
+    }
+
+</style>
+<body>
+    <%if current_user  %>
+        <div id="logo">
+            <div style="display:inline-block;"><img src="/images/dbproject.png"></div>
+        </div>
+        <div class="logout">
+                <a href="/logout">Log out</a>
+        </div>
+        <div class="home" id="home">
+	    	<div id="user-photo">
+    			<img src="<%= current_user.pic %>">
+    		</div>
+    		<div id="user-name">
+    			<h1><%= current_user.name %></h1>
+    		</div>
+    		<div id="user-about">
+    			<% if current_user.schools %><i class="icon-briefcase"></i><p>就讀<%= current_user.education %></p><% end %>
+    			<% if current_user.location %><i class="icon-map-marker"></i><p>現居<%= current_user.location  %></p><% end %>
+    			<% if current_user.hometown %><i class="icon-home"></i><p>來自<%= current_user.hometown  %></p><% end %>
+            </div>
+            <div class="menu">
+                <a href="/place"><div id="nav1"><img src="/images/map.png"><p>我的打卡紀錄</p></div></a>
+                <a href="/event"><div id="nav2"><img src="/images/event.png"><p>我的活動紀錄</p></div></a>
+                <a href="/like"><div id="nav3"><img src="/images/page.png"><p>我的粉絲專頁</p></div></a>
+            </div>
+        </div>
+    <% else %>
+<!--         <a href="/access_token">ACCESS TOKEN</a> -->
+        <div class="logo_else">
+            <img src="/images/dbproject.png"/>
+        </div>
+        <div class="login">
+            <a href="/access_token"><img src="/images/fb_login_button.png"></a>
+        </div>
+
+    <% end %>
+</body>

@@ -1,0 +1,1266 @@
+[
+    {
+        "date": 20140526,
+        "totalNum": 207,
+        "result": [
+            {
+                "category": "焦點要聞",
+                "number": 27
+            },
+            {
+                "category": "生活新聞",
+                "number": 5
+            },
+            {
+                "category": "社會新聞",
+                "number": 14
+            },
+            {
+                "category": "兩岸國際",
+                "number": 14
+            },
+            {
+                "category": "時論廣場",
+                "number": 13
+            },
+            {
+                "category": "藝文副刊",
+                "number": 9
+            },
+            {
+                "category": "地方新聞",
+                "number": 47
+            },
+            {
+                "category": "運動天地",
+                "number": 14
+            },
+            {
+                "category": "娛樂新聞",
+                "number": 33
+            },
+            {
+                "category": "時尚消費",
+                "number": 31
+            }
+        ]
+    },
+    {
+        "date": 20140525,
+        "totalNum": 177,
+        "result": [
+            {
+                "category": "焦點要聞",
+                "number": 27
+            },
+            {
+                "category": "生活新聞",
+                "number": 5
+            },
+            {
+                "category": "社會新聞",
+                "number": 7
+            },
+            {
+                "category": "兩岸國際",
+                "number": 11
+            },
+            {
+                "category": "時論廣場",
+                "number": 7
+            },
+            {
+                "category": "藝文副刊",
+                "number": 5
+            },
+            {
+                "category": "地方新聞",
+                "number": 47
+            },
+            {
+                "category": "運動天地",
+                "number": 13
+            },
+            {
+                "category": "娛樂新聞",
+                "number": 30
+            },
+            {
+                "category": "旺來報",
+                "number": 25
+            }
+        ]
+    },
+    {
+        "date": 20140524,
+        "totalNum": 271,
+        "result": [
+            {
+                "category": "焦點要聞",
+                "number": 31
+            },
+            {
+                "category": "生活新聞",
+                "number": 6
+            },
+            {
+                "category": "社會新聞",
+                "number": 13
+            },
+            {
+                "category": "兩岸國際",
+                "number": 12
+            },
+            {
+                "category": "時論廣場",
+                "number": 6
+            },
+            {
+                "category": "藝文副刊",
+                "number": 5
+            },
+            {
+                "category": "財經焦點",
+                "number": 12
+            },
+            {
+                "category": "地方新聞",
+                "number": 106
+            },
+            {
+                "category": "運動天地",
+                "number": 14
+            },
+            {
+                "category": "娛樂新聞",
+                "number": 28
+            },
+            {
+                "category": "旺到報",
+                "number": 38
+            }
+        ]
+    },
+    {
+        "date": 20140523,
+        "totalNum": 264,
+        "result": [
+            {
+                "category": "焦點要聞",
+                "number": 21
+            },
+            {
+                "category": "生活新聞",
+                "number": 15
+            },
+            {
+                "category": "社會新聞",
+                "number": 12
+            },
+            {
+                "category": "兩岸國際",
+                "number": 11
+            },
+            {
+                "category": "時論廣場",
+                "number": 14
+            },
+            {
+                "category": "藝文副刊",
+                "number": 11
+            },
+            {
+                "category": "財經焦點",
+                "number": 16
+            },
+            {
+                "category": "地方新聞",
+                "number": 97
+            },
+            {
+                "category": "運動天地",
+                "number": 14
+            },
+            {
+                "category": "娛樂新聞",
+                "number": 32
+            },
+            {
+                "category": "時尚消費",
+                "number": 21
+            }
+        ]
+    },
+    {
+        "date": 20140522,
+        "totalNum": 277,
+        "result": [
+            {
+                "category": "焦點要聞",
+                "number": 48
+            },
+            {
+                "category": "生活新聞",
+                "number": 6
+            },
+            {
+                "category": "社會新聞",
+                "number": 12
+            },
+            {
+                "category": "時論廣場",
+                "number": 13
+            },
+            {
+                "category": "藝文副刊",
+                "number": 11
+            },
+            {
+                "category": "財經焦點",
+                "number": 14
+            },
+            {
+                "category": "地方新聞",
+                "number": 113
+            },
+            {
+                "category": "運動天地",
+                "number": 13
+            },
+            {
+                "category": "娛樂新聞",
+                "number": 28
+            },
+            {
+                "category": "時尚消費",
+                "number": 19
+            }
+        ]
+    },
+    {
+        "date": 20140521,
+        "totalNum": 271,
+        "result": [
+            {
+                "category": "焦點要聞",
+                "number": 23
+            },
+            {
+                "category": "生活新聞",
+                "number": 12
+            },
+            {
+                "category": "社會新聞",
+                "number": 11
+            },
+            {
+                "category": "兩岸國際",
+                "number": 14
+            },
+            {
+                "category": "時論廣場",
+                "number": 14
+            },
+            {
+                "category": "藝文副刊",
+                "number": 11
+            },
+            {
+                "category": "財經焦點",
+                "number": 12
+            },
+            {
+                "category": "地方新聞",
+                "number": 114
+            },
+            {
+                "category": "運動天地",
+                "number": 13
+            },
+            {
+                "category": "娛樂新聞",
+                "number": 27
+            },
+            {
+                "category": "時尚消費",
+                "number": 20
+            }
+        ]
+    },
+    {
+        "date": 20140520,
+        "totalNum": 286,
+        "result": [
+            {
+                "category": "焦點要聞",
+                "number": 26
+            },
+            {
+                "category": "生活新聞",
+                "number": 6
+            },
+            {
+                "category": "社會新聞",
+                "number": 12
+            },
+            {
+                "category": "兩岸國際",
+                "number": 11
+            },
+            {
+                "category": "時論廣場",
+                "number": 14
+            },
+            {
+                "category": "藝文副刊",
+                "number": 10
+            },
+            {
+                "category": "財經焦點",
+                "number": 13
+            },
+            {
+                "category": "地方新聞",
+                "number": 133
+            },
+            {
+                "category": "運動天地",
+                "number": 12
+            },
+            {
+                "category": "娛樂新聞",
+                "number": 30
+            },
+            {
+                "category": "時尚消費",
+                "number": 19
+            }
+        ]
+    },
+    {
+        "date": 20140519,
+        "totalNum": 214,
+        "result": [
+            {
+                "category": "焦點要聞",
+                "number": 22
+            },
+            {
+                "category": "生活新聞",
+                "number": 6
+            },
+            {
+                "category": "社會新聞",
+                "number": 12
+            },
+            {
+                "category": "兩岸國際",
+                "number": 12
+            },
+            {
+                "category": "時論廣場",
+                "number": 13
+            },
+            {
+                "category": "藝文副刊",
+                "number": 10
+            },
+            {
+                "category": "地方新聞",
+                "number": 51
+            },
+            {
+                "category": "運動天地",
+                "number": 17
+            },
+            {
+                "category": "娛樂新聞",
+                "number": 34
+            },
+            {
+                "category": "時尚消費",
+                "number": 37
+            }
+        ]
+    },
+    {
+        "date": 20140518,
+        "totalNum": 182,
+        "result": [
+            {
+                "category": "焦點要聞",
+                "number": 24
+            },
+            {
+                "category": "生活新聞",
+                "number": 6
+            },
+            {
+                "category": "社會新聞",
+                "number": 9
+            },
+            {
+                "category": "兩岸國際",
+                "number": 12
+            },
+            {
+                "category": "時論廣場",
+                "number": 8
+            },
+            {
+                "category": "藝文副刊",
+                "number": 4
+            },
+            {
+                "category": "地方新聞",
+                "number": 50
+            },
+            {
+                "category": "運動天地",
+                "number": 16
+            },
+            {
+                "category": "娛樂新聞",
+                "number": 29
+            },
+            {
+                "category": "旺來報",
+                "number": 24
+            }
+        ]
+    },
+    {
+        "date": 20140517,
+        "totalNum": 266,
+        "result": [
+            {
+                "category": "焦點要聞",
+                "number": 24
+            },
+            {
+                "category": "生活新聞",
+                "number": 9
+            },
+            {
+                "category": "社會新聞",
+                "number": 11
+            },
+            {
+                "category": "兩岸國際",
+                "number": 12
+            },
+            {
+                "category": "時論廣場",
+                "number": 6
+            },
+            {
+                "category": "藝文副刊",
+                "number": 5
+            },
+            {
+                "category": "財經焦點",
+                "number": 9
+            },
+            {
+                "category": "地方新聞",
+                "number": 108
+            },
+            {
+                "category": "運動天地",
+                "number": 16
+            },
+            {
+                "category": "娛樂新聞",
+                "number": 30
+            },
+            {
+                "category": "旺到報",
+                "number": 36
+            }
+        ]
+    },
+    {
+        "date": 20140516,
+        "totalNum": 260,
+        "result": [
+            {
+                "category": "焦點要聞",
+                "number": 24
+            },
+            {
+                "category": "生活新聞",
+                "number": 9
+            },
+            {
+                "category": "社會新聞",
+                "number": 9
+            },
+            {
+                "category": "兩岸國際",
+                "number": 11
+            },
+            {
+                "category": "時論廣場",
+                "number": 13
+            },
+            {
+                "category": "藝文副刊",
+                "number": 11
+            },
+            {
+                "category": "財經焦點",
+                "number": 13
+            },
+            {
+                "category": "地方新聞",
+                "number": 106
+            },
+            {
+                "category": "運動天地",
+                "number": 14
+            },
+            {
+                "category": "娛樂新聞",
+                "number": 33
+            },
+            {
+                "category": "時尚消費",
+                "number": 17
+            }
+        ]
+    },
+    {
+        "date": 20140515,
+        "totalNum": 273,
+        "result": [
+            {
+                "category": "焦點要聞",
+                "number": 42
+            },
+            {
+                "category": "生活新聞",
+                "number": 9
+            },
+            {
+                "category": "社會新聞",
+                "number": 10
+            },
+            {
+                "category": "兩岸國際",
+                "number": 5
+            },
+            {
+                "category": "時論廣場",
+                "number": 13
+            },
+            {
+                "category": "藝文副刊",
+                "number": 10
+            },
+            {
+                "category": "財經焦點",
+                "number": 12
+            },
+            {
+                "category": "地方新聞",
+                "number": 108
+            },
+            {
+                "category": "運動天地",
+                "number": 13
+            },
+            {
+                "category": "娛樂新聞",
+                "number": 30
+            },
+            {
+                "category": "時尚消費",
+                "number": 21
+            }
+        ]
+    },
+    {
+        "date": 20140514,
+        "totalNum": 269,
+        "result": [
+            {
+                "category": "焦點要聞",
+                "number": 25
+            },
+            {
+                "category": "生活新聞",
+                "number": 17
+            },
+            {
+                "category": "社會新聞",
+                "number": 12
+            },
+            {
+                "category": "兩岸國際",
+                "number": 10
+            },
+            {
+                "category": "時論廣場",
+                "number": 13
+            },
+            {
+                "category": "藝文副刊",
+                "number": 10
+            },
+            {
+                "category": "財經焦點",
+                "number": 12
+            },
+            {
+                "category": "地方新聞",
+                "number": 107
+            },
+            {
+                "category": "運動天地",
+                "number": 14
+            },
+            {
+                "category": "娛樂新聞",
+                "number": 31
+            },
+            {
+                "category": "時尚消費",
+                "number": 18
+            }
+        ]
+    },
+    {
+        "date": 20140513,
+        "totalNum": 294,
+        "result": [
+            {
+                "category": "焦點要聞",
+                "number": 26
+            },
+            {
+                "category": "生活新聞",
+                "number": 11
+            },
+            {
+                "category": "社會新聞",
+                "number": 8
+            },
+            {
+                "category": "兩岸國際",
+                "number": 11
+            },
+            {
+                "category": "時論廣場",
+                "number": 13
+            },
+            {
+                "category": "藝文副刊",
+                "number": 13
+            },
+            {
+                "category": "財經焦點",
+                "number": 11
+            },
+            {
+                "category": "地方新聞",
+                "number": 134
+            },
+            {
+                "category": "運動天地",
+                "number": 13
+            },
+            {
+                "category": "娛樂新聞",
+                "number": 35
+            },
+            {
+                "category": "時尚消費",
+                "number": 19
+            }
+        ]
+    },
+    {
+        "date": 20140512,
+        "totalNum": 217,
+        "result": [
+            {
+                "category": "焦點要聞",
+                "number": 25
+            },
+            {
+                "category": "生活新聞",
+                "number": 12
+            },
+            {
+                "category": "社會新聞",
+                "number": 9
+            },
+            {
+                "category": "兩岸國際",
+                "number": 11
+            },
+            {
+                "category": "時論廣場",
+                "number": 13
+            },
+            {
+                "category": "藝文副刊",
+                "number": 10
+            },
+            {
+                "category": "地方新聞",
+                "number": 49
+            },
+            {
+                "category": "運動天地",
+                "number": 16
+            },
+            {
+                "category": "娛樂新聞",
+                "number": 33
+            },
+            {
+                "category": "時尚消費",
+                "number": 39
+            }
+        ]
+    },
+    {
+        "date": 20140511,
+        "totalNum": 184,
+        "result": [
+            {
+                "category": "焦點要聞",
+                "number": 28
+            },
+            {
+                "category": "生活新聞",
+                "number": 5
+            },
+            {
+                "category": "社會新聞",
+                "number": 14
+            },
+            {
+                "category": "兩岸國際",
+                "number": 11
+            },
+            {
+                "category": "時論廣場",
+                "number": 7
+            },
+            {
+                "category": "藝文副刊",
+                "number": 5
+            },
+            {
+                "category": "地方新聞",
+                "number": 51
+            },
+            {
+                "category": "運動天地",
+                "number": 13
+            },
+            {
+                "category": "娛樂新聞",
+                "number": 29
+            },
+            {
+                "category": "旺來報",
+                "number": 21
+            }
+        ]
+    },
+    {
+        "date": 20140510,
+        "totalNum": 269,
+        "result": [
+            {
+                "category": "焦點要聞",
+                "number": 19
+            },
+            {
+                "category": "生活新聞",
+                "number": 12
+            },
+            {
+                "category": "社會新聞",
+                "number": 13
+            },
+            {
+                "category": "兩岸國際",
+                "number": 12
+            },
+            {
+                "category": "時論廣場",
+                "number": 6
+            },
+            {
+                "category": "藝文副刊",
+                "number": 5
+            },
+            {
+                "category": "財經焦點",
+                "number": 14
+            },
+            {
+                "category": "地方新聞",
+                "number": 104
+            },
+            {
+                "category": "運動天地",
+                "number": 17
+            },
+            {
+                "category": "娛樂新聞",
+                "number": 35
+            },
+            {
+                "category": "旺到報",
+                "number": 32
+            }
+        ]
+    },
+    {
+        "date": 20140509,
+        "totalNum": 271,
+        "result": [
+            {
+                "category": "焦點要聞",
+                "number": 27
+            },
+            {
+                "category": "生活新聞",
+                "number": 8
+            },
+            {
+                "category": "社會新聞",
+                "number": 18
+            },
+            {
+                "category": "兩岸國際",
+                "number": 12
+            },
+            {
+                "category": "時論廣場",
+                "number": 15
+            },
+            {
+                "category": "藝文副刊",
+                "number": 9
+            },
+            {
+                "category": "財經焦點",
+                "number": 15
+            },
+            {
+                "category": "地方新聞",
+                "number": 101
+            },
+            {
+                "category": "運動天地",
+                "number": 12
+            },
+            {
+                "category": "娛樂新聞",
+                "number": 31
+            },
+            {
+                "category": "時尚消費",
+                "number": 23
+            }
+        ]
+    },
+    {
+        "date": 20140508,
+        "totalNum": 277,
+        "result": [
+            {
+                "category": "焦點要聞",
+                "number": 29
+            },
+            {
+                "category": "生活新聞",
+                "number": 12
+            },
+            {
+                "category": "社會新聞",
+                "number": 12
+            },
+            {
+                "category": "兩岸國際",
+                "number": 12
+            },
+            {
+                "category": "時論廣場",
+                "number": 13
+            },
+            {
+                "category": "藝文副刊",
+                "number": 10
+            },
+            {
+                "category": "財經焦點",
+                "number": 14
+            },
+            {
+                "category": "地方新聞",
+                "number": 112
+            },
+            {
+                "category": "運動天地",
+                "number": 12
+            },
+            {
+                "category": "娛樂新聞",
+                "number": 31
+            },
+            {
+                "category": "時尚消費",
+                "number": 20
+            }
+        ]
+    },
+    {
+        "date": 20140507,
+        "totalNum": 259,
+        "result": [
+            {
+                "category": "焦點要聞",
+                "number": 22
+            },
+            {
+                "category": "生活新聞",
+                "number": 5
+            },
+            {
+                "category": "社會新聞",
+                "number": 15
+            },
+            {
+                "category": "兩岸國際",
+                "number": 10
+            },
+            {
+                "category": "時論廣場",
+                "number": 13
+            },
+            {
+                "category": "藝文副刊",
+                "number": 9
+            },
+            {
+                "category": "財經焦點",
+                "number": 12
+            },
+            {
+                "category": "地方新聞",
+                "number": 110
+            },
+            {
+                "category": "運動天地",
+                "number": 14
+            },
+            {
+                "category": "娛樂新聞",
+                "number": 31
+            },
+            {
+                "category": "時尚消費",
+                "number": 18
+            }
+        ]
+    },
+    {
+        "date": 20140506,
+        "totalNum": 299,
+        "result": [
+            {
+                "category": "焦點要聞",
+                "number": 23
+            },
+            {
+                "category": "生活新聞",
+                "number": 14
+            },
+            {
+                "category": "社會新聞",
+                "number": 13
+            },
+            {
+                "category": "兩岸國際",
+                "number": 12
+            },
+            {
+                "category": "時論廣場",
+                "number": 14
+            },
+            {
+                "category": "藝文副刊",
+                "number": 11
+            },
+            {
+                "category": "財經焦點",
+                "number": 12
+            },
+            {
+                "category": "地方新聞",
+                "number": 135
+            },
+            {
+                "category": "運動天地",
+                "number": 14
+            },
+            {
+                "category": "娛樂新聞",
+                "number": 30
+            },
+            {
+                "category": "時尚消費",
+                "number": 21
+            }
+        ]
+    },
+    {
+        "date": 20140505,
+        "totalNum": 207,
+        "result": [
+            {
+                "category": "焦點要聞",
+                "number": 26
+            },
+            {
+                "category": "生活新聞",
+                "number": 6
+            },
+            {
+                "category": "社會新聞",
+                "number": 13
+            },
+            {
+                "category": "兩岸國際",
+                "number": 11
+            },
+            {
+                "category": "時論廣場",
+                "number": 13
+            },
+            {
+                "category": "藝文副刊",
+                "number": 11
+            },
+            {
+                "category": "地方新聞",
+                "number": 50
+            },
+            {
+                "category": "運動天地",
+                "number": 16
+            },
+            {
+                "category": "娛樂新聞",
+                "number": 31
+            },
+            {
+                "category": "時尚消費",
+                "number": 30
+            }
+        ]
+    },
+    {
+        "date": 20140504,
+        "totalNum": 205,
+        "result": [
+            {
+                "category": "焦點要聞",
+                "number": 25
+            },
+            {
+                "category": "生活新聞",
+                "number": 7
+            },
+            {
+                "category": "社會新聞",
+                "number": 14
+            },
+            {
+                "category": "兩岸國際",
+                "number": 11
+            },
+            {
+                "category": "時論廣場",
+                "number": 7
+            },
+            {
+                "category": "藝文副刊",
+                "number": 5
+            },
+            {
+                "category": "地方新聞",
+                "number": 49
+            },
+            {
+                "category": "運動天地",
+                "number": 15
+            },
+            {
+                "category": "娛樂新聞",
+                "number": 34
+            },
+            {
+                "category": "旺來報",
+                "number": 38
+            }
+        ]
+    },
+    {
+        "date": 20140503,
+        "totalNum": 264,
+        "result": [
+            {
+                "category": "焦點要聞",
+                "number": 15
+            },
+            {
+                "category": "生活新聞",
+                "number": 12
+            },
+            {
+                "category": "社會新聞",
+                "number": 12
+            },
+            {
+                "category": "兩岸國際",
+                "number": 13
+            },
+            {
+                "category": "時論廣場",
+                "number": 6
+            },
+            {
+                "category": "藝文副刊",
+                "number": 6
+            },
+            {
+                "category": "財經焦點",
+                "number": 13
+            },
+            {
+                "category": "地方新聞",
+                "number": 106
+            },
+            {
+                "category": "運動天地",
+                "number": 14
+            },
+            {
+                "category": "娛樂新聞",
+                "number": 33
+            },
+            {
+                "category": "旺到報",
+                "number": 34
+            }
+        ]
+    },
+    {
+        "date": 20140502,
+        "totalNum": 277,
+        "result": [
+            {
+                "category": "焦點要聞",
+                "number": 27
+            },
+            {
+                "category": "生活新聞",
+                "number": 7
+            },
+            {
+                "category": "社會新聞",
+                "number": 19
+            },
+            {
+                "category": "兩岸國際",
+                "number": 12
+            },
+            {
+                "category": "時論廣場",
+                "number": 14
+            },
+            {
+                "category": "藝文副刊",
+                "number": 11
+            },
+            {
+                "category": "財經焦點",
+                "number": 5
+            },
+            {
+                "category": "地方新聞",
+                "number": 117
+            },
+            {
+                "category": "運動天地",
+                "number": 17
+            },
+            {
+                "category": "娛樂新聞",
+                "number": 28
+            },
+            {
+                "category": "時尚消費",
+                "number": 20
+            }
+        ]
+    },
+    {
+        "date": 20140501,
+        "totalNum": 280,
+        "result": [
+            {
+                "category": "焦點要聞",
+                "number": 17
+            },
+            {
+                "category": "生活新聞",
+                "number": 14
+            },
+            {
+                "category": "社會新聞",
+                "number": 19
+            },
+            {
+                "category": "兩岸國際",
+                "number": 12
+            },
+            {
+                "category": "時論廣場",
+                "number": 13
+            },
+            {
+                "category": "藝文副刊",
+                "number": 10
+            },
+            {
+                "category": "財經焦點",
+                "number": 13
+            },
+            {
+                "category": "地方新聞",
+                "number": 120
+            },
+            {
+                "category": "運動天地",
+                "number": 13
+            },
+            {
+                "category": "娛樂新聞",
+                "number": 32
+            },
+            {
+                "category": "時尚消費",
+                "number": 17
+            }
+        ]
+    }
+]

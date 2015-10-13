@@ -1,0 +1,54 @@
+<style>
+	#user-photo{
+	text-align: center;
+	}
+	#user-photo img{
+		border-radius: 200px;
+		border: 5px white solid;
+		padding: 3px;
+		margin-top: 30px;
+		width: 100px;
+	}
+	h1,h3{
+		text-align: center;
+	}
+	.map{
+		text-align: center;
+	}
+	.back .button{
+		color: white;
+	}
+	.back{
+		position: relative;
+		margin: 20px;
+	}
+	.loading{
+    	text-align: center;
+  	}
+  	.gm-style-iw{
+  		min-width: 200px;
+		min-height: 200px;
+		overflow: none;
+  	}
+  	.map-container{
+
+  	}
+</style>
+
+<div class="back"><a class="button" href="/"><i class="icon-chevron-left icon-white"></i>Back to home</a></div>
+<div ng-if='!all' ng-cloak ng-hide='!done' class="back"><a class="button" href="/places"><i class="icon-chevron-left icon-white"></i>所有人的打卡紀錄</a></div>
+<div ng-if='all' ng-cloak ng-hide='!done' class="back"><a class="button" href="/place"><i class="icon-chevron-left icon-white"></i>我的打卡紀錄</a></div>
+<% if current_user %>
+  <div id="user-photo">
+      <img src="<%= current_user.pic %>">
+  </div>
+<% end %>
+<h1 ng-if='!all' ng-cloak ng-hide='!done'>我的打卡紀錄</h1>
+<h1 ng-if='all' ng-cloak ng-hide='!done'>所有人的打卡紀錄</h1>
+<h3 ng-hide='!done' ng-cloak>打卡紀錄數量：<span ng-bind='places.length'></span></h3>
+<h3 ng-hide='!done' ng-cloak>在國外的打卡數：<span ng-bind='abroad.length'></span></h3>
+<div class="loading"><img src="/images/loading-bars.svg" width="80" height="80" ng-hide='done'/></div>
+</br>
+<div class="map" ng-hide='!done' ng-cloak>
+  <div id="map" style='height: 500px; width:100%;'></div>
+</div>

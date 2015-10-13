@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= @title || "DB" %></title>
+    <%= stylesheet_link_tag    "application", media: "all" %>
+    <link href="//fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" type="text/css">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="//fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" type="text/css">
+    <%= csrf_meta_tags %>
+  </head>
+  <body ng-app="app" ng-controller="index">
+    <div ng-controller='<%= @controller || "index" %>'>
+      <%= yield %>
+    </div>
+    <div class="footer">
+      <a href="//www.iubenda.com/privacy-policy/556600" class="iubenda-white iubenda-embed" title="Privacy Policy">Privacy Policy</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src = "//cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
+    </div>
+    <%= javascript_include_tag "application" %>
+    <%= javascript_include_tag "angular_app" %>
+    <script src="//maps.google.com/maps/api/js?v=3.13&amp;sensor=false&amp;libraries=geometry&amp;language=zh-tw"></script>
+    <script src='//google-maps-utility-library-v3.googlecode.com/svn/tags/markerclustererplus/2.0.14/src/markerclusterer_packed.js'></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.15.0/TweenMax.min.js"></script>
+  </body>
+</html>

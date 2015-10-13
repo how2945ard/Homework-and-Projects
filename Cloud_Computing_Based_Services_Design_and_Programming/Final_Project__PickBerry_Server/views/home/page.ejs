@@ -1,0 +1,23 @@
+<div class="container">
+  <header>
+    <h1><%=news.title%></h1>
+  </header>
+  <hr/>
+  <nav>
+    <ul>
+      <li><a href="/">home</a></li>
+      <li><a href="/news/form">create</a></li>
+      <li><a href="/about">about</a></li>
+      <li><a href="/news/destroy/<%= news.id %>">destroy</a></li>
+    </ul>
+  </nav>
+  <article>
+    <div class="update">
+      <a href="/news/update/<%= news.id %>">update this</a>
+    </div>
+    <div class="updateDate">
+      <%= news.updatedAt %>
+    </div>
+  </article>
+  <hr>
+</div>

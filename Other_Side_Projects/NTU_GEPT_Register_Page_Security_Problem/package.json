@@ -1,0 +1,21 @@
+{
+  "name": "gept",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^0.9.0",
+    "bluebird": "^2.9.14",
+    "cheerio": "^0.18.0",
+    "fs": "0.0.2",
+    "iconv-lite": "^0.4.7",
+    "request": "^2.53.0",
+    "underscore": "^1.8.2",
+    "util": "^0.10.3"
+  }
+}

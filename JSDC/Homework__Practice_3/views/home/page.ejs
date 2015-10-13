@@ -1,0 +1,25 @@
+<div class="container">
+  <header>
+    <h1><%=post.title%></h1>
+  </header>
+  <hr/>
+  <nav>
+    <ul>
+      <li><a href="/">home</a></li>
+      <li><a href="/post/form">create</a></li>
+      <li><a href="/about">about</a></li>
+    </ul>
+  </nav>
+  <article>
+    <div class="content">
+      <%= post.content %>
+    </div>
+    <div class="update">
+      <a href="/post/update/<%= post.id %>">update this</a>
+    </div>
+    <div class="updateDate">
+      <%= post.updatedAt %>
+    </div>
+  </article>
+  <hr>
+</div>

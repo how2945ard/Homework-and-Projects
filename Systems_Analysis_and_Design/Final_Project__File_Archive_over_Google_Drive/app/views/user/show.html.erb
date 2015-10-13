@@ -1,0 +1,51 @@
+<% if @current_folder %>
+<%= link_to '<i class="fa fa-angle-double-left"></i> Go back'.html_safe, @current_folder.parent_folder_uri_string %>
+<% end %>
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <%= @owner.name %>的教學檔案
+  </div>
+    <% if @is_owner %>
+      <%= link_to "新增課程", app_folder_new_path(@current_folder) , :class=>"btn btn-outline btn-primary", :style=>'margin:30px;'%>
+    <% end %>
+  <!-- /.panel-heading -->
+  <div class="panel-body">
+    <div class="dataTable_wrapper">
+      <table class="table table-striped table-bordered table-hover" id="dataTables-example">
+        <thead>
+          <tr>
+            <th>名稱</th>
+            <th>開課學期</th>
+            <th>建立時間</th>
+            <th>大小</th>
+            <th>隱私</th>
+            <th>動作</th>
+          </tr>
+        </thead>
+        <tbody>
+          <% @folders.each do |folder|%>
+          <tr>
+            <td><i class="fa fa-folder"></i>  <%= link_to folder.name, folder.url_string %></td>
+            <td><%= folder.semester %></td>
+            <td><%= folder.created_at %></td>
+            <td><i class="fa fa-times"></i></td>
+            <td><%= folder.status_text %></td>
+            <td class="center">
+              <% if @is_owner %>
+              <%= link_to '刪除', folder_destroy_path(folder.id), :class=>"btn btn-outline btn-danger", method: :delete %>
+              <%= link_to '編輯內容', folder_edit_path(folder.id), :class=>"btn btn-outline btn-primary"%>
+              <%= link_to '設為公開', folder.change_status_url('public'), method: :post ,:class=>"btn btn-outline btn-primary" if !folder.is_public %>
+              <%= link_to '設為僅由連結公開', folder.change_status_url('link_open'), method: :post,:class=>"btn btn-outline btn-primary"  if !folder.is_link_open %>
+              <%= link_to '設為不公開', folder.change_status_url('private'), method: :post ,:class=>"btn btn-outline btn-primary" if !folder.is_private %>
+              <% end %>
+            </td>
+          </tr>
+          <% end %>
+        </tbody>
+      </table>
+    </div>
+    <!-- /.table-responsive -->
+  </div>
+  <!-- /.panel-body -->
+</div>
+</ul>

@@ -1,0 +1,4462 @@
+[
+    {
+        "date": 20140526,
+        "totalNum": 245,
+        "result": [
+            {
+                "category": "頭條",
+                "number": 3
+            },
+            {
+                "category": "要聞",
+                "number": 32
+            },
+            {
+                "category": "社會",
+                "number": 5
+            },
+            {
+                "category": "生活",
+                "number": 15
+            },
+            {
+                "category": "政治",
+                "number": 6
+            },
+            {
+                "category": "地方綜合",
+                "number": 11
+            },
+            {
+                "category": "論壇",
+                "number": 9
+            },
+            {
+                "category": "暖流",
+                "number": 3
+            },
+            {
+                "category": "投訴",
+                "number": 3
+            },
+            {
+                "category": "娛樂名人",
+                "number": 14
+            },
+            {
+                "category": "木瓜霞吐槽",
+                "number": 4
+            },
+            {
+                "category": "直擊好萊塢",
+                "number": 2
+            },
+            {
+                "category": "亞洲哈燒星",
+                "number": 6
+            },
+            {
+                "category": "名人時尚",
+                "number": 6
+            },
+            {
+                "category": "國際頭條",
+                "number": 3
+            },
+            {
+                "category": "國際新聞",
+                "number": 4
+            },
+            {
+                "category": "中國新聞",
+                "number": 5
+            },
+            {
+                "category": "雙語天下",
+                "number": 1
+            },
+            {
+                "category": "體育焦點",
+                "number": 6
+            },
+            {
+                "category": "大運動場",
+                "number": 5
+            },
+            {
+                "category": "籃球瘋",
+                "number": 3
+            },
+            {
+                "category": "投打對決",
+                "number": 8
+            },
+            {
+                "category": "足球新聞",
+                "number": 3
+            },
+            {
+                "category": "運彩分析",
+                "number": 2
+            },
+            {
+                "category": "財經焦點",
+                "number": 7
+            },
+            {
+                "category": "熱門話題",
+                "number": 4
+            },
+            {
+                "category": "投資理財",
+                "number": 7
+            },
+            {
+                "category": "國際財經",
+                "number": 5
+            },
+            {
+                "category": "科技3C",
+                "number": 2
+            },
+            {
+                "category": "綜合產業",
+                "number": 2
+            },
+            {
+                "category": "頭家生意",
+                "number": 1
+            },
+            {
+                "category": "地產焦點",
+                "number": 11
+            },
+            {
+                "category": "副刊焦點",
+                "number": 16
+            },
+            {
+                "category": "旅遊與探險",
+                "number": 1
+            },
+            {
+                "category": "美食天地",
+                "number": 4
+            },
+            {
+                "category": "車市3C",
+                "number": 4
+            },
+            {
+                "category": "家庭與健康",
+                "number": 7
+            },
+            {
+                "category": "論壇",
+                "number": 8
+            },
+            {
+                "category": "名采",
+                "number": 5
+            },
+            {
+                "category": "人間事",
+                "number": 2
+            }
+        ]
+    },
+    {
+        "date": 20140525,
+        "totalNum": 203,
+        "result": [
+            {
+                "category": "頭條",
+                "number": 7
+            },
+            {
+                "category": "要聞",
+                "number": 22
+            },
+            {
+                "category": "社會",
+                "number": 4
+            },
+            {
+                "category": "生活",
+                "number": 13
+            },
+            {
+                "category": "政治",
+                "number": 6
+            },
+            {
+                "category": "地方綜合",
+                "number": 4
+            },
+            {
+                "category": "論壇",
+                "number": 1
+            },
+            {
+                "category": "暖流",
+                "number": 2
+            },
+            {
+                "category": "投訴",
+                "number": 3
+            },
+            {
+                "category": "娛樂名人",
+                "number": 13
+            },
+            {
+                "category": "木瓜霞吐槽",
+                "number": 4
+            },
+            {
+                "category": "直擊好萊塢",
+                "number": 3
+            },
+            {
+                "category": "亞洲哈燒星",
+                "number": 5
+            },
+            {
+                "category": "名人時尚",
+                "number": 8
+            },
+            {
+                "category": "國際頭條",
+                "number": 4
+            },
+            {
+                "category": "國際新聞",
+                "number": 4
+            },
+            {
+                "category": "中國新聞",
+                "number": 4
+            },
+            {
+                "category": "雙語天下",
+                "number": 1
+            },
+            {
+                "category": "體育焦點",
+                "number": 11
+            },
+            {
+                "category": "大運動場",
+                "number": 5
+            },
+            {
+                "category": "籃球瘋",
+                "number": 3
+            },
+            {
+                "category": "投打對決",
+                "number": 3
+            },
+            {
+                "category": "足球新聞",
+                "number": 5
+            },
+            {
+                "category": "運彩分析",
+                "number": 3
+            },
+            {
+                "category": "財經焦點",
+                "number": 4
+            },
+            {
+                "category": "國際財經",
+                "number": 2
+            },
+            {
+                "category": "科技3C",
+                "number": 4
+            },
+            {
+                "category": "綜合產業",
+                "number": 2
+            },
+            {
+                "category": "頭家生意",
+                "number": 4
+            },
+            {
+                "category": "地產焦點",
+                "number": 10
+            },
+            {
+                "category": "副刊焦點",
+                "number": 15
+            },
+            {
+                "category": "旅遊與探險",
+                "number": 2
+            },
+            {
+                "category": "美食天地",
+                "number": 1
+            },
+            {
+                "category": "車市3C",
+                "number": 2
+            },
+            {
+                "category": "家庭與健康",
+                "number": 8
+            },
+            {
+                "category": "論壇",
+                "number": 1
+            },
+            {
+                "category": "名采",
+                "number": 5
+            },
+            {
+                "category": "人間事",
+                "number": 5
+            }
+        ]
+    },
+    {
+        "date": 20140524,
+        "totalNum": 296,
+        "result": [
+            {
+                "category": "頭條",
+                "number": 5
+            },
+            {
+                "category": "要聞",
+                "number": 22
+            },
+            {
+                "category": "社會",
+                "number": 5
+            },
+            {
+                "category": "生活",
+                "number": 12
+            },
+            {
+                "category": "政治",
+                "number": 6
+            },
+            {
+                "category": "地方綜合",
+                "number": 28
+            },
+            {
+                "category": "論壇",
+                "number": 8
+            },
+            {
+                "category": "法庭",
+                "number": 4
+            },
+            {
+                "category": "投訴",
+                "number": 1
+            },
+            {
+                "category": "娛樂名人",
+                "number": 20
+            },
+            {
+                "category": "木瓜霞吐槽",
+                "number": 4
+            },
+            {
+                "category": "直擊好萊塢",
+                "number": 6
+            },
+            {
+                "category": "亞洲哈燒星",
+                "number": 5
+            },
+            {
+                "category": "名人時尚",
+                "number": 5
+            },
+            {
+                "category": "國際頭條",
+                "number": 3
+            },
+            {
+                "category": "國際新聞",
+                "number": 5
+            },
+            {
+                "category": "中國新聞",
+                "number": 2
+            },
+            {
+                "category": "雙語天下",
+                "number": 1
+            },
+            {
+                "category": "體育焦點",
+                "number": 5
+            },
+            {
+                "category": "大運動場",
+                "number": 2
+            },
+            {
+                "category": "籃球瘋",
+                "number": 2
+            },
+            {
+                "category": "投打對決",
+                "number": 8
+            },
+            {
+                "category": "足球新聞",
+                "number": 8
+            },
+            {
+                "category": "運彩分析",
+                "number": 3
+            },
+            {
+                "category": "財經焦點",
+                "number": 4
+            },
+            {
+                "category": "熱門話題",
+                "number": 2
+            },
+            {
+                "category": "投資理財",
+                "number": 10
+            },
+            {
+                "category": "國際財經",
+                "number": 5
+            },
+            {
+                "category": "科技3C",
+                "number": 4
+            },
+            {
+                "category": "金融保險",
+                "number": 2
+            },
+            {
+                "category": "地產焦點",
+                "number": 12
+            },
+            {
+                "category": "地產王",
+                "number": 42
+            },
+            {
+                "category": "中古好屋",
+                "number": 7
+            },
+            {
+                "category": "副刊焦點",
+                "number": 18
+            },
+            {
+                "category": "旅遊與探險",
+                "number": 1
+            },
+            {
+                "category": "美食天地",
+                "number": 3
+            },
+            {
+                "category": "車市3C",
+                "number": 3
+            },
+            {
+                "category": "家庭與健康",
+                "number": 6
+            },
+            {
+                "category": "論壇",
+                "number": 7
+            }
+        ]
+    },
+    {
+        "date": 20140523,
+        "totalNum": 270,
+        "result": [
+            {
+                "category": "頭條",
+                "number": 26
+            },
+            {
+                "category": "要聞",
+                "number": 18
+            },
+            {
+                "category": "社會",
+                "number": 5
+            },
+            {
+                "category": "生活",
+                "number": 11
+            },
+            {
+                "category": "地方綜合",
+                "number": 13
+            },
+            {
+                "category": "論壇",
+                "number": 9
+            },
+            {
+                "category": "暖流",
+                "number": 3
+            },
+            {
+                "category": "投訴",
+                "number": 3
+            },
+            {
+                "category": "娛樂名人",
+                "number": 14
+            },
+            {
+                "category": "木瓜霞吐槽",
+                "number": 5
+            },
+            {
+                "category": "直擊好萊塢",
+                "number": 5
+            },
+            {
+                "category": "強檔新片",
+                "number": 3
+            },
+            {
+                "category": "亞洲哈燒星",
+                "number": 9
+            },
+            {
+                "category": "名人時尚",
+                "number": 7
+            },
+            {
+                "category": "國際頭條",
+                "number": 2
+            },
+            {
+                "category": "國際新聞",
+                "number": 5
+            },
+            {
+                "category": "中國新聞",
+                "number": 3
+            },
+            {
+                "category": "雙語天下",
+                "number": 1
+            },
+            {
+                "category": "體育焦點",
+                "number": 6
+            },
+            {
+                "category": "大運動場",
+                "number": 2
+            },
+            {
+                "category": "投打對決",
+                "number": 8
+            },
+            {
+                "category": "足球新聞",
+                "number": 8
+            },
+            {
+                "category": "運彩分析",
+                "number": 3
+            },
+            {
+                "category": "財經焦點",
+                "number": 3
+            },
+            {
+                "category": "熱門話題",
+                "number": 5
+            },
+            {
+                "category": "投資理財",
+                "number": 9
+            },
+            {
+                "category": "國際財經",
+                "number": 5
+            },
+            {
+                "category": "科技3C",
+                "number": 2
+            },
+            {
+                "category": "綜合產業",
+                "number": 2
+            },
+            {
+                "category": "金融保險",
+                "number": 2
+            },
+            {
+                "category": "地產焦點",
+                "number": 12
+            },
+            {
+                "category": "家居王",
+                "number": 7
+            },
+            {
+                "category": "豪宅王",
+                "number": 1
+            },
+            {
+                "category": "副刊焦點",
+                "number": 15
+            },
+            {
+                "category": "旅遊與探險",
+                "number": 2
+            },
+            {
+                "category": "美食天地",
+                "number": 12
+            },
+            {
+                "category": "車市3C",
+                "number": 4
+            },
+            {
+                "category": "家庭與健康",
+                "number": 7
+            },
+            {
+                "category": "論壇",
+                "number": 7
+            },
+            {
+                "category": "名采",
+                "number": 4
+            },
+            {
+                "category": "人間事",
+                "number": 2
+            }
+        ]
+    },
+    {
+        "date": 20140522,
+        "totalNum": 298,
+        "result": [
+            {
+                "category": "頭條",
+                "number": 25
+            },
+            {
+                "category": "要聞",
+                "number": 26
+            },
+            {
+                "category": "社會",
+                "number": 5
+            },
+            {
+                "category": "生活",
+                "number": 16
+            },
+            {
+                "category": "政治",
+                "number": 6
+            },
+            {
+                "category": "地方綜合",
+                "number": 8
+            },
+            {
+                "category": "論壇",
+                "number": 9
+            },
+            {
+                "category": "法庭",
+                "number": 4
+            },
+            {
+                "category": "暖流",
+                "number": 3
+            },
+            {
+                "category": "投訴",
+                "number": 3
+            },
+            {
+                "category": "娛樂名人",
+                "number": 22
+            },
+            {
+                "category": "木瓜霞吐槽",
+                "number": 5
+            },
+            {
+                "category": "直擊好萊塢",
+                "number": 4
+            },
+            {
+                "category": "亞洲哈燒星",
+                "number": 6
+            },
+            {
+                "category": "名人時尚",
+                "number": 10
+            },
+            {
+                "category": "國際頭條",
+                "number": 3
+            },
+            {
+                "category": "國際新聞",
+                "number": 7
+            },
+            {
+                "category": "中國新聞",
+                "number": 3
+            },
+            {
+                "category": "雙語天下",
+                "number": 1
+            },
+            {
+                "category": "體育焦點",
+                "number": 6
+            },
+            {
+                "category": "大運動場",
+                "number": 7
+            },
+            {
+                "category": "籃球瘋",
+                "number": 6
+            },
+            {
+                "category": "投打對決",
+                "number": 3
+            },
+            {
+                "category": "足球新聞",
+                "number": 10
+            },
+            {
+                "category": "運彩分析",
+                "number": 3
+            },
+            {
+                "category": "財經焦點",
+                "number": 3
+            },
+            {
+                "category": "熱門話題",
+                "number": 5
+            },
+            {
+                "category": "投資理財",
+                "number": 10
+            },
+            {
+                "category": "國際財經",
+                "number": 5
+            },
+            {
+                "category": "科技3C",
+                "number": 4
+            },
+            {
+                "category": "頭家生意",
+                "number": 1
+            },
+            {
+                "category": "地產焦點",
+                "number": 11
+            },
+            {
+                "category": "房產月刊",
+                "number": 2
+            },
+            {
+                "category": "副刊焦點",
+                "number": 23
+            },
+            {
+                "category": "旅遊與探險",
+                "number": 3
+            },
+            {
+                "category": "美食天地",
+                "number": 4
+            },
+            {
+                "category": "車市3C",
+                "number": 7
+            },
+            {
+                "category": "家庭與健康",
+                "number": 4
+            },
+            {
+                "category": "論壇",
+                "number": 8
+            },
+            {
+                "category": "名采",
+                "number": 5
+            },
+            {
+                "category": "人間事",
+                "number": 2
+            }
+        ]
+    },
+    {
+        "date": 20140521,
+        "totalNum": 266,
+        "result": [
+            {
+                "category": "頭條",
+                "number": 4
+            },
+            {
+                "category": "要聞",
+                "number": 37
+            },
+            {
+                "category": "社會",
+                "number": 5
+            },
+            {
+                "category": "生活",
+                "number": 12
+            },
+            {
+                "category": "政治",
+                "number": 6
+            },
+            {
+                "category": "地方綜合",
+                "number": 8
+            },
+            {
+                "category": "論壇",
+                "number": 9
+            },
+            {
+                "category": "法庭",
+                "number": 4
+            },
+            {
+                "category": "暖流",
+                "number": 3
+            },
+            {
+                "category": "投訴",
+                "number": 3
+            },
+            {
+                "category": "娛樂名人",
+                "number": 13
+            },
+            {
+                "category": "木瓜霞吐槽",
+                "number": 4
+            },
+            {
+                "category": "直擊好萊塢",
+                "number": 4
+            },
+            {
+                "category": "亞洲哈燒星",
+                "number": 6
+            },
+            {
+                "category": "名人時尚",
+                "number": 9
+            },
+            {
+                "category": "國際頭條",
+                "number": 3
+            },
+            {
+                "category": "國際新聞",
+                "number": 8
+            },
+            {
+                "category": "中國新聞",
+                "number": 1
+            },
+            {
+                "category": "雙語天下",
+                "number": 1
+            },
+            {
+                "category": "體育焦點",
+                "number": 6
+            },
+            {
+                "category": "大運動場",
+                "number": 4
+            },
+            {
+                "category": "籃球瘋",
+                "number": 1
+            },
+            {
+                "category": "投打對決",
+                "number": 12
+            },
+            {
+                "category": "足球新聞",
+                "number": 2
+            },
+            {
+                "category": "運彩分析",
+                "number": 3
+            },
+            {
+                "category": "財經焦點",
+                "number": 3
+            },
+            {
+                "category": "熱門話題",
+                "number": 4
+            },
+            {
+                "category": "投資理財",
+                "number": 10
+            },
+            {
+                "category": "國際財經",
+                "number": 5
+            },
+            {
+                "category": "科技3C",
+                "number": 2
+            },
+            {
+                "category": "綜合產業",
+                "number": 2
+            },
+            {
+                "category": "金融保險",
+                "number": 2
+            },
+            {
+                "category": "頭家生意",
+                "number": 1
+            },
+            {
+                "category": "地產焦點",
+                "number": 14
+            },
+            {
+                "category": "房產月刊",
+                "number": 2
+            },
+            {
+                "category": "副刊焦點",
+                "number": 22
+            },
+            {
+                "category": "旅遊與探險",
+                "number": 1
+            },
+            {
+                "category": "美食天地",
+                "number": 4
+            },
+            {
+                "category": "車市3C",
+                "number": 6
+            },
+            {
+                "category": "家庭與健康",
+                "number": 6
+            },
+            {
+                "category": "論壇",
+                "number": 8
+            },
+            {
+                "category": "名采",
+                "number": 4
+            },
+            {
+                "category": "人間事",
+                "number": 2
+            }
+        ]
+    },
+    {
+        "date": 20140520,
+        "totalNum": 266,
+        "result": [
+            {
+                "category": "頭條",
+                "number": 3
+            },
+            {
+                "category": "要聞",
+                "number": 33
+            },
+            {
+                "category": "社會",
+                "number": 6
+            },
+            {
+                "category": "生活",
+                "number": 9
+            },
+            {
+                "category": "政治",
+                "number": 6
+            },
+            {
+                "category": "地方綜合",
+                "number": 4
+            },
+            {
+                "category": "論壇",
+                "number": 9
+            },
+            {
+                "category": "法庭",
+                "number": 4
+            },
+            {
+                "category": "暖流",
+                "number": 3
+            },
+            {
+                "category": "投訴",
+                "number": 3
+            },
+            {
+                "category": "娛樂名人",
+                "number": 23
+            },
+            {
+                "category": "木瓜霞吐槽",
+                "number": 6
+            },
+            {
+                "category": "直擊好萊塢",
+                "number": 4
+            },
+            {
+                "category": "亞洲哈燒星",
+                "number": 5
+            },
+            {
+                "category": "名人時尚",
+                "number": 9
+            },
+            {
+                "category": "國際頭條",
+                "number": 4
+            },
+            {
+                "category": "國際新聞",
+                "number": 8
+            },
+            {
+                "category": "中國新聞",
+                "number": 2
+            },
+            {
+                "category": "雙語天下",
+                "number": 1
+            },
+            {
+                "category": "體育焦點",
+                "number": 6
+            },
+            {
+                "category": "大運動場",
+                "number": 12
+            },
+            {
+                "category": "籃球瘋",
+                "number": 3
+            },
+            {
+                "category": "投打對決",
+                "number": 6
+            },
+            {
+                "category": "足球新聞",
+                "number": 4
+            },
+            {
+                "category": "運彩分析",
+                "number": 3
+            },
+            {
+                "category": "財經焦點",
+                "number": 4
+            },
+            {
+                "category": "熱門話題",
+                "number": 3
+            },
+            {
+                "category": "投資理財",
+                "number": 12
+            },
+            {
+                "category": "國際財經",
+                "number": 5
+            },
+            {
+                "category": "科技3C",
+                "number": 2
+            },
+            {
+                "category": "綜合產業",
+                "number": 2
+            },
+            {
+                "category": "金融保險",
+                "number": 2
+            },
+            {
+                "category": "地產焦點",
+                "number": 14
+            },
+            {
+                "category": "房產月刊",
+                "number": 2
+            },
+            {
+                "category": "副刊焦點",
+                "number": 15
+            },
+            {
+                "category": "旅遊與探險",
+                "number": 1
+            },
+            {
+                "category": "美食天地",
+                "number": 5
+            },
+            {
+                "category": "車市3C",
+                "number": 5
+            },
+            {
+                "category": "家庭與健康",
+                "number": 4
+            },
+            {
+                "category": "論壇",
+                "number": 8
+            },
+            {
+                "category": "名采",
+                "number": 4
+            },
+            {
+                "category": "人間事",
+                "number": 2
+            }
+        ]
+    },
+    {
+        "date": 20140519,
+        "totalNum": 274,
+        "result": [
+            {
+                "category": "頭條",
+                "number": 3
+            },
+            {
+                "category": "要聞",
+                "number": 32
+            },
+            {
+                "category": "社會",
+                "number": 5
+            },
+            {
+                "category": "生活",
+                "number": 16
+            },
+            {
+                "category": "政治",
+                "number": 6
+            },
+            {
+                "category": "地方綜合",
+                "number": 8
+            },
+            {
+                "category": "論壇",
+                "number": 9
+            },
+            {
+                "category": "暖流",
+                "number": 3
+            },
+            {
+                "category": "投訴",
+                "number": 3
+            },
+            {
+                "category": "娛樂名人",
+                "number": 20
+            },
+            {
+                "category": "木瓜霞吐槽",
+                "number": 5
+            },
+            {
+                "category": "直擊好萊塢",
+                "number": 5
+            },
+            {
+                "category": "亞洲哈燒星",
+                "number": 5
+            },
+            {
+                "category": "名人時尚",
+                "number": 8
+            },
+            {
+                "category": "國際頭條",
+                "number": 4
+            },
+            {
+                "category": "國際新聞",
+                "number": 5
+            },
+            {
+                "category": "中國新聞",
+                "number": 6
+            },
+            {
+                "category": "雙語天下",
+                "number": 1
+            },
+            {
+                "category": "體育焦點",
+                "number": 9
+            },
+            {
+                "category": "大運動場",
+                "number": 8
+            },
+            {
+                "category": "籃球瘋",
+                "number": 4
+            },
+            {
+                "category": "投打對決",
+                "number": 5
+            },
+            {
+                "category": "足球新聞",
+                "number": 17
+            },
+            {
+                "category": "運彩分析",
+                "number": 2
+            },
+            {
+                "category": "財經焦點",
+                "number": 7
+            },
+            {
+                "category": "熱門話題",
+                "number": 4
+            },
+            {
+                "category": "投資理財",
+                "number": 6
+            },
+            {
+                "category": "國際財經",
+                "number": 4
+            },
+            {
+                "category": "科技3C",
+                "number": 2
+            },
+            {
+                "category": "綜合產業",
+                "number": 2
+            },
+            {
+                "category": "頭家生意",
+                "number": 1
+            },
+            {
+                "category": "地產焦點",
+                "number": 12
+            },
+            {
+                "category": "房產月刊",
+                "number": 2
+            },
+            {
+                "category": "副刊焦點",
+                "number": 14
+            },
+            {
+                "category": "旅遊與探險",
+                "number": 1
+            },
+            {
+                "category": "美食天地",
+                "number": 4
+            },
+            {
+                "category": "車市3C",
+                "number": 4
+            },
+            {
+                "category": "家庭與健康",
+                "number": 6
+            },
+            {
+                "category": "論壇",
+                "number": 8
+            },
+            {
+                "category": "名采",
+                "number": 5
+            },
+            {
+                "category": "人間事",
+                "number": 3
+            }
+        ]
+    },
+    {
+        "date": 20140518,
+        "totalNum": 223,
+        "result": [
+            {
+                "category": "頭條",
+                "number": 6
+            },
+            {
+                "category": "要聞",
+                "number": 26
+            },
+            {
+                "category": "社會",
+                "number": 6
+            },
+            {
+                "category": "生活",
+                "number": 8
+            },
+            {
+                "category": "政治",
+                "number": 8
+            },
+            {
+                "category": "地方綜合",
+                "number": 5
+            },
+            {
+                "category": "論壇",
+                "number": 1
+            },
+            {
+                "category": "暖流",
+                "number": 3
+            },
+            {
+                "category": "投訴",
+                "number": 3
+            },
+            {
+                "category": "娛樂名人",
+                "number": 11
+            },
+            {
+                "category": "木瓜霞吐槽",
+                "number": 3
+            },
+            {
+                "category": "直擊好萊塢",
+                "number": 4
+            },
+            {
+                "category": "亞洲哈燒星",
+                "number": 5
+            },
+            {
+                "category": "名人時尚",
+                "number": 7
+            },
+            {
+                "category": "國際頭條",
+                "number": 4
+            },
+            {
+                "category": "國際新聞",
+                "number": 4
+            },
+            {
+                "category": "中國新聞",
+                "number": 4
+            },
+            {
+                "category": "雙語天下",
+                "number": 1
+            },
+            {
+                "category": "體育焦點",
+                "number": 7
+            },
+            {
+                "category": "大運動場",
+                "number": 5
+            },
+            {
+                "category": "籃球瘋",
+                "number": 4
+            },
+            {
+                "category": "投打對決",
+                "number": 11
+            },
+            {
+                "category": "足球新聞",
+                "number": 15
+            },
+            {
+                "category": "運彩分析",
+                "number": 4
+            },
+            {
+                "category": "財經焦點",
+                "number": 5
+            },
+            {
+                "category": "熱門話題",
+                "number": 3
+            },
+            {
+                "category": "國際財經",
+                "number": 2
+            },
+            {
+                "category": "科技3C",
+                "number": 4
+            },
+            {
+                "category": "綜合產業",
+                "number": 2
+            },
+            {
+                "category": "頭家生意",
+                "number": 3
+            },
+            {
+                "category": "地產焦點",
+                "number": 7
+            },
+            {
+                "category": "房產月刊",
+                "number": 5
+            },
+            {
+                "category": "副刊焦點",
+                "number": 13
+            },
+            {
+                "category": "旅遊與探險",
+                "number": 2
+            },
+            {
+                "category": "美食天地",
+                "number": 1
+            },
+            {
+                "category": "車市3C",
+                "number": 3
+            },
+            {
+                "category": "家庭與健康",
+                "number": 7
+            },
+            {
+                "category": "論壇",
+                "number": 1
+            },
+            {
+                "category": "名采",
+                "number": 5
+            },
+            {
+                "category": "人間事",
+                "number": 5
+            }
+        ]
+    },
+    {
+        "date": 20140517,
+        "totalNum": 319,
+        "result": [
+            {
+                "category": "頭條",
+                "number": 4
+            },
+            {
+                "category": "要聞",
+                "number": 28
+            },
+            {
+                "category": "社會",
+                "number": 5
+            },
+            {
+                "category": "生活",
+                "number": 10
+            },
+            {
+                "category": "政治",
+                "number": 6
+            },
+            {
+                "category": "地方綜合",
+                "number": 30
+            },
+            {
+                "category": "論壇",
+                "number": 8
+            },
+            {
+                "category": "法庭",
+                "number": 4
+            },
+            {
+                "category": "投訴",
+                "number": 1
+            },
+            {
+                "category": "娛樂名人",
+                "number": 17
+            },
+            {
+                "category": "木瓜霞吐槽",
+                "number": 5
+            },
+            {
+                "category": "直擊好萊塢",
+                "number": 9
+            },
+            {
+                "category": "亞洲哈燒星",
+                "number": 7
+            },
+            {
+                "category": "名人時尚",
+                "number": 11
+            },
+            {
+                "category": "國際頭條",
+                "number": 3
+            },
+            {
+                "category": "國際新聞",
+                "number": 4
+            },
+            {
+                "category": "中國新聞",
+                "number": 3
+            },
+            {
+                "category": "雙語天下",
+                "number": 1
+            },
+            {
+                "category": "體育焦點",
+                "number": 7
+            },
+            {
+                "category": "大運動場",
+                "number": 2
+            },
+            {
+                "category": "籃球瘋",
+                "number": 2
+            },
+            {
+                "category": "投打對決",
+                "number": 8
+            },
+            {
+                "category": "足球新聞",
+                "number": 7
+            },
+            {
+                "category": "運彩分析",
+                "number": 3
+            },
+            {
+                "category": "財經焦點",
+                "number": 6
+            },
+            {
+                "category": "基金",
+                "number": 2
+            },
+            {
+                "category": "投資理財",
+                "number": 8
+            },
+            {
+                "category": "國際財經",
+                "number": 5
+            },
+            {
+                "category": "科技3C",
+                "number": 2
+            },
+            {
+                "category": "綜合產業",
+                "number": 2
+            },
+            {
+                "category": "金融保險",
+                "number": 2
+            },
+            {
+                "category": "地產焦點",
+                "number": 11
+            },
+            {
+                "category": "地產王",
+                "number": 39
+            },
+            {
+                "category": "中古好屋",
+                "number": 7
+            },
+            {
+                "category": "房產月刊",
+                "number": 6
+            },
+            {
+                "category": "副刊焦點",
+                "number": 24
+            },
+            {
+                "category": "旅遊與探險",
+                "number": 1
+            },
+            {
+                "category": "美食天地",
+                "number": 3
+            },
+            {
+                "category": "車市3C",
+                "number": 2
+            },
+            {
+                "category": "家庭與健康",
+                "number": 6
+            },
+            {
+                "category": "論壇",
+                "number": 8
+            }
+        ]
+    },
+    {
+        "date": 20140516,
+        "totalNum": 289,
+        "result": [
+            {
+                "category": "頭條",
+                "number": 2
+            },
+            {
+                "category": "要聞",
+                "number": 35
+            },
+            {
+                "category": "社會",
+                "number": 4
+            },
+            {
+                "category": "生活",
+                "number": 13
+            },
+            {
+                "category": "政治",
+                "number": 5
+            },
+            {
+                "category": "地方綜合",
+                "number": 15
+            },
+            {
+                "category": "論壇",
+                "number": 9
+            },
+            {
+                "category": "法庭",
+                "number": 4
+            },
+            {
+                "category": "暖流",
+                "number": 3
+            },
+            {
+                "category": "投訴",
+                "number": 3
+            },
+            {
+                "category": "娛樂名人",
+                "number": 15
+            },
+            {
+                "category": "木瓜霞吐槽",
+                "number": 5
+            },
+            {
+                "category": "直擊好萊塢",
+                "number": 9
+            },
+            {
+                "category": "強檔新片",
+                "number": 3
+            },
+            {
+                "category": "亞洲哈燒星",
+                "number": 6
+            },
+            {
+                "category": "名人時尚",
+                "number": 10
+            },
+            {
+                "category": "國際頭條",
+                "number": 4
+            },
+            {
+                "category": "國際新聞",
+                "number": 5
+            },
+            {
+                "category": "中國新聞",
+                "number": 1
+            },
+            {
+                "category": "雙語天下",
+                "number": 1
+            },
+            {
+                "category": "體育焦點",
+                "number": 7
+            },
+            {
+                "category": "大運動場",
+                "number": 1
+            },
+            {
+                "category": "籃球瘋",
+                "number": 2
+            },
+            {
+                "category": "投打對決",
+                "number": 6
+            },
+            {
+                "category": "足球新聞",
+                "number": 10
+            },
+            {
+                "category": "運彩分析",
+                "number": 3
+            },
+            {
+                "category": "財經焦點",
+                "number": 4
+            },
+            {
+                "category": "熱門話題",
+                "number": 2
+            },
+            {
+                "category": "投資理財",
+                "number": 10
+            },
+            {
+                "category": "國際財經",
+                "number": 5
+            },
+            {
+                "category": "科技3C",
+                "number": 2
+            },
+            {
+                "category": "綜合產業",
+                "number": 2
+            },
+            {
+                "category": "金融保險",
+                "number": 3
+            },
+            {
+                "category": "頭家生意",
+                "number": 1
+            },
+            {
+                "category": "地產焦點",
+                "number": 13
+            },
+            {
+                "category": "家居王",
+                "number": 8
+            },
+            {
+                "category": "豪宅王",
+                "number": 1
+            },
+            {
+                "category": "房產月刊",
+                "number": 2
+            },
+            {
+                "category": "副刊焦點",
+                "number": 18
+            },
+            {
+                "category": "旅遊與探險",
+                "number": 1
+            },
+            {
+                "category": "美食天地",
+                "number": 13
+            },
+            {
+                "category": "車市3C",
+                "number": 4
+            },
+            {
+                "category": "家庭與健康",
+                "number": 6
+            },
+            {
+                "category": "論壇",
+                "number": 6
+            },
+            {
+                "category": "名采",
+                "number": 5
+            },
+            {
+                "category": "人間事",
+                "number": 2
+            }
+        ]
+    },
+    {
+        "date": 20140515,
+        "totalNum": 277,
+        "result": [
+            {
+                "category": "頭條",
+                "number": 12
+            },
+            {
+                "category": "要聞",
+                "number": 29
+            },
+            {
+                "category": "社會",
+                "number": 5
+            },
+            {
+                "category": "生活",
+                "number": 11
+            },
+            {
+                "category": "政治",
+                "number": 7
+            },
+            {
+                "category": "地方綜合",
+                "number": 10
+            },
+            {
+                "category": "論壇",
+                "number": 9
+            },
+            {
+                "category": "法庭",
+                "number": 4
+            },
+            {
+                "category": "暖流",
+                "number": 3
+            },
+            {
+                "category": "投訴",
+                "number": 3
+            },
+            {
+                "category": "娛樂名人",
+                "number": 19
+            },
+            {
+                "category": "木瓜霞吐槽",
+                "number": 4
+            },
+            {
+                "category": "直擊好萊塢",
+                "number": 3
+            },
+            {
+                "category": "亞洲哈燒星",
+                "number": 6
+            },
+            {
+                "category": "名人時尚",
+                "number": 7
+            },
+            {
+                "category": "國際頭條",
+                "number": 3
+            },
+            {
+                "category": "國際新聞",
+                "number": 8
+            },
+            {
+                "category": "中國新聞",
+                "number": 1
+            },
+            {
+                "category": "雙語天下",
+                "number": 1
+            },
+            {
+                "category": "體育焦點",
+                "number": 6
+            },
+            {
+                "category": "大運動場",
+                "number": 2
+            },
+            {
+                "category": "籃球瘋",
+                "number": 1
+            },
+            {
+                "category": "投打對決",
+                "number": 13
+            },
+            {
+                "category": "足球新聞",
+                "number": 7
+            },
+            {
+                "category": "運彩分析",
+                "number": 5
+            },
+            {
+                "category": "財經焦點",
+                "number": 9
+            },
+            {
+                "category": "熱門話題",
+                "number": 2
+            },
+            {
+                "category": "投資理財",
+                "number": 5
+            },
+            {
+                "category": "國際財經",
+                "number": 5
+            },
+            {
+                "category": "科技3C",
+                "number": 2
+            },
+            {
+                "category": "綜合產業",
+                "number": 2
+            },
+            {
+                "category": "金融保險",
+                "number": 2
+            },
+            {
+                "category": "頭家生意",
+                "number": 2
+            },
+            {
+                "category": "地產焦點",
+                "number": 14
+            },
+            {
+                "category": "房產月刊",
+                "number": 1
+            },
+            {
+                "category": "副刊焦點",
+                "number": 17
+            },
+            {
+                "category": "旅遊與探險",
+                "number": 2
+            },
+            {
+                "category": "美食天地",
+                "number": 5
+            },
+            {
+                "category": "車市3C",
+                "number": 9
+            },
+            {
+                "category": "家庭與健康",
+                "number": 6
+            },
+            {
+                "category": "論壇",
+                "number": 8
+            },
+            {
+                "category": "名采",
+                "number": 5
+            },
+            {
+                "category": "人間事",
+                "number": 2
+            }
+        ]
+    },
+    {
+        "date": 20140514,
+        "totalNum": 293,
+        "result": [
+            {
+                "category": "頭條",
+                "number": 11
+            },
+            {
+                "category": "要聞",
+                "number": 33
+            },
+            {
+                "category": "社會",
+                "number": 5
+            },
+            {
+                "category": "生活",
+                "number": 18
+            },
+            {
+                "category": "政治",
+                "number": 6
+            },
+            {
+                "category": "地方綜合",
+                "number": 11
+            },
+            {
+                "category": "論壇",
+                "number": 9
+            },
+            {
+                "category": "法庭",
+                "number": 4
+            },
+            {
+                "category": "暖流",
+                "number": 3
+            },
+            {
+                "category": "投訴",
+                "number": 3
+            },
+            {
+                "category": "娛樂名人",
+                "number": 22
+            },
+            {
+                "category": "木瓜霞吐槽",
+                "number": 5
+            },
+            {
+                "category": "直擊好萊塢",
+                "number": 4
+            },
+            {
+                "category": "亞洲哈燒星",
+                "number": 9
+            },
+            {
+                "category": "名人時尚",
+                "number": 10
+            },
+            {
+                "category": "國際頭條",
+                "number": 2
+            },
+            {
+                "category": "國際新聞",
+                "number": 7
+            },
+            {
+                "category": "中國新聞",
+                "number": 2
+            },
+            {
+                "category": "雙語天下",
+                "number": 1
+            },
+            {
+                "category": "體育焦點",
+                "number": 6
+            },
+            {
+                "category": "大運動場",
+                "number": 1
+            },
+            {
+                "category": "籃球瘋",
+                "number": 5
+            },
+            {
+                "category": "投打對決",
+                "number": 9
+            },
+            {
+                "category": "足球新聞",
+                "number": 10
+            },
+            {
+                "category": "運彩分析",
+                "number": 3
+            },
+            {
+                "category": "財經焦點",
+                "number": 2
+            },
+            {
+                "category": "熱門話題",
+                "number": 3
+            },
+            {
+                "category": "基金",
+                "number": 2
+            },
+            {
+                "category": "投資理財",
+                "number": 9
+            },
+            {
+                "category": "國際財經",
+                "number": 5
+            },
+            {
+                "category": "科技3C",
+                "number": 2
+            },
+            {
+                "category": "綜合產業",
+                "number": 2
+            },
+            {
+                "category": "金融保險",
+                "number": 3
+            },
+            {
+                "category": "地產焦點",
+                "number": 12
+            },
+            {
+                "category": "房產月刊",
+                "number": 1
+            },
+            {
+                "category": "副刊焦點",
+                "number": 23
+            },
+            {
+                "category": "旅遊與探險",
+                "number": 1
+            },
+            {
+                "category": "美食天地",
+                "number": 4
+            },
+            {
+                "category": "車市3C",
+                "number": 6
+            },
+            {
+                "category": "家庭與健康",
+                "number": 6
+            },
+            {
+                "category": "論壇",
+                "number": 7
+            },
+            {
+                "category": "名采",
+                "number": 5
+            },
+            {
+                "category": "人間事",
+                "number": 1
+            }
+        ]
+    },
+    {
+        "date": 20140513,
+        "totalNum": 262,
+        "result": [
+            {
+                "category": "頭條",
+                "number": 2
+            },
+            {
+                "category": "要聞",
+                "number": 31
+            },
+            {
+                "category": "社會",
+                "number": 8
+            },
+            {
+                "category": "生活",
+                "number": 11
+            },
+            {
+                "category": "政治",
+                "number": 6
+            },
+            {
+                "category": "地方綜合",
+                "number": 3
+            },
+            {
+                "category": "論壇",
+                "number": 9
+            },
+            {
+                "category": "法庭",
+                "number": 4
+            },
+            {
+                "category": "暖流",
+                "number": 3
+            },
+            {
+                "category": "投訴",
+                "number": 3
+            },
+            {
+                "category": "娛樂名人",
+                "number": 18
+            },
+            {
+                "category": "木瓜霞吐槽",
+                "number": 5
+            },
+            {
+                "category": "直擊好萊塢",
+                "number": 5
+            },
+            {
+                "category": "亞洲哈燒星",
+                "number": 6
+            },
+            {
+                "category": "名人時尚",
+                "number": 6
+            },
+            {
+                "category": "國際頭條",
+                "number": 4
+            },
+            {
+                "category": "國際新聞",
+                "number": 6
+            },
+            {
+                "category": "中國新聞",
+                "number": 2
+            },
+            {
+                "category": "雙語天下",
+                "number": 1
+            },
+            {
+                "category": "體育焦點",
+                "number": 6
+            },
+            {
+                "category": "大運動場",
+                "number": 5
+            },
+            {
+                "category": "籃球瘋",
+                "number": 6
+            },
+            {
+                "category": "投打對決",
+                "number": 11
+            },
+            {
+                "category": "足球新聞",
+                "number": 8
+            },
+            {
+                "category": "運彩分析",
+                "number": 3
+            },
+            {
+                "category": "財經焦點",
+                "number": 4
+            },
+            {
+                "category": "熱門話題",
+                "number": 3
+            },
+            {
+                "category": "投資理財",
+                "number": 10
+            },
+            {
+                "category": "國際財經",
+                "number": 4
+            },
+            {
+                "category": "科技3C",
+                "number": 2
+            },
+            {
+                "category": "綜合產業",
+                "number": 2
+            },
+            {
+                "category": "金融保險",
+                "number": 2
+            },
+            {
+                "category": "地產焦點",
+                "number": 11
+            },
+            {
+                "category": "房產月刊",
+                "number": 1
+            },
+            {
+                "category": "副刊焦點",
+                "number": 20
+            },
+            {
+                "category": "旅遊與探險",
+                "number": 1
+            },
+            {
+                "category": "美食天地",
+                "number": 4
+            },
+            {
+                "category": "車市3C",
+                "number": 4
+            },
+            {
+                "category": "家庭與健康",
+                "number": 7
+            },
+            {
+                "category": "論壇",
+                "number": 8
+            },
+            {
+                "category": "名采",
+                "number": 5
+            },
+            {
+                "category": "人間事",
+                "number": 2
+            }
+        ]
+    },
+    {
+        "date": 20140512,
+        "totalNum": 255,
+        "result": [
+            {
+                "category": "頭條",
+                "number": 2
+            },
+            {
+                "category": "要聞",
+                "number": 26
+            },
+            {
+                "category": "社會",
+                "number": 5
+            },
+            {
+                "category": "生活",
+                "number": 8
+            },
+            {
+                "category": "政治",
+                "number": 6
+            },
+            {
+                "category": "地方綜合",
+                "number": 6
+            },
+            {
+                "category": "論壇",
+                "number": 9
+            },
+            {
+                "category": "暖流",
+                "number": 3
+            },
+            {
+                "category": "投訴",
+                "number": 3
+            },
+            {
+                "category": "娛樂名人",
+                "number": 19
+            },
+            {
+                "category": "木瓜霞吐槽",
+                "number": 4
+            },
+            {
+                "category": "直擊好萊塢",
+                "number": 3
+            },
+            {
+                "category": "亞洲哈燒星",
+                "number": 8
+            },
+            {
+                "category": "名人時尚",
+                "number": 6
+            },
+            {
+                "category": "國際頭條",
+                "number": 5
+            },
+            {
+                "category": "國際新聞",
+                "number": 7
+            },
+            {
+                "category": "中國新聞",
+                "number": 2
+            },
+            {
+                "category": "雙語天下",
+                "number": 1
+            },
+            {
+                "category": "體育焦點",
+                "number": 8
+            },
+            {
+                "category": "大運動場",
+                "number": 6
+            },
+            {
+                "category": "籃球瘋",
+                "number": 4
+            },
+            {
+                "category": "投打對決",
+                "number": 12
+            },
+            {
+                "category": "足球新聞",
+                "number": 12
+            },
+            {
+                "category": "運彩分析",
+                "number": 2
+            },
+            {
+                "category": "財經焦點",
+                "number": 8
+            },
+            {
+                "category": "熱門話題",
+                "number": 4
+            },
+            {
+                "category": "投資理財",
+                "number": 6
+            },
+            {
+                "category": "國際財經",
+                "number": 4
+            },
+            {
+                "category": "科技3C",
+                "number": 2
+            },
+            {
+                "category": "綜合產業",
+                "number": 2
+            },
+            {
+                "category": "頭家生意",
+                "number": 1
+            },
+            {
+                "category": "地產焦點",
+                "number": 14
+            },
+            {
+                "category": "房產月刊",
+                "number": 1
+            },
+            {
+                "category": "副刊焦點",
+                "number": 14
+            },
+            {
+                "category": "旅遊與探險",
+                "number": 2
+            },
+            {
+                "category": "美食天地",
+                "number": 4
+            },
+            {
+                "category": "車市3C",
+                "number": 4
+            },
+            {
+                "category": "家庭與健康",
+                "number": 7
+            },
+            {
+                "category": "論壇",
+                "number": 8
+            },
+            {
+                "category": "名采",
+                "number": 5
+            },
+            {
+                "category": "人間事",
+                "number": 2
+            }
+        ]
+    },
+    {
+        "date": 20140511,
+        "totalNum": 216,
+        "result": [
+            {
+                "category": "頭條",
+                "number": 6
+            },
+            {
+                "category": "要聞",
+                "number": 28
+            },
+            {
+                "category": "社會",
+                "number": 5
+            },
+            {
+                "category": "生活",
+                "number": 16
+            },
+            {
+                "category": "政治",
+                "number": 6
+            },
+            {
+                "category": "地方綜合",
+                "number": 4
+            },
+            {
+                "category": "論壇",
+                "number": 1
+            },
+            {
+                "category": "暖流",
+                "number": 3
+            },
+            {
+                "category": "投訴",
+                "number": 3
+            },
+            {
+                "category": "娛樂名人",
+                "number": 19
+            },
+            {
+                "category": "木瓜霞吐槽",
+                "number": 4
+            },
+            {
+                "category": "直擊好萊塢",
+                "number": 6
+            },
+            {
+                "category": "亞洲哈燒星",
+                "number": 2
+            },
+            {
+                "category": "名人時尚",
+                "number": 4
+            },
+            {
+                "category": "國際頭條",
+                "number": 3
+            },
+            {
+                "category": "國際新聞",
+                "number": 5
+            },
+            {
+                "category": "中國新聞",
+                "number": 5
+            },
+            {
+                "category": "雙語天下",
+                "number": 1
+            },
+            {
+                "category": "體育焦點",
+                "number": 8
+            },
+            {
+                "category": "大運動場",
+                "number": 3
+            },
+            {
+                "category": "籃球瘋",
+                "number": 4
+            },
+            {
+                "category": "投打對決",
+                "number": 9
+            },
+            {
+                "category": "足球新聞",
+                "number": 6
+            },
+            {
+                "category": "運彩分析",
+                "number": 3
+            },
+            {
+                "category": "財經焦點",
+                "number": 3
+            },
+            {
+                "category": "熱門話題",
+                "number": 2
+            },
+            {
+                "category": "投資理財",
+                "number": 3
+            },
+            {
+                "category": "科技3C",
+                "number": 1
+            },
+            {
+                "category": "金融保險",
+                "number": 2
+            },
+            {
+                "category": "頭家生意",
+                "number": 3
+            },
+            {
+                "category": "地產焦點",
+                "number": 9
+            },
+            {
+                "category": "房產月刊",
+                "number": 2
+            },
+            {
+                "category": "副刊焦點",
+                "number": 14
+            },
+            {
+                "category": "旅遊與探險",
+                "number": 2
+            },
+            {
+                "category": "美食天地",
+                "number": 1
+            },
+            {
+                "category": "車市3C",
+                "number": 2
+            },
+            {
+                "category": "家庭與健康",
+                "number": 8
+            },
+            {
+                "category": "論壇",
+                "number": 1
+            },
+            {
+                "category": "名采",
+                "number": 5
+            },
+            {
+                "category": "人間事",
+                "number": 4
+            }
+        ]
+    },
+    {
+        "date": 20140510,
+        "totalNum": 301,
+        "result": [
+            {
+                "category": "頭條",
+                "number": 4
+            },
+            {
+                "category": "要聞",
+                "number": 25
+            },
+            {
+                "category": "社會",
+                "number": 5
+            },
+            {
+                "category": "生活",
+                "number": 9
+            },
+            {
+                "category": "政治",
+                "number": 6
+            },
+            {
+                "category": "地方綜合",
+                "number": 23
+            },
+            {
+                "category": "論壇",
+                "number": 8
+            },
+            {
+                "category": "法庭",
+                "number": 4
+            },
+            {
+                "category": "投訴",
+                "number": 1
+            },
+            {
+                "category": "娛樂名人",
+                "number": 23
+            },
+            {
+                "category": "木瓜霞吐槽",
+                "number": 4
+            },
+            {
+                "category": "直擊好萊塢",
+                "number": 7
+            },
+            {
+                "category": "亞洲哈燒星",
+                "number": 8
+            },
+            {
+                "category": "名人時尚",
+                "number": 9
+            },
+            {
+                "category": "國際頭條",
+                "number": 1
+            },
+            {
+                "category": "國際新聞",
+                "number": 4
+            },
+            {
+                "category": "中國新聞",
+                "number": 4
+            },
+            {
+                "category": "雙語天下",
+                "number": 1
+            },
+            {
+                "category": "體育焦點",
+                "number": 6
+            },
+            {
+                "category": "籃球瘋",
+                "number": 4
+            },
+            {
+                "category": "投打對決",
+                "number": 5
+            },
+            {
+                "category": "足球新聞",
+                "number": 7
+            },
+            {
+                "category": "運彩分析",
+                "number": 3
+            },
+            {
+                "category": "財經焦點",
+                "number": 5
+            },
+            {
+                "category": "熱門話題",
+                "number": 2
+            },
+            {
+                "category": "投資理財",
+                "number": 7
+            },
+            {
+                "category": "國際財經",
+                "number": 4
+            },
+            {
+                "category": "科技3C",
+                "number": 2
+            },
+            {
+                "category": "綜合產業",
+                "number": 2
+            },
+            {
+                "category": "金融保險",
+                "number": 3
+            },
+            {
+                "category": "地產焦點",
+                "number": 12
+            },
+            {
+                "category": "地產王",
+                "number": 36
+            },
+            {
+                "category": "中古好屋",
+                "number": 7
+            },
+            {
+                "category": "房產月刊",
+                "number": 2
+            },
+            {
+                "category": "副刊焦點",
+                "number": 27
+            },
+            {
+                "category": "旅遊與探險",
+                "number": 1
+            },
+            {
+                "category": "美食天地",
+                "number": 3
+            },
+            {
+                "category": "車市3C",
+                "number": 3
+            },
+            {
+                "category": "家庭與健康",
+                "number": 7
+            },
+            {
+                "category": "論壇",
+                "number": 7
+            }
+        ]
+    },
+    {
+        "date": 20140509,
+        "totalNum": 293,
+        "result": [
+            {
+                "category": "頭條",
+                "number": 6
+            },
+            {
+                "category": "要聞",
+                "number": 29
+            },
+            {
+                "category": "社會",
+                "number": 5
+            },
+            {
+                "category": "生活",
+                "number": 10
+            },
+            {
+                "category": "政治",
+                "number": 6
+            },
+            {
+                "category": "地方綜合",
+                "number": 26
+            },
+            {
+                "category": "論壇",
+                "number": 9
+            },
+            {
+                "category": "法庭",
+                "number": 4
+            },
+            {
+                "category": "暖流",
+                "number": 3
+            },
+            {
+                "category": "投訴",
+                "number": 3
+            },
+            {
+                "category": "娛樂名人",
+                "number": 14
+            },
+            {
+                "category": "木瓜霞吐槽",
+                "number": 5
+            },
+            {
+                "category": "直擊好萊塢",
+                "number": 2
+            },
+            {
+                "category": "強檔新片",
+                "number": 3
+            },
+            {
+                "category": "亞洲哈燒星",
+                "number": 3
+            },
+            {
+                "category": "名人時尚",
+                "number": 6
+            },
+            {
+                "category": "國際頭條",
+                "number": 4
+            },
+            {
+                "category": "國際新聞",
+                "number": 7
+            },
+            {
+                "category": "中國新聞",
+                "number": 6
+            },
+            {
+                "category": "雙語天下",
+                "number": 1
+            },
+            {
+                "category": "體育焦點",
+                "number": 6
+            },
+            {
+                "category": "大運動場",
+                "number": 2
+            },
+            {
+                "category": "籃球瘋",
+                "number": 2
+            },
+            {
+                "category": "投打對決",
+                "number": 4
+            },
+            {
+                "category": "足球新聞",
+                "number": 17
+            },
+            {
+                "category": "運彩分析",
+                "number": 3
+            },
+            {
+                "category": "財經焦點",
+                "number": 3
+            },
+            {
+                "category": "熱門話題",
+                "number": 3
+            },
+            {
+                "category": "投資理財",
+                "number": 9
+            },
+            {
+                "category": "國際財經",
+                "number": 5
+            },
+            {
+                "category": "科技3C",
+                "number": 2
+            },
+            {
+                "category": "綜合產業",
+                "number": 2
+            },
+            {
+                "category": "金融保險",
+                "number": 2
+            },
+            {
+                "category": "頭家生意",
+                "number": 1
+            },
+            {
+                "category": "地產焦點",
+                "number": 13
+            },
+            {
+                "category": "家居王",
+                "number": 7
+            },
+            {
+                "category": "豪宅王",
+                "number": 1
+            },
+            {
+                "category": "房產月刊",
+                "number": 2
+            },
+            {
+                "category": "副刊焦點",
+                "number": 16
+            },
+            {
+                "category": "旅遊與探險",
+                "number": 2
+            },
+            {
+                "category": "美食天地",
+                "number": 12
+            },
+            {
+                "category": "車市3C",
+                "number": 4
+            },
+            {
+                "category": "家庭與健康",
+                "number": 10
+            },
+            {
+                "category": "論壇",
+                "number": 7
+            },
+            {
+                "category": "名采",
+                "number": 4
+            },
+            {
+                "category": "人間事",
+                "number": 2
+            }
+        ]
+    },
+    {
+        "date": 20140508,
+        "totalNum": 263,
+        "result": [
+            {
+                "category": "頭條",
+                "number": 5
+            },
+            {
+                "category": "要聞",
+                "number": 36
+            },
+            {
+                "category": "社會",
+                "number": 5
+            },
+            {
+                "category": "生活",
+                "number": 10
+            },
+            {
+                "category": "政治",
+                "number": 6
+            },
+            {
+                "category": "地方綜合",
+                "number": 5
+            },
+            {
+                "category": "論壇",
+                "number": 9
+            },
+            {
+                "category": "法庭",
+                "number": 4
+            },
+            {
+                "category": "暖流",
+                "number": 3
+            },
+            {
+                "category": "投訴",
+                "number": 3
+            },
+            {
+                "category": "娛樂名人",
+                "number": 21
+            },
+            {
+                "category": "木瓜霞吐槽",
+                "number": 4
+            },
+            {
+                "category": "直擊好萊塢",
+                "number": 4
+            },
+            {
+                "category": "亞洲哈燒星",
+                "number": 5
+            },
+            {
+                "category": "名人時尚",
+                "number": 8
+            },
+            {
+                "category": "國際頭條",
+                "number": 1
+            },
+            {
+                "category": "國際新聞",
+                "number": 6
+            },
+            {
+                "category": "中國新聞",
+                "number": 1
+            },
+            {
+                "category": "雙語天下",
+                "number": 1
+            },
+            {
+                "category": "體育焦點",
+                "number": 5
+            },
+            {
+                "category": "大運動場",
+                "number": 4
+            },
+            {
+                "category": "籃球瘋",
+                "number": 4
+            },
+            {
+                "category": "投打對決",
+                "number": 12
+            },
+            {
+                "category": "足球新聞",
+                "number": 6
+            },
+            {
+                "category": "運彩分析",
+                "number": 3
+            },
+            {
+                "category": "財經焦點",
+                "number": 3
+            },
+            {
+                "category": "熱門話題",
+                "number": 2
+            },
+            {
+                "category": "投資理財",
+                "number": 12
+            },
+            {
+                "category": "國際財經",
+                "number": 5
+            },
+            {
+                "category": "科技3C",
+                "number": 2
+            },
+            {
+                "category": "綜合產業",
+                "number": 3
+            },
+            {
+                "category": "金融保險",
+                "number": 3
+            },
+            {
+                "category": "地產焦點",
+                "number": 13
+            },
+            {
+                "category": "房產月刊",
+                "number": 2
+            },
+            {
+                "category": "副刊焦點",
+                "number": 14
+            },
+            {
+                "category": "旅遊與探險",
+                "number": 1
+            },
+            {
+                "category": "美食天地",
+                "number": 4
+            },
+            {
+                "category": "車市3C",
+                "number": 8
+            },
+            {
+                "category": "家庭與健康",
+                "number": 6
+            },
+            {
+                "category": "論壇",
+                "number": 7
+            },
+            {
+                "category": "名采",
+                "number": 4
+            },
+            {
+                "category": "人間事",
+                "number": 3
+            }
+        ]
+    },
+    {
+        "date": 20140507,
+        "totalNum": 295,
+        "result": [
+            {
+                "category": "頭條",
+                "number": 13
+            },
+            {
+                "category": "要聞",
+                "number": 33
+            },
+            {
+                "category": "社會",
+                "number": 5
+            },
+            {
+                "category": "生活",
+                "number": 17
+            },
+            {
+                "category": "政治",
+                "number": 6
+            },
+            {
+                "category": "地方綜合",
+                "number": 7
+            },
+            {
+                "category": "論壇",
+                "number": 10
+            },
+            {
+                "category": "法庭",
+                "number": 4
+            },
+            {
+                "category": "暖流",
+                "number": 3
+            },
+            {
+                "category": "投訴",
+                "number": 3
+            },
+            {
+                "category": "娛樂名人",
+                "number": 27
+            },
+            {
+                "category": "木瓜霞吐槽",
+                "number": 4
+            },
+            {
+                "category": "直擊好萊塢",
+                "number": 2
+            },
+            {
+                "category": "亞洲哈燒星",
+                "number": 3
+            },
+            {
+                "category": "名人時尚",
+                "number": 9
+            },
+            {
+                "category": "國際頭條",
+                "number": 3
+            },
+            {
+                "category": "國際新聞",
+                "number": 6
+            },
+            {
+                "category": "中國新聞",
+                "number": 5
+            },
+            {
+                "category": "雙語天下",
+                "number": 1
+            },
+            {
+                "category": "體育焦點",
+                "number": 6
+            },
+            {
+                "category": "大運動場",
+                "number": 6
+            },
+            {
+                "category": "籃球瘋",
+                "number": 5
+            },
+            {
+                "category": "投打對決",
+                "number": 5
+            },
+            {
+                "category": "足球新聞",
+                "number": 4
+            },
+            {
+                "category": "運彩分析",
+                "number": 3
+            },
+            {
+                "category": "財經焦點",
+                "number": 4
+            },
+            {
+                "category": "熱門話題",
+                "number": 3
+            },
+            {
+                "category": "基金",
+                "number": 2
+            },
+            {
+                "category": "投資理財",
+                "number": 8
+            },
+            {
+                "category": "國際財經",
+                "number": 5
+            },
+            {
+                "category": "科技3C",
+                "number": 2
+            },
+            {
+                "category": "綜合產業",
+                "number": 2
+            },
+            {
+                "category": "金融保險",
+                "number": 3
+            },
+            {
+                "category": "頭家生意",
+                "number": 1
+            },
+            {
+                "category": "地產焦點",
+                "number": 15
+            },
+            {
+                "category": "副刊焦點",
+                "number": 28
+            },
+            {
+                "category": "旅遊與探險",
+                "number": 1
+            },
+            {
+                "category": "美食天地",
+                "number": 4
+            },
+            {
+                "category": "車市3C",
+                "number": 5
+            },
+            {
+                "category": "家庭與健康",
+                "number": 6
+            },
+            {
+                "category": "論壇",
+                "number": 9
+            },
+            {
+                "category": "名采",
+                "number": 5
+            },
+            {
+                "category": "人間事",
+                "number": 2
+            }
+        ]
+    },
+    {
+        "date": 20140506,
+        "totalNum": 265,
+        "result": [
+            {
+                "category": "頭條",
+                "number": 6
+            },
+            {
+                "category": "要聞",
+                "number": 30
+            },
+            {
+                "category": "社會",
+                "number": 5
+            },
+            {
+                "category": "生活",
+                "number": 10
+            },
+            {
+                "category": "政治",
+                "number": 5
+            },
+            {
+                "category": "地方綜合",
+                "number": 4
+            },
+            {
+                "category": "論壇",
+                "number": 9
+            },
+            {
+                "category": "法庭",
+                "number": 4
+            },
+            {
+                "category": "暖流",
+                "number": 4
+            },
+            {
+                "category": "投訴",
+                "number": 3
+            },
+            {
+                "category": "娛樂名人",
+                "number": 14
+            },
+            {
+                "category": "木瓜霞吐槽",
+                "number": 7
+            },
+            {
+                "category": "直擊好萊塢",
+                "number": 6
+            },
+            {
+                "category": "亞洲哈燒星",
+                "number": 7
+            },
+            {
+                "category": "名人時尚",
+                "number": 6
+            },
+            {
+                "category": "國際頭條",
+                "number": 4
+            },
+            {
+                "category": "國際新聞",
+                "number": 6
+            },
+            {
+                "category": "中國新聞",
+                "number": 4
+            },
+            {
+                "category": "雙語天下",
+                "number": 1
+            },
+            {
+                "category": "體育焦點",
+                "number": 5
+            },
+            {
+                "category": "大運動場",
+                "number": 8
+            },
+            {
+                "category": "籃球瘋",
+                "number": 2
+            },
+            {
+                "category": "投打對決",
+                "number": 15
+            },
+            {
+                "category": "足球新聞",
+                "number": 3
+            },
+            {
+                "category": "運彩分析",
+                "number": 3
+            },
+            {
+                "category": "財經焦點",
+                "number": 4
+            },
+            {
+                "category": "熱門話題",
+                "number": 4
+            },
+            {
+                "category": "投資理財",
+                "number": 10
+            },
+            {
+                "category": "國際財經",
+                "number": 5
+            },
+            {
+                "category": "科技3C",
+                "number": 2
+            },
+            {
+                "category": "綜合產業",
+                "number": 2
+            },
+            {
+                "category": "金融保險",
+                "number": 3
+            },
+            {
+                "category": "頭家生意",
+                "number": 1
+            },
+            {
+                "category": "地產焦點",
+                "number": 14
+            },
+            {
+                "category": "副刊焦點",
+                "number": 17
+            },
+            {
+                "category": "旅遊與探險",
+                "number": 1
+            },
+            {
+                "category": "美食天地",
+                "number": 5
+            },
+            {
+                "category": "車市3C",
+                "number": 5
+            },
+            {
+                "category": "家庭與健康",
+                "number": 7
+            },
+            {
+                "category": "論壇",
+                "number": 8
+            },
+            {
+                "category": "名采",
+                "number": 4
+            },
+            {
+                "category": "人間事",
+                "number": 2
+            }
+        ]
+    },
+    {
+        "date": 20140505,
+        "totalNum": 244,
+        "result": [
+            {
+                "category": "頭條",
+                "number": 5
+            },
+            {
+                "category": "要聞",
+                "number": 31
+            },
+            {
+                "category": "社會",
+                "number": 5
+            },
+            {
+                "category": "生活",
+                "number": 14
+            },
+            {
+                "category": "政治",
+                "number": 6
+            },
+            {
+                "category": "地方綜合",
+                "number": 3
+            },
+            {
+                "category": "論壇",
+                "number": 9
+            },
+            {
+                "category": "暖流",
+                "number": 3
+            },
+            {
+                "category": "投訴",
+                "number": 3
+            },
+            {
+                "category": "娛樂名人",
+                "number": 12
+            },
+            {
+                "category": "木瓜霞吐槽",
+                "number": 4
+            },
+            {
+                "category": "直擊好萊塢",
+                "number": 3
+            },
+            {
+                "category": "亞洲哈燒星",
+                "number": 3
+            },
+            {
+                "category": "名人時尚",
+                "number": 5
+            },
+            {
+                "category": "國際頭條",
+                "number": 5
+            },
+            {
+                "category": "國際新聞",
+                "number": 7
+            },
+            {
+                "category": "中國新聞",
+                "number": 4
+            },
+            {
+                "category": "雙語天下",
+                "number": 1
+            },
+            {
+                "category": "體育焦點",
+                "number": 5
+            },
+            {
+                "category": "大運動場",
+                "number": 4
+            },
+            {
+                "category": "籃球瘋",
+                "number": 5
+            },
+            {
+                "category": "投打對決",
+                "number": 13
+            },
+            {
+                "category": "足球新聞",
+                "number": 3
+            },
+            {
+                "category": "運彩分析",
+                "number": 2
+            },
+            {
+                "category": "財經焦點",
+                "number": 7
+            },
+            {
+                "category": "熱門話題",
+                "number": 4
+            },
+            {
+                "category": "投資理財",
+                "number": 7
+            },
+            {
+                "category": "國際財經",
+                "number": 4
+            },
+            {
+                "category": "科技3C",
+                "number": 2
+            },
+            {
+                "category": "綜合產業",
+                "number": 2
+            },
+            {
+                "category": "頭家生意",
+                "number": 1
+            },
+            {
+                "category": "地產焦點",
+                "number": 15
+            },
+            {
+                "category": "副刊焦點",
+                "number": 15
+            },
+            {
+                "category": "旅遊與探險",
+                "number": 2
+            },
+            {
+                "category": "美食天地",
+                "number": 4
+            },
+            {
+                "category": "車市3C",
+                "number": 4
+            },
+            {
+                "category": "家庭與健康",
+                "number": 7
+            },
+            {
+                "category": "論壇",
+                "number": 8
+            },
+            {
+                "category": "名采",
+                "number": 5
+            },
+            {
+                "category": "人間事",
+                "number": 2
+            }
+        ]
+    },
+    {
+        "date": 20140504,
+        "totalNum": 216,
+        "result": [
+            {
+                "category": "頭條",
+                "number": 4
+            },
+            {
+                "category": "要聞",
+                "number": 31
+            },
+            {
+                "category": "社會",
+                "number": 5
+            },
+            {
+                "category": "生活",
+                "number": 7
+            },
+            {
+                "category": "政治",
+                "number": 7
+            },
+            {
+                "category": "地方綜合",
+                "number": 5
+            },
+            {
+                "category": "論壇",
+                "number": 1
+            },
+            {
+                "category": "暖流",
+                "number": 3
+            },
+            {
+                "category": "投訴",
+                "number": 3
+            },
+            {
+                "category": "娛樂名人",
+                "number": 15
+            },
+            {
+                "category": "木瓜霞吐槽",
+                "number": 4
+            },
+            {
+                "category": "直擊好萊塢",
+                "number": 3
+            },
+            {
+                "category": "亞洲哈燒星",
+                "number": 3
+            },
+            {
+                "category": "名人時尚",
+                "number": 5
+            },
+            {
+                "category": "國際頭條",
+                "number": 3
+            },
+            {
+                "category": "國際新聞",
+                "number": 6
+            },
+            {
+                "category": "中國新聞",
+                "number": 4
+            },
+            {
+                "category": "雙語天下",
+                "number": 1
+            },
+            {
+                "category": "體育焦點",
+                "number": 5
+            },
+            {
+                "category": "大運動場",
+                "number": 5
+            },
+            {
+                "category": "籃球瘋",
+                "number": 4
+            },
+            {
+                "category": "投打對決",
+                "number": 16
+            },
+            {
+                "category": "足球新聞",
+                "number": 2
+            },
+            {
+                "category": "運彩分析",
+                "number": 3
+            },
+            {
+                "category": "財經焦點",
+                "number": 4
+            },
+            {
+                "category": "金融專題",
+                "number": 4
+            },
+            {
+                "category": "科技3C",
+                "number": 3
+            },
+            {
+                "category": "綜合產業",
+                "number": 3
+            },
+            {
+                "category": "頭家生意",
+                "number": 2
+            },
+            {
+                "category": "地產焦點",
+                "number": 12
+            },
+            {
+                "category": "副刊焦點",
+                "number": 19
+            },
+            {
+                "category": "旅遊與探險",
+                "number": 2
+            },
+            {
+                "category": "美食天地",
+                "number": 1
+            },
+            {
+                "category": "車市3C",
+                "number": 2
+            },
+            {
+                "category": "家庭與健康",
+                "number": 9
+            },
+            {
+                "category": "論壇",
+                "number": 1
+            },
+            {
+                "category": "名采",
+                "number": 5
+            },
+            {
+                "category": "人間事",
+                "number": 4
+            }
+        ]
+    },
+    {
+        "date": 20140503,
+        "totalNum": 327,
+        "result": [
+            {
+                "category": "頭條",
+                "number": 5
+            },
+            {
+                "category": "要聞",
+                "number": 29
+            },
+            {
+                "category": "社會",
+                "number": 6
+            },
+            {
+                "category": "生活",
+                "number": 10
+            },
+            {
+                "category": "政治",
+                "number": 6
+            },
+            {
+                "category": "地方綜合",
+                "number": 28
+            },
+            {
+                "category": "論壇",
+                "number": 8
+            },
+            {
+                "category": "法庭",
+                "number": 4
+            },
+            {
+                "category": "投訴",
+                "number": 1
+            },
+            {
+                "category": "娛樂名人",
+                "number": 25
+            },
+            {
+                "category": "木瓜霞吐槽",
+                "number": 3
+            },
+            {
+                "category": "直擊好萊塢",
+                "number": 8
+            },
+            {
+                "category": "亞洲哈燒星",
+                "number": 8
+            },
+            {
+                "category": "名人時尚",
+                "number": 10
+            },
+            {
+                "category": "國際頭條",
+                "number": 4
+            },
+            {
+                "category": "國際新聞",
+                "number": 7
+            },
+            {
+                "category": "中國新聞",
+                "number": 4
+            },
+            {
+                "category": "雙語天下",
+                "number": 1
+            },
+            {
+                "category": "體育焦點",
+                "number": 7
+            },
+            {
+                "category": "大運動場",
+                "number": 2
+            },
+            {
+                "category": "籃球瘋",
+                "number": 5
+            },
+            {
+                "category": "投打對決",
+                "number": 6
+            },
+            {
+                "category": "足球新聞",
+                "number": 3
+            },
+            {
+                "category": "運彩分析",
+                "number": 3
+            },
+            {
+                "category": "財經焦點",
+                "number": 4
+            },
+            {
+                "category": "熱門話題",
+                "number": 3
+            },
+            {
+                "category": "投資理財",
+                "number": 10
+            },
+            {
+                "category": "國際財經",
+                "number": 5
+            },
+            {
+                "category": "科技3C",
+                "number": 2
+            },
+            {
+                "category": "綜合產業",
+                "number": 2
+            },
+            {
+                "category": "金融保險",
+                "number": 2
+            },
+            {
+                "category": "頭家生意",
+                "number": 1
+            },
+            {
+                "category": "地產焦點",
+                "number": 13
+            },
+            {
+                "category": "地產王",
+                "number": 37
+            },
+            {
+                "category": "中古好屋",
+                "number": 7
+            },
+            {
+                "category": "副刊焦點",
+                "number": 22
+            },
+            {
+                "category": "旅遊與探險",
+                "number": 1
+            },
+            {
+                "category": "美食天地",
+                "number": 3
+            },
+            {
+                "category": "車市3C",
+                "number": 2
+            },
+            {
+                "category": "家庭與健康",
+                "number": 13
+            },
+            {
+                "category": "論壇",
+                "number": 7
+            }
+        ]
+    },
+    {
+        "date": 20140502,
+        "totalNum": 282,
+        "result": [
+            {
+                "category": "頭條",
+                "number": 3
+            },
+            {
+                "category": "要聞",
+                "number": 32
+            },
+            {
+                "category": "社會",
+                "number": 5
+            },
+            {
+                "category": "生活",
+                "number": 8
+            },
+            {
+                "category": "政治",
+                "number": 6
+            },
+            {
+                "category": "地方綜合",
+                "number": 7
+            },
+            {
+                "category": "論壇",
+                "number": 9
+            },
+            {
+                "category": "法庭",
+                "number": 4
+            },
+            {
+                "category": "暖流",
+                "number": 3
+            },
+            {
+                "category": "投訴",
+                "number": 3
+            },
+            {
+                "category": "娛樂名人",
+                "number": 27
+            },
+            {
+                "category": "木瓜霞吐槽",
+                "number": 4
+            },
+            {
+                "category": "直擊好萊塢",
+                "number": 8
+            },
+            {
+                "category": "強檔新片",
+                "number": 3
+            },
+            {
+                "category": "亞洲哈燒星",
+                "number": 3
+            },
+            {
+                "category": "名人時尚",
+                "number": 5
+            },
+            {
+                "category": "國際頭條",
+                "number": 4
+            },
+            {
+                "category": "國際新聞",
+                "number": 7
+            },
+            {
+                "category": "中國新聞",
+                "number": 5
+            },
+            {
+                "category": "雙語天下",
+                "number": 1
+            },
+            {
+                "category": "體育焦點",
+                "number": 6
+            },
+            {
+                "category": "大運動場",
+                "number": 3
+            },
+            {
+                "category": "投打對決",
+                "number": 9
+            },
+            {
+                "category": "足球新聞",
+                "number": 1
+            },
+            {
+                "category": "運彩分析",
+                "number": 4
+            },
+            {
+                "category": "財經焦點",
+                "number": 10
+            },
+            {
+                "category": "投資理財",
+                "number": 9
+            },
+            {
+                "category": "國際財經",
+                "number": 5
+            },
+            {
+                "category": "科技3C",
+                "number": 2
+            },
+            {
+                "category": "金融保險",
+                "number": 5
+            },
+            {
+                "category": "頭家生意",
+                "number": 1
+            },
+            {
+                "category": "地產焦點",
+                "number": 14
+            },
+            {
+                "category": "家居王",
+                "number": 8
+            },
+            {
+                "category": "豪宅王",
+                "number": 2
+            },
+            {
+                "category": "副刊焦點",
+                "number": 16
+            },
+            {
+                "category": "旅遊與探險",
+                "number": 1
+            },
+            {
+                "category": "美食天地",
+                "number": 13
+            },
+            {
+                "category": "車市3C",
+                "number": 5
+            },
+            {
+                "category": "家庭與健康",
+                "number": 7
+            },
+            {
+                "category": "論壇",
+                "number": 7
+            },
+            {
+                "category": "名采",
+                "number": 5
+            },
+            {
+                "category": "人間事",
+                "number": 2
+            }
+        ]
+    },
+    {
+        "date": 20140501,
+        "totalNum": 251,
+        "result": [
+            {
+                "category": "頭條",
+                "number": 6
+            },
+            {
+                "category": "要聞",
+                "number": 29
+            },
+            {
+                "category": "社會",
+                "number": 5
+            },
+            {
+                "category": "生活",
+                "number": 8
+            },
+            {
+                "category": "地方綜合",
+                "number": 9
+            },
+            {
+                "category": "論壇",
+                "number": 9
+            },
+            {
+                "category": "法庭",
+                "number": 4
+            },
+            {
+                "category": "暖流",
+                "number": 3
+            },
+            {
+                "category": "投訴",
+                "number": 3
+            },
+            {
+                "category": "娛樂名人",
+                "number": 15
+            },
+            {
+                "category": "木瓜霞吐槽",
+                "number": 3
+            },
+            {
+                "category": "直擊好萊塢",
+                "number": 4
+            },
+            {
+                "category": "亞洲哈燒星",
+                "number": 5
+            },
+            {
+                "category": "名人時尚",
+                "number": 6
+            },
+            {
+                "category": "國際頭條",
+                "number": 4
+            },
+            {
+                "category": "國際新聞",
+                "number": 7
+            },
+            {
+                "category": "中國新聞",
+                "number": 2
+            },
+            {
+                "category": "雙語天下",
+                "number": 1
+            },
+            {
+                "category": "體育焦點",
+                "number": 4
+            },
+            {
+                "category": "大運動場",
+                "number": 6
+            },
+            {
+                "category": "籃球瘋",
+                "number": 3
+            },
+            {
+                "category": "投打對決",
+                "number": 14
+            },
+            {
+                "category": "足球新聞",
+                "number": 1
+            },
+            {
+                "category": "運彩分析",
+                "number": 3
+            },
+            {
+                "category": "財經焦點",
+                "number": 7
+            },
+            {
+                "category": "熱門話題",
+                "number": 3
+            },
+            {
+                "category": "投資理財",
+                "number": 9
+            },
+            {
+                "category": "國際財經",
+                "number": 5
+            },
+            {
+                "category": "科技3C",
+                "number": 2
+            },
+            {
+                "category": "綜合產業",
+                "number": 2
+            },
+            {
+                "category": "金融保險",
+                "number": 3
+            },
+            {
+                "category": "頭家生意",
+                "number": 1
+            },
+            {
+                "category": "地產焦點",
+                "number": 14
+            },
+            {
+                "category": "副刊焦點",
+                "number": 18
+            },
+            {
+                "category": "旅遊與探險",
+                "number": 2
+            },
+            {
+                "category": "美食天地",
+                "number": 4
+            },
+            {
+                "category": "車市3C",
+                "number": 5
+            },
+            {
+                "category": "家庭與健康",
+                "number": 6
+            },
+            {
+                "category": "論壇",
+                "number": 8
+            },
+            {
+                "category": "名采",
+                "number": 5
+            },
+            {
+                "category": "人間事",
+                "number": 3
+            }
+        ]
+    }
+]

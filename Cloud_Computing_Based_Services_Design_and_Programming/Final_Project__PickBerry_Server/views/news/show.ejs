@@ -1,0 +1,172 @@
+<style>
+
+	.body{
+		margin:0px;
+	}
+	.newstitle{
+
+		width:100%;
+	}
+
+	.out-contain{
+		position:absolute;
+		width:100%;
+		top:50px;
+		left:0;
+		background:rgba(255,255,110,0.5);
+	}
+
+	.newstitle{
+		width:100%;
+		position:absolute;
+		left:0px;
+		top:0px;
+		height:70px;
+		background:rgba(100,100,170,0.3);
+		line-height: 60px;
+		vertical-align: middle;
+		text-align: center;
+	}
+	.newsdetail{
+		width:100%;
+		height:100%;
+		position:absolute;
+		left:0px;
+		top:70px;
+		
+	}
+	.newsconrea .newscontent{
+		width:50%;
+		height:100%;
+		float:left;
+		background:rgba(248,248,208,0.2);
+		font-size: 16px;
+		padding:15px;
+		overflow: hidden;
+
+	}
+	.newscomment{
+		width:100%;
+		min-height:400px;
+
+		float:left;
+		background:rgba(200,200,200,0.2);
+	}
+	.newsconrea .newsreason{
+		width:50%;
+		height:100%;
+		
+		float:left;
+		background:rgba(200,200,200,0.2);
+		padding: 20px;
+	}
+	.newsconrea{
+		width:100%;
+		height:1000px;
+		background:rgba(255,255,255,0.5);
+	}
+	.newsreport{
+		width:100%;
+		height:80px;
+		line-height:80px;
+		vertical-align:middle;
+		text-align:center;
+		background:rgba(61,33,108,0.6);
+		font-size: 40px;
+	}
+	.newsreport a{
+		color: white;
+	}
+
+	.newsreport a:hover{
+		color: white;
+	}
+	.rea-attr{
+		float:left;
+		width:50%;
+		height:50px;
+		line-height: 50px;
+		vertical-align: middle;
+
+	}
+	.rea-attr input{
+		height: 0px;
+	}
+	.reason-form{
+		width:100%;
+		margin-top: 100px;
+
+	}
+</style>
+<link rel="stylesheet" type="text/css" href="/styles/nav.css">
+<div class="navbar-a">
+      <div class="navli logo">
+          <a href="http://localhost:1337/">檢爛梅</a>
+      </div>
+       <div class=" navli logout">
+        <form id="logout" method="post" action="/logout">
+          <div class="logout-sub">Logout</div>
+        </form>
+      </div>
+
+       <div class="navli all"> 
+        <a href="/news/showAll">全部爛梅</a>
+      </div>
+    
+
+  </div>
+<div class="out-contain">
+
+<div class="newstitle"><h2><%= title %></h2></div>
+
+<div class="newsdetail" ng-app="fucknews" ng-controller="news">
+	<div class="newsconrea">
+		<div class="newscontent">
+			<div><a href="<%= url %>">原新聞連結</a></div>
+			
+			<%= content %>
+
+			<img src="<%= imgurl%>" style="height:200;">
+		</div>
+		<div class="newsreason">
+			<div><h2>為什麼這則新聞不好？</h2> </div>
+			<div class="reason-list" ng-repeat="reason in news.reasons">
+			  <div>
+			  		
+
+			  		<div class="rea-attr"><h3>{{reason.content}}</h3></div>
+				  
+				  <div class="rea-attr"><button class="btn btn-lg" ng-click="vote(reason.id,$index)">vote for this {{reason.voters.length}}</button></div>
+			  </div>
+			</div>
+			<div class="reason-form">
+			    <form>
+			      <input class="input-l" ng-model="reason.content" type="text" placeholder="簡單的一個爛的理由" value="">
+			      <button class="btn btn-info" ng-click="submitReason()">submit</button>
+			  	</form>
+			</div>
+		</div>
+	</div>
+ 
+  <div class="newsreport"><a href="/news/reportForm/<%=news.id%>">多作一步，寄信檢舉！ ( {{ news.reports.length }} reports )</a></div>
+  
+  
+  <div class="newscomment">
+  	<div style="margin-left:200px; padding: 40px;">
+  		<div><h3>Comment</h3></div>
+	    <div ng-repeat="comment in news.comments">
+	      {{comment.content}} ......from 
+	      <a href="/user/show/{{comment.owner.id}}">{{comment.owner.name}}</a>
+	    </div>
+	    <div>
+		    <form>
+		      <input ng-model="comment.content" type="text" placeholder="I want to comment this news" value="">
+		      <button class="btn" ng-click="submitComment()">submit</button>
+		    </form>
+	    </div>
+  	</div>
+  	
+  </div>
+
+</div>
+</div>

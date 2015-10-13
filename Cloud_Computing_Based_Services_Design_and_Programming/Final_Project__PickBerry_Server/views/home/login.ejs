@@ -1,0 +1,32 @@
+<style>
+.login{
+	width:100%;
+	height:100%;
+	position:absolute;
+	width:100%;
+	height:100%;
+	top:0px;
+	left:0px;
+	background:rgba(0,0,0,0.2);
+}
+
+.login-url{
+	position:absolute;
+	height:10%;
+	width:20%;
+	line-height:100%;
+	vertical-align:middle;
+	text-align:center;
+	background: rgba(200,100,100,0.3);
+	margin:auto;
+	left:40%;
+	top:40%;
+
+}
+</style>	
+
+<div ng-app="fucknews" class="login" ng-controller="homepage">
+	<div class="login-url">
+		<a href="<%= loginUrl %>">FB Login</a>
+	</div>
+</div>

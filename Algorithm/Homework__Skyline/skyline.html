@@ -1,0 +1,266 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><style>html { font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+
+body{
+  color:#444;
+  font-family:Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman',
+              "Hiragino Sans GB", "STXihei", "微软雅黑", serif;
+  font-size:12px;
+  line-height:1.5em;
+  background:#fefefe;
+  width: 45em;
+  margin: 10px auto;
+  padding: 1em;
+  outline: 1300px solid #FAFAFA;
+}
+
+a{ color: #0645ad; text-decoration:none;}
+a:visited{ color: #0b0080; }
+a:hover{ color: #06e; }
+a:active{ color:#faa700; }
+a:focus{ outline: thin dotted; }
+a:hover, a:active{ outline: 0; }
+
+span.backtick {
+  border:1px solid #EAEAEA;
+  border-radius:3px;
+  background:#F8F8F8;
+  padding:0 3px 0 3px;
+}
+
+::-moz-selection{background:rgba(255,255,0,0.3);color:#000}
+::selection{background:rgba(255,255,0,0.3);color:#000}
+
+a::-moz-selection{background:rgba(255,255,0,0.3);color:#0645ad}
+a::selection{background:rgba(255,255,0,0.3);color:#0645ad}
+
+p{
+margin:1em 0;
+}
+
+img{
+max-width:100%;
+}
+
+h1,h2,h3,h4,h5,h6{
+font-weight:normal;
+color:#111;
+line-height:1em;
+}
+h4,h5,h6{ font-weight: bold; }
+h1{ font-size:2.5em; }
+h2{ font-size:2em; border-bottom:1px solid silver; padding-bottom: 5px; }
+h3{ font-size:1.5em; }
+h4{ font-size:1.2em; }
+h5{ font-size:1em; }
+h6{ font-size:0.9em; }
+
+blockquote{
+color:#666666;
+margin:0;
+padding-left: 3em;
+border-left: 0.5em #EEE solid;
+}
+hr { display: block; height: 2px; border: 0; border-top: 1px solid #aaa;border-bottom: 1px solid #eee; margin: 1em 0; padding: 0; }
+
+
+pre , code, kbd, samp { 
+  color: #000; 
+  font-family: monospace; 
+  font-size: 0.88em; 
+  border-radius:3px;
+  background-color: #F8F8F8;
+  border: 1px solid #CCC; 
+}
+pre { white-space: pre; white-space: pre-wrap; word-wrap: break-word; padding: 5px 12px;}
+pre code { border: 0px !important; padding: 0;}
+code { padding: 0 3px 0 3px; }
+
+b, strong { font-weight: bold; }
+
+dfn { font-style: italic; }
+
+ins { background: #ff9; color: #000; text-decoration: none; }
+
+mark { background: #ff0; color: #000; font-style: italic; font-weight: bold; }
+
+sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
+sup { top: -0.5em; }
+sub { bottom: -0.25em; }
+
+ul, ol { margin: 1em 0; padding: 0 0 0 2em; }
+li p:last-child { margin:0 }
+dd { margin: 0 0 0 2em; }
+
+img { border: 0; -ms-interpolation-mode: bicubic; vertical-align: middle; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+td { vertical-align: top; }
+
+@media only screen and (min-width: 480px) {
+body{font-size:14px;}
+}
+
+@media only screen and (min-width: 768px) {
+body{font-size:16px;}
+}
+
+@media print {
+  * { background: transparent !important; color: black !important; filter:none !important; -ms-filter: none !important; }
+  body{font-size:12pt; max-width:100%; outline:none;}
+  a, a:visited { text-decoration: underline; }
+  hr { height: 1px; border:0; border-bottom:1px solid black; }
+  a[href]:after { content: " (" attr(href) ")"; }
+  abbr[title]:after { content: " (" attr(title) ")"; }
+  .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; }
+  pre, blockquote { border: 1px solid #999; padding-right: 1em; page-break-inside: avoid; }
+  tr, img { page-break-inside: avoid; }
+  img { max-width: 100% !important; }
+  @page :left { margin: 15mm 20mm 15mm 10mm; }
+  @page :right { margin: 15mm 10mm 15mm 20mm; }
+  p, h2, h3 { orphans: 3; widows: 3; }
+  h2, h3 { page-break-after: avoid; }
+}
+</style><title>skyline</title></head><body><h1 id="algorithms">Algorithms</h1>
+<hr />
+<h3 id="homework-5-skyline-documentation">Homework 5 Skyline Documentation</h3>
+<p><a href="https://github.com/how2945ard/skyline">Code on github:  https://github.com/how2945ard/skyline</a></p>
+<h3 id="table-of-content">table of content</h3>
+<ol>
+<li>Algorithm in use</li>
+<li>Code</li>
+<li>Example output</li>
+</ol>
+<h1 id="1-algorithm-in-use">1. Algorithm in use</h1>
+<ol>
+<li>First get all the inputs</li>
+<li>Seperate the inputs for loacation from entire sequence of input</li>
+<li>Use quicksort from <code>std::sort()</code> to sort the sequence of input for location</li>
+<li>After sorting, delete the same elements from the sequence</li>
+<li>Based on the sequence, find the corresponding height of that location</li>
+<li>Find if there are any flat location and delete them (ex: <code>1 2 3 2 4</code> =&gt; <code>1 2 4</code>)</li>
+<li>Finish</li>
+</ol>
+<h1 id="2-code">2. Code</h1>
+<pre><code>#include &lt;algorithm&gt;
+#include &lt;iostream&gt;
+using namespace std;
+const int MAX_BUILDING = 1000;
+
+struct Node{
+    double start;
+    double end;
+    double height;
+    bool touched;
+    Node(){
+        touched = false;
+    }
+};
+struct Sky{
+    Node* arrayBulid;
+};
+int main(){
+    Sky sky;
+    double input;
+    cin &gt;&gt; input;
+    int buildings = input;
+    while(buildings&gt;MAX_BUILDING||buildings==0||buildings%1!=0){
+        cout &lt;&lt; &quot;retry&quot;&lt;&lt;endl;
+        cin &gt;&gt; buildings;
+    }
+    double* temp = new double[2*buildings];
+    sky.arrayBulid = new Node[buildings];
+    for(int i=0;i&lt;buildings;i++){
+        double start;
+        double height;
+        double end;
+        cin &gt;&gt; start;
+        cin &gt;&gt; height;
+        cin &gt;&gt; end;
+        if(!sky.arrayBulid[i].touched){
+            sky.arrayBulid[i].touched = true;
+            sky.arrayBulid[i].start = start;
+            sky.arrayBulid[i].height = height;
+            sky.arrayBulid[i].end = end;
+            temp[2*i]=start;
+            temp[2*i+1]=end;
+        }
+    }
+    double* first(&amp;temp[0]);
+    double* last(first + 2*buildings);
+    std::sort(first, last);
+    double* temp2 = new double[2*buildings];
+    temp2[0]= temp[0];
+    int j = 1;
+    int skip = 0;
+    for(int i=1;i&lt;2*buildings;){
+        if(temp[i]!=temp[i-1]){
+            temp2[j]=temp[i];
+            j++;
+            i++;
+        }
+        else{
+            i++;
+            skip++;
+        }
+    }
+    delete[] temp;
+    temp = NULL;
+    double* temp3 = new double[2*(2*buildings-skip)-1];
+    for(int i=0;i&lt;2*buildings-skip;i++){
+        temp3[2*i] = temp2[i];
+        temp3[2*i-1]=0;
+    }
+    delete[] temp2;
+    temp2 = NULL;
+    double* temp4 = new double[2*buildings-skip];
+    for(int i=1;i&lt;2*(2*buildings-skip)-1;i+=2){
+        for(int j=0;j&lt;buildings;j++){
+            if(sky.arrayBulid[j].start&lt;=temp3[i-1]&amp;&amp;temp3[i-1]&lt;sky.arrayBulid[j].end&amp;&amp;sky.arrayBulid[j].height&gt;temp3[i]){
+                temp3[i] = sky.arrayBulid[j].height;
+            }
+        }
+    }
+    int k = 0;
+    for (int i=1;i&lt;2*(2*buildings-skip)-1;i+=2){
+        if(temp3[i]!=temp3[i-2]){
+            temp4[i-1+k] = temp3[i-1];
+            temp4[i+k] = temp3[i];
+        }
+        else{
+            k-=2;
+        }
+        if(i == 2*(2*buildings-skip)-3){
+            temp4[i+1+k] = temp3[i+1];
+        }
+    }
+    double* result = new double[2*(2*buildings-skip)-1+k];
+    for(int i=0;i&lt;2*(2*buildings-skip)-1+k;i++){
+        result[i] = temp4[i];
+    }
+    for(int i=0;i&lt;2*(2*buildings-skip)-1+k;i++){
+        cout &lt;&lt; result[i]&lt;&lt;&quot; &quot;;
+    }
+    cout &lt;&lt; endl;
+    delete[] result;
+}
+</code></pre>
+
+<h1 id="3-example-outputs">3. Example outputs</h1>
+<table>
+<thead>
+<tr>
+<th>Input</th>
+<th>Output</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>3 1 2 3 3 2 8 4 2 7</code></td>
+<td><code>1 2 8</code></td>
+</tr>
+<tr>
+<td><code>5 1.2 3.4 5.3 5 2 6 2.4 5.3 5.2 1 2 3 2 3 4</code></td>
+<td><code>1 2 1.2 3.4 2.4 5.3 5.2 3.4 5.3 2 6</code></td>
+</tr>
+</tbody>
+</table></body></html>

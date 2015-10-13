@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html ng-app="home" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Cliff demo</title>
+    <!-- Latest compiled and minified CSS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+    <!-- include the core styles -->
+    <link rel="stylesheet" href="js/alertify.js-0.3.11/themes/alertify.core.css" />
+    <link rel="stylesheet" href="js/alertify.js-0.3.11/themes/alertify.bootstrap.css" />
+    <!-- include a theme, can be included into the core instead of 2 separate files -->
+    <link rel="stylesheet" href="js/alertify.js-0.3.11/themes/alertify.default.css" />
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0rc1/angular-route.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/controller.js"></script>
+    <script src="js/demo01/app.js"></script>
+    <script src="js/demo01/controller.js"></script>
+    <script src='js/alertify.js-0.3.11/src/alertify.js'></script>
+  </head>
+  <body ng-controller='index'>
+    <section>
+      <div class="container">
+        <div class="header">
+          <ul class="nav nav-pills pull-right">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="demo01.html">Demo01</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+          <h3 class="text-muted">IM105 Learn Angular.js</h3>
+        </div>
+        <div class="jumbotron">
+          <h1>type in 'Cliff'</h1>
+          <p class="lead">
+          <input type="text" ng-model="name" value="John">
+          </p>
+          <p ng-bind="name"></p>
+          <p><a class="btn btn-lg btn-success" href="#" role="button" ng-click='goFuckYourself(name)'>fuck up today!</a></p>
+        </div>
+        <div class="row marketing"></div>
+        <div class="footer">
+          <p>&copy; Company 2014</p>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

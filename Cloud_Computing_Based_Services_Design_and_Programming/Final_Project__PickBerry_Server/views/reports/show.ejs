@@ -1,0 +1,28 @@
+<style type="text/css">
+
+</style>
+
+<div ng-app="fucknews" class="container" ng-controller="news">
+  <div>
+    <div><h3>複習一下新聞內容</h3></div>
+    <div><%= content %></div>  
+  </div>
+  
+  <div><h3>看一下其他人的理由</h3></div>
+  <div>
+    <ul>
+      <li ng-repeat="reason in news.reasons">
+        " {{reason.content}} "   -By 
+        <a href="/user/show/{{reason.owner}}">{{reason.owner.name}}</a>
+      </li>
+    </ul>
+
+  </div>
+  <div>
+    <form id="reportForm" class="textarea" method="post" action="/news/report/<%=id%>">
+    <textarea rows="4" cols="50" ng-model="report.content" type="textarea" placeholder="輸入你想投訴的內容" name="content" form="reportForm"></textarea>
+    <button class="btn" type="submit">寄出</button>
+  </form>
+  </div>
+  
+</div>

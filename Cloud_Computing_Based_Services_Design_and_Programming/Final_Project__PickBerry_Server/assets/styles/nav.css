@@ -1,0 +1,51 @@
+
+    .navbar-a{
+    position:absolute;
+    left:0;
+    top:0;
+    height:50px;
+    background: rgba(0,0,0,0.5);
+    background-image: url('/images/fucknews.jpeg');
+    width:100%;
+    color:white;
+  }
+  .navbar-a .logout{
+    float:right;
+    
+    color:white;
+
+  }
+  .navbar-a .user{
+    float:right;
+    
+  }
+  .navbar-a .all{
+    float:right;
+    
+  }
+
+  .navli{
+    float: left;
+    color:white;
+    height:50px;
+    line-height: 50px;
+    vertical-align: middle;
+    text-align: center;
+    cursor:pointer;
+    width:100px;
+  }
+  .navli:hover{
+    background: rgba(255,255,255,0.2);
+  }
+  .navli a{
+    color: white;
+  }
+  .navli a:hover{
+    color: white;
+  }
+  .logo{
+    font-size: 30px;
+  }
+
+
+

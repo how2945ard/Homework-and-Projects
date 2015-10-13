@@ -1,0 +1,8 @@
+<div ng-app="fucknews" class="container" ng-controller="userReports">
+  	
+  	<div><h2><%= name %>檢舉過: </h2></div>
+	<div ng-repeat="report in reports">
+		<div>{{ report.content }}</div>
+		
+	</div>
+</div>
