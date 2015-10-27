@@ -44,6 +44,7 @@ const char* accept_write_header = "ACCEPT_FROM_WRITE";
 
 // Forwards
 Item find_item(Item* item_list, int id);
+void set_nonblock(int socket);
 
 static void init_server(unsigned short port);
 // initailize a server, exit for error
@@ -70,7 +71,13 @@ int main(int argc, char** argv) {
     int conn_fd;  // fd for a new connection with client
     int file_fd;  // fd for file that we open for reading
     char buf[512];
+    int socket_fd = 1000;
+    int socket_count = 0;
     int buf_len;
+    fd_set readfds, writefds, exceptfds;
+    struct timeval tv;
+    tv.tv_sec  = 10;
+    // tv.tv_usec = 5 * 1000 * 1000;
 
     // Parse args.
     if (argc != 2) {
@@ -90,6 +97,7 @@ int main(int argc, char** argv) {
     for (i = 0; i < maxfd; i++) {
         init_request(&requestP[i]);
     }
+
     requestP[svr.listen_fd].conn_fd = svr.listen_fd;
     strcpy(requestP[svr.listen_fd].host, svr.hostname);
 
@@ -97,9 +105,6 @@ int main(int argc, char** argv) {
     fprintf(stderr, "\nstarting on %.80s, port %d, fd %d, maxconn %d...\n", svr.hostname, svr.port, svr.listen_fd, maxfd);
     while (1) {
       // TODO: Add IO multiplexing
-      
-      // Check new connection
-      clilen = sizeof(cliaddr);
       conn_fd = accept(svr.listen_fd, (struct sockaddr*)&cliaddr, (socklen_t*)&clilen);
       if (conn_fd < 0) {
           if (errno == EINTR || errno == EAGAIN) continue;  // try again
@@ -109,47 +114,100 @@ int main(int argc, char** argv) {
           }
           ERR_EXIT("accept")
       }
+      printf("getting fd %d\n", conn_fd);
+      int current_socket = socket_fd - socket_count;
+      printf("setting new fd %d\n", current_socket);
+      dup2(conn_fd, current_socket);
+      close(conn_fd);
+      printf("closing fd %d\n", conn_fd);
+      conn_fd = current_socket;
+      printf("conn_fd fd %d\n", conn_fd);
+      printf("current_socket fd %d\n", current_socket);
+      socket_count += 1;
+      set_nonblock(conn_fd);
+
+      FD_ZERO(&readfds);
+      FD_ZERO(&writefds);
+
+      FD_SET(conn_fd, &readfds);
+
+      clilen = sizeof(cliaddr);
+
       requestP[conn_fd].conn_fd = conn_fd;
       strcpy(requestP[conn_fd].host, inet_ntoa(cliaddr.sin_addr));
       fprintf(stderr, "getting a new request... fd %d from %s\n", conn_fd, requestP[conn_fd].host);
 
-
-      ret = handle_read(&requestP[conn_fd]); // parse data from client to requestP[conn_fd].buf
-      if (ret < 0) {
-        fprintf(stderr, "bad request from %s\n", requestP[conn_fd].host);
+      int sel = select(conn_fd+1, &readfds, NULL, NULL, &tv);
+      if(sel < 0){
         continue;
       }
-
 #ifdef READ_SERVER
-      FILE* rFile;
-      Item item_list[20];
-      rFile = fopen("./item_list","rb");
-      setvbuf(rFile, NULL, _IONBF, 0);
-      if (rFile == NULL){
-        perror ("Error opening file");
-      } else {
-        int index = 0;
-        while(index < 20){
-          Item item;
-          fread(&item, sizeof(Item), 1, rFile);
-          item_list[index] = item;
-          printf("%d %d %d\n", item_list[index].id, item_list[index].amount, item_list[index].price);
-          index += 1;
+      if(FD_ISSET(requestP[conn_fd].conn_fd, &readfds)) {
+        //clear set
+        printf("Socket %d ready for read\n", requestP[conn_fd].conn_fd);
+        FD_CLR(requestP[conn_fd].conn_fd, &readfds);
+        ret = handle_read(&requestP[conn_fd]); // parse data from client to requestP[conn_fd].buf
+        if (ret < 0) {
+          fprintf(stderr, "bad request from %s\n", requestP[conn_fd].host);
+          continue;
         }
-      }
+        FILE* rFile;
+        Item item_list[20];
+        rFile = fopen("./item_list","rb");
+        if (rFile == NULL){
+          perror ("Error opening file");
+        } else {
+          int index = 0;
+          while(index < 20){
+            Item item;
+            fread(&item, sizeof(Item), 1, rFile);
+            item_list[index] = item;
+            printf("%d %d %d\n", item_list[index].id, item_list[index].amount, item_list[index].price);
+            index += 1;
+          }
+        }
 
-      sprintf(buf,"%s",requestP[conn_fd].buf);
-      int find_id = atoi(buf);
-      Item found_item = find_item(item_list,find_id);
-      char response[512];
-      sprintf(response,"item%d $%d remain: %d\n",find_id, found_item.price, found_item.amount);
-      write(requestP[conn_fd].conn_fd, response, strlen(response));
-      fclose(rFile);
+        sprintf(buf,"%s",requestP[conn_fd].buf);
+        int find_id = atoi(buf);
+        Item found_item = find_item(item_list,find_id);
+        char response[512];
+        sprintf(response,"item%d $%d remain: %d\n",find_id, found_item.price, found_item.amount);
+
+        FD_SET(requestP[conn_fd].conn_fd, &writefds);
+        int sel = select(requestP[conn_fd].conn_fd+1, NULL, &writefds, NULL, &tv);
+        if(sel < 0){
+          continue;
+        }
+        if(FD_ISSET(requestP[conn_fd].conn_fd, &writefds)) {
+          FD_CLR(requestP[conn_fd].conn_fd, &writefds);
+          //clear set
+          printf("Socket %d ready for write\n", requestP[conn_fd].conn_fd);
+          write(requestP[conn_fd].conn_fd, response, strlen(response));
+          if (ret < 0) {
+            fprintf(stderr, "bad request from %s\n", requestP[conn_fd].host);
+            continue;
+          }
+        }   //end if ready for read
+        fclose(rFile);
+        close(requestP[conn_fd].conn_fd);
+        free_request(&requestP[conn_fd]);
+      }   //end if ready for read
 #else
+
+      if(FD_ISSET(requestP[conn_fd].conn_fd, &readfds)) {
+        //clear set
+        printf("Socket %d ready for read\n", requestP[conn_fd].conn_fd);
+        ret = handle_read(&requestP[conn_fd]); // parse data from client to requestP[conn_fd].buf
+        FD_CLR(requestP[conn_fd].conn_fd, &readfds);
+        if (ret < 0) {
+          fprintf(stderr, "bad request from %s\n", requestP[conn_fd].host);
+          continue;
+        }
+      }   //end if ready for read
+
       Item item_list[20];
       FILE* rFile;
       rFile = fopen("./item_list","rb");
-      setvbuf(rFile, NULL, _IONBF, 0);
       if (rFile == NULL){
         perror ("Error opening file");
       } else {
@@ -167,7 +225,6 @@ int main(int argc, char** argv) {
       sprintf(buf,"%s",requestP[conn_fd].buf);
       int find_id = atoi(buf);
       FILE* wFile = fopen("./item_list","rb+");
-      setvbuf(wFile, NULL, _IONBF, 0);
       int cursor_position = sizeof(Item) * (find_id-1);
       fseek(wFile, cursor_position, SEEK_SET);
 
@@ -226,8 +283,6 @@ int main(int argc, char** argv) {
       }
       fclose(wFile);
 #endif
-      close(requestP[conn_fd].conn_fd);
-      free_request(&requestP[conn_fd]);
     }
     free(requestP);
     return 0;
@@ -243,6 +298,12 @@ Item find_item(Item* item_list, int id){
   }
   Item item;
   return item;
+}
+
+void set_nonblock(int socket) {
+    int flags;
+    flags = fcntl(socket,F_GETFL,0);
+    fcntl(socket, F_SETFL, flags | O_NONBLOCK);
 }
 
 // ======================================================================================================
@@ -275,7 +336,6 @@ static void free_request(request* reqP) {
 static int handle_read(request* reqP) {
     int r;
     char buf[512];
-
     // Read in request from client
     r = read(reqP->conn_fd, buf, sizeof(buf));
     if (r < 0) return -1;
