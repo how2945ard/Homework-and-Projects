@@ -33,6 +33,7 @@ typedef struct {
   // you don't need to change this.
   int item;
   int wait_for_write;  // used by handle_read to know if the header is read or not.
+  int wait_for_action;
 } request;
 
 server svr;  // server
@@ -75,6 +76,7 @@ int main(int argc, char** argv) {
   int socket_count = 0;
   int buf_len;
   int max_socket = 0;
+  bool lock_item[20];
   fd_set master_set, working_set;
   // Parse args.
   if (argc != 2) {
@@ -93,6 +95,9 @@ int main(int argc, char** argv) {
   }
   for (i = 0; i < maxfd; i++) {
     init_request(&requestP[i]);
+  }
+  for (i = 0; i < 20; i++) {
+    lock_item[i] = false;
   }
 
   requestP[svr.listen_fd].conn_fd = svr.listen_fd;
@@ -183,94 +188,149 @@ int main(int argc, char** argv) {
         free_request(&requestP[i]);
       }   //end if ready for read
 #else
-      if (FD_ISSET(requestP[conn_fd].conn_fd, &master_set)) {
+      if (i != svr.listen_fd && FD_ISSET(i, &working_set)  && requestP[i].wait_for_action != 1 ) {
         //clear set
-        printf("Socket %d ready for read\n", requestP[conn_fd].conn_fd);
-        ret = handle_read(&requestP[conn_fd]); // parse data from client to requestP[conn_fd].buf
-        FD_CLR(requestP[conn_fd].conn_fd, &master_set);
+        printf("Socket %d ready for read\n", requestP[i].conn_fd);
+        ret = handle_read(&requestP[i]); // parse data from client to requestP[i].buf
+
+        FD_CLR(requestP[i].conn_fd, &master_set);
         if (ret < 0) {
-          fprintf(stderr, "bad request from %s\n", requestP[conn_fd].host);
+          fprintf(stderr, "bad request from %s\n", requestP[i].host);
           continue;
         }
+
+        Item item_list[20];
+        FILE* rFile;
+        rFile = fopen("./item_list", "rb");
+        if (rFile == NULL) {
+          perror ("Error opening file");
+        } else {
+          int index = 0;
+          while (index < 20) {
+            Item item;
+            fread(&item, sizeof(Item), 1, rFile);
+            item_list[index] = item;
+            index += 1;
+          }
+        }
+        fclose(rFile);
+
+        sprintf(buf, "%s", requestP[i].buf);
+        int find_id = atoi(buf);
+
+        char response[512];
+        requestP[i].wait_for_action = 1;
+        requestP[i].item = find_id;
+        bool not_found = true;
+        sprintf(response, "This item is modifiable.\n");
+        for(int k = 0; k < 20 && not_found ;k++){
+          if(lock_item[find_id]){
+            sprintf(response, "This item is locked.\n");
+            not_found = false;
+          }
+        }
+        write(requestP[i].conn_fd, response, strlen(response));
+        if(not_found){
+          FD_SET(requestP[i].conn_fd, &master_set);
+          lock_item[find_id] = true;
+        }else{
+          close(requestP[i].conn_fd);
+          free_request(&requestP[i]);
+        }
       }   //end if ready for read
-
-      Item item_list[20];
-      FILE* rFile;
-      rFile = fopen("./item_list", "rb");
-      if (rFile == NULL) {
-        perror ("Error opening file");
-      } else {
-        int index = 0;
-        while (index < 20) {
-          Item item;
-          fread(&item, sizeof(Item), 1, rFile);
-          item_list[index] = item;
-          printf("%d %d %d\n", item_list[index].id, item_list[index].amount, item_list[index].price);
-          index += 1;
+      else if ( i != svr.listen_fd && FD_ISSET(i, &working_set) && requestP[i].wait_for_action == 1 ) {
+        ret = handle_read(&requestP[i]); // parse data from client to requestP[i].buf
+        if (ret < 0) {
+          fprintf(stderr, "bad request from %s\n", requestP[i].host);
+          continue;
         }
-      }
-      fclose(rFile);
+        FD_CLR(requestP[i].conn_fd, &master_set);
 
-      sprintf(buf, "%s", requestP[conn_fd].buf);
-      int find_id = atoi(buf);
-      FILE* wFile = fopen("./item_list", "rb+");
-      int cursor_position = sizeof(Item) * (find_id - 1);
-      fseek(wFile, cursor_position, SEEK_SET);
-
-      char response[512];
-      sprintf(response, "This item is modifiable.\n");
-      write(requestP[conn_fd].conn_fd, response, strlen(response));
-
-      ret = handle_read(&requestP[conn_fd]); // parse data from client to requestP[conn_fd].buf
-      if (ret < 0) {
-        fprintf(stderr, "bad request from %s\n", requestP[conn_fd].host);
-        continue;
-      }
-      char* search = " ";
-      char* sell = "sell";
-      char* buy = "buy";
-      char* price = "price";
-
-      sprintf(buf, "%s", requestP[conn_fd].buf);
-      char* op_text = strtok(buf, search);
-      int value = atoi(strtok(NULL, search));
-
-      bool should_exit = false;
-      int op_type = -1;
-      if (strcmp(op_text, sell) == 0) {
-        op_type = 0;
-      } else if (strcmp(op_text, buy) == 0) {
-        op_type = 1;
-        if (value > item_list[find_id - 1].amount) {
-          sprintf(response, "Operation failed.\n");
-          should_exit = true;
-          write(requestP[conn_fd].conn_fd, response, strlen(response));
+        Item item_list[20];
+        FILE* rFile;
+        rFile = fopen("./item_list", "rb");
+        if (rFile == NULL) {
+          perror ("Error opening file");
+        } else {
+          int index = 0;
+          while (index < 20) {
+            Item item;
+            fread(&item, sizeof(Item), 1, rFile);
+            item_list[index] = item;
+            index += 1;
+          }
         }
-      } else if (strcmp(op_text, price) == 0) {
-        op_type = 2;
-        if (value < 0) {
-          sprintf(response, "Operation failed.\n");
-          should_exit = true;
-          write(requestP[conn_fd].conn_fd, response, strlen(response));
-        }
-      }
+        fclose(rFile);
 
-      if (!should_exit) {
-        switch (op_type) {
-        case 0 :
-          item_list[find_id - 1].amount += value;
-          break;
-        case 1 :
-          item_list[find_id - 1].amount -= value;
-          break;
-        case 2 :
-          item_list[find_id - 1].price = value;
-          break;
+        int find_id = requestP[i].item;
+
+        FILE* wFile = fopen("./item_list", "rb+");
+        int cursor_position = sizeof(Item) * (find_id - 1);
+        fseek(wFile, cursor_position, SEEK_SET);
+
+        char* search = " ";
+        char* sell = "sell";
+        char* buy = "buy";
+        char* price = "price";
+
+        sprintf(buf, "%s", requestP[i].buf);
+        char* op_text = strtok(buf, search);
+        int value = atoi(strtok(NULL, search));
+
+        char response[512];
+        bool should_exit = false;
+        int op_type = -1;
+        if (strcmp(op_text, sell) == 0) {
+          op_type = 0;
+        } else if (strcmp(op_text, buy) == 0) {
+          op_type = 1;
+          if (value > item_list[find_id - 1].amount) {
+            sprintf(response, "Operation failed.\n");
+            should_exit = true;
+            write(requestP[i].conn_fd, response, strlen(response));
+          }
+        } else if (strcmp(op_text, price) == 0) {
+          op_type = 2;
+          if (value < 0) {
+            sprintf(response, "Operation failed.\n");
+            should_exit = true;
+            write(requestP[i].conn_fd, response, strlen(response));
+          }
         }
 
-        fwrite(&item_list[find_id - 1] , sizeof(Item), 1 , wFile);
+        if (!should_exit) {
+          switch (op_type) {
+          case 0 :
+            item_list[find_id - 1].amount += value;
+            break;
+          case 1 :
+            item_list[find_id - 1].amount -= value;
+            break;
+          case 2 :
+            item_list[find_id - 1].price = value;
+            break;
+          }
+
+          fwrite(&item_list[find_id - 1] , sizeof(Item), 1 , wFile);
+        }
+        fclose(wFile);
+        rFile = fopen("./item_list", "rb");
+        if (rFile == NULL) {
+          perror ("Error opening file");
+        } else {
+          int index = 0;
+          while (index < 20) {
+            Item item;
+            fread(&item, sizeof(Item), 1, rFile);
+            item_list[index] = item;
+            printf("%d %d %d\n", item_list[index].id, item_list[index].amount, item_list[index].price);
+            index += 1;
+          }
+        }
+        fclose(rFile);
+        close(requestP[i].conn_fd);
+        free_request(&requestP[i]);
       }
-      fclose(wFile);
 #endif
     }
   }
@@ -308,6 +368,7 @@ static void init_request(request* reqP) {
   reqP->buf_len = 0;
   reqP->item = 0;
   reqP->wait_for_write = 0;
+  reqP->wait_for_action = 0;
 }
 
 static void free_request(request* reqP) {
