@@ -179,11 +179,13 @@ int main(int argc, char** argv) {
         char response[512];
         sprintf(response, "item%d $%d remain: %d\n", find_id, found_item.price, found_item.amount);
 
-        write(requestP[i].conn_fd, response, strlen(response));
-        if (ret < 0) {
-          fprintf(stderr, "bad request from %s\n", requestP[i].host);
-          continue;
+        bool not_found = true;
+        if(lock_item[find_id]){
+          sprintf(response, "This item is locked.\n");
         }
+
+        write(requestP[i].conn_fd, response, strlen(response));
+
         close(requestP[i].conn_fd);
         free_request(&requestP[i]);
       }   //end if ready for read
@@ -218,16 +220,14 @@ int main(int argc, char** argv) {
         sprintf(buf, "%s", requestP[i].buf);
         int find_id = atoi(buf);
 
-        char response[512];
         requestP[i].wait_for_action = 1;
         requestP[i].item = find_id;
+        char response[512];
         bool not_found = true;
         sprintf(response, "This item is modifiable.\n");
-        for(int k = 0; k < 20 && not_found ;k++){
-          if(lock_item[find_id]){
-            sprintf(response, "This item is locked.\n");
-            not_found = false;
-          }
+        if(lock_item[find_id]){
+          sprintf(response, "This item is locked.\n");
+          not_found = false;
         }
         write(requestP[i].conn_fd, response, strlen(response));
         if(not_found){
@@ -327,6 +327,7 @@ int main(int argc, char** argv) {
             index += 1;
           }
         }
+        lock_item[find_id] = false;
         fclose(rFile);
         close(requestP[i].conn_fd);
         free_request(&requestP[i]);
