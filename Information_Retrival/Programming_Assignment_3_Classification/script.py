@@ -20,7 +20,7 @@ trainingSet = [
 ]
 
 trainArray = []
-testArray = []
+testSet = []
 for number in range(1, 1096):
     inAnyClass = False
     for classTag in trainingSet:
@@ -33,14 +33,14 @@ for number in range(1, 1096):
     if not inAnyClass:
         fileObject = open('./IRTM/' + str(number) + '.txt')
         text = fileObject.read()
-        testArray.append((text, number))
+        testSet.append((text, number))
 
 cl = NaiveBayesClassifier(trainArray)
 
 output = open('./output.txt', 'w')
 
 # Classify some text
-for test in testArray:
+for test in testSet:
     classTag = cl.classify(test[0])
     result = str(test[1]) + ' ' + classTag
     print(result)
